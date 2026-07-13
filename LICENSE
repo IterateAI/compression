@@ -1,0 +1,122 @@
+AgentOne Token Compression — End User License Agreement (EULA)
+
+Copyright © 2026 Iterate.ai. All rights reserved.
+Authors: Brian Sathianathan, Arul Chanderasekeran — assisted by Claude.
+
+Free to use, including for commercial purposes, subject to the terms below.
+
+For advanced compression and coding-harness engines, contact:
+https://iterate.ai/contact
+
+==========================================================================
+
+IMPORTANT — READ CAREFULLY. This End User License Agreement ("Agreement")
+is a legal agreement between you (an individual or a single entity, "You")
+and Iterate.ai ("Iterate.ai", "we", "us") for the AgentOne Token Compression
+software, including its hooks, MCP server, command-line tools, skills,
+bundled engine, configuration, and accompanying documentation (collectively,
+the "Software"). By installing, copying, or using the Software, You agree to
+be bound by this Agreement. If You do not agree, do not install or use the
+Software.
+
+1. DEFINITIONS
+   1.1 "Software" means the object/bundled code as distributed by Iterate.ai,
+       whether in readable, minified, or obfuscated form, together with any
+       updates and documentation.
+   1.2 "Methods" means the algorithms, techniques, data structures, model
+       architectures, heuristics, and know-how embodied in or expressed by the
+       Software, including the mask-union compression architecture, semantic
+       and exact caching schemes, content-type routing, AST body-drop,
+       dictionary/codebook codecs, and the compression governor.
+
+2. LICENSE GRANT
+   Subject to Your continuous compliance with this Agreement, Iterate.ai
+   grants You a worldwide, non-exclusive, non-transferable, non-sublicensable,
+   royalty-free, revocable license to install and use the Software, as
+   distributed and unmodified, for Your own internal and commercial purposes.
+
+3. RESTRICTIONS
+   Except to the extent this restriction is prohibited by applicable law that
+   cannot be waived by agreement, You shall NOT, and shall not permit any third
+   party to:
+   3.1 reverse engineer, decompile, disassemble, deobfuscate, or otherwise
+       attempt to derive, reconstruct, or discover the source code, structure,
+       or the Methods of the Software, or defeat or circumvent any technical
+       protection measure applied to it;
+   3.2 reimplement, reproduce, or create any product, service, model, or work
+       that embodies or is derived from the Methods, whether by manual study,
+       automated extraction, model training, or otherwise;
+   3.3 modify, adapt, translate, or create derivative works of the Software;
+   3.4 copy, distribute, publish, sublicense, sell, rent, lease, lend, host as
+       a service, or otherwise make the Software available to any third party,
+       except as an unmodified dependency installed by an end user for their
+       own use;
+   3.5 remove, alter, or obscure any copyright, trademark, or other proprietary
+       notice; or
+   3.6 use the names or marks "Iterate.ai" or "AgentOne" except as required to
+       identify the Software.
+
+4. RESERVATION OF RIGHTS; OWNERSHIP
+   The Software and the Methods are licensed, not sold. Iterate.ai and its
+   licensors retain all right, title, and interest in and to the Software and
+   the Methods, including all intellectual property rights therein. No rights
+   are granted except as expressly set out in this Agreement. All rights not
+   expressly granted are reserved.
+
+5. CONFIDENTIALITY AND TRADE SECRETS
+   The unpublished, obfuscated, and non-public elements of the Software and the
+   Methods constitute confidential information and trade secrets of Iterate.ai.
+   Obfuscation and bundling are technical protection measures; You acknowledge
+   that they signify Iterate.ai's intent to keep the Methods confidential and
+   agree not to attempt to extract or disclose them.
+
+6. FEEDBACK
+   If You provide suggestions or feedback, You grant Iterate.ai a perpetual,
+   irrevocable, royalty-free license to use it without restriction or
+   obligation to You.
+
+7. ADVANCED OFFERINGS
+   Advanced compression and coding-harness engine capabilities are offered
+   separately by Iterate.ai under separate terms; contact
+   https://iterate.ai/contact for licensing and access.
+
+8. TERM AND TERMINATION
+   This Agreement is effective until terminated. It terminates automatically
+   and immediately if You breach any term. Upon termination You must cease all
+   use of the Software and destroy all copies in Your possession or control.
+   Sections 3–5 and 9–12 survive termination.
+
+9. DISCLAIMER OF WARRANTY
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+   IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+   FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT.
+
+10. LIMITATION OF LIABILITY
+    IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,
+    DAMAGES, OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR
+    OTHERWISE, ARISING FROM, OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR THE
+    USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+11. GOVERNING LAW
+    This Agreement is governed by the laws of [STATE / COUNTRY — e.g. the State
+    of Colorado, United States], without regard to its conflict-of-laws rules.
+    [Confirm jurisdiction and venue with counsel before publishing.]
+
+12. ENTIRE AGREEMENT
+    This Agreement is the entire agreement between You and Iterate.ai regarding
+    the Software and supersedes all prior or contemporaneous understandings.
+    If any provision is held unenforceable, the remaining provisions remain in
+    full force.
+
+13. THIRD-PARTY COMPONENTS
+    The Software includes components and techniques derived from third-party
+    open-source software, including the Headroom project (Apache License 2.0).
+    Those components are licensed under their original terms, which are set out
+    in THIRD-PARTY-NOTICES.md and which GOVERN and PREVAIL over any conflicting
+    term of this Agreement with respect to those components. Nothing in Section 3
+    (Restrictions) limits any right You have in those components under their
+    original open-source license.
+
+Contact: https://iterate.ai/contact
+
+--------------------------------------------------------------------------

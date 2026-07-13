@@ -1,0 +1,12 @@
+{
+  "_comment": "Place at %APPDATA%\\Claude\\claude_desktop_config.json on Windows. Replace YOUR_USERNAME with your actual user name. Note the doubled backslashes — required in JSON strings. Fully quit and relaunch Claude Desktop after editing.",
+
+  "mcpServers": {
+    "agentone-token-compression": {
+      "command": "node",
+      "args": [
+        "C:\\Users\\YOUR_USERNAME\\.claude\\plugins\\agentone-token-compression\\mcp-server\\index.js"
+      ]
+    }
+  }
+}

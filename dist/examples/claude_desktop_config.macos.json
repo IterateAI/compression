@@ -1,0 +1,16 @@
+{
+  "_comment": "Place at ~/Library/Application Support/Claude/claude_desktop_config.json on macOS. Replace YOUR_USERNAME with your actual home folder name. Then fully quit and relaunch Claude Desktop.",
+
+  "mcpServers": {
+    "agentone-token-compression": {
+      "command": "node",
+      "args": [
+        "/Users/YOUR_USERNAME/.claude/plugins/agentone-token-compression/mcp-server/index.js"
+      ],
+      "env": {
+        "_doc": "Uncomment to override the default cache directory:",
+        "_TOKEN_OPTIMIZER_DATA_DIR": "/Users/YOUR_USERNAME/Documents/agentone-cache"
+      }
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "_comment_for_humans": "Example ~/.claude/settings.json after the token-optimizer plugin has been installed. The installer creates something like this for you. You can hand-edit if you want finer control.",
+
+  "model": "claude-opus-4-7",
+
+  "permissions": {
+    "allow": [
+      "Bash(node:*)"
+    ]
+  },
+
+  "env": {
+    "_doc": "Uncomment to disable: \"TOKEN_OPTIMIZER_DISABLED\": \"1\""
+  },
+
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Read|Grep|Glob|Bash|WebFetch|NotebookRead",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node $HOME/.claude/plugins/agentone-token-compression/hooks/compress-tool-output.js"
+          }
+        ]
+      }
+    ],
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node $HOME/.claude/plugins/agentone-token-compression/hooks/compress-prompt.js"
+          }
+        ]
+      }
+    ],
+    "SessionEnd": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node $HOME/.claude/plugins/agentone-token-compression/hooks/session-end.js"
+          }
+        ]
+      }
+    ]
+  },
+
+  "statusLine": {
+    "type": "command",
+    "command": "node $HOME/.claude/plugins/agentone-token-compression/hooks/statusline.js"
+  }
+}

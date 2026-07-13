@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "_comment": "Recommended hooks configuration for AgentOne TokenOptimizer by Iterate.ai. Merge into your ~/.claude/settings.json or .claude/settings.json. Commands point at the SELF-CONTAINED dist/ bundles (library inlined by the build) so the runtime never depends on a vendored library that can go stale. Paths assume install placed the plugin at ~/.claude/plugins/agentone-token-compression/. Set TOKEN_OPTIMIZER_DISABLED=1 to bypass all hooks without uninstalling.",
+
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Read|Grep|Glob|Bash|WebFetch|NotebookRead",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node $HOME/.claude/plugins/agentone-token-compression/dist/hooks/compress-tool-output.js"
+          }
+        ]
+      }
+    ],
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node $HOME/.claude/plugins/agentone-token-compression/dist/hooks/compress-prompt.js"
+          }
+        ]
+      }
+    ],
+    "SessionEnd": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node $HOME/.claude/plugins/agentone-token-compression/dist/hooks/session-end.js"
+          }
+        ]
+      }
+    ]
+  },
+
+  "statusLine": {
+    "type": "command",
+    "command": "node $HOME/.claude/plugins/agentone-token-compression/dist/hooks/statusline.js"
+  }
+}

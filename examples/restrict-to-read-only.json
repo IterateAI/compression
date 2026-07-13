@@ -1,0 +1,16 @@
+{
+  "_comment_for_humans": "Restrictive variant: only compress file Reads (skip Bash/Grep/WebFetch). Useful if your workflow involves lots of debug output you want verbatim.",
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Read|NotebookRead",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node $HOME/.claude/plugins/agentone-token-compression/hooks/compress-tool-output.js"
+          }
+        ]
+      }
+    ]
+  }
+}

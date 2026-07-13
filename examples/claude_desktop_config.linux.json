@@ -1,0 +1,12 @@
+{
+  "_comment": "Place at ~/.config/Claude/claude_desktop_config.json on Linux. Replace YOUR_USERNAME. Fully quit and relaunch Claude Desktop after editing.",
+
+  "mcpServers": {
+    "agentone-token-compression": {
+      "command": "node",
+      "args": [
+        "/home/YOUR_USERNAME/.claude/plugins/agentone-token-compression/mcp-server/index.js"
+      ]
+    }
+  }
+}
