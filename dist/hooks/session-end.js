@@ -4666,12 +4666,7 @@ async function main() {
   }
   const durationMin = ((Date.now() - session.started) / 6e4).toFixed(1);
   const note = `[AgentOne TokenOptimizer by Iterate.ai] Session summary \u2014 ${session.requests} hook calls, ~${session.saved.toLocaleString()} tokens saved over ${durationMin} min.`;
-  done({
-    hookSpecificOutput: {
-      hookEventName: "SessionEnd",
-      additionalContext: note
-    }
-  });
+  done({ systemMessage: note });
 }
 function done(out) {
   process.stdout.write(JSON.stringify(out));
