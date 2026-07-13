@@ -1,3 +1,643 @@
 #!/usr/bin/env node
 /* Copyright (c) 2026 Iterate.ai. All rights reserved. Authors: Brian Sathianathan, Arul Chanderasekeran — assisted by Claude. */
-const _0x2f6e43=_0x2912;(function(_0x9e1d9d,_0x2a7253){const _0x53a37a=_0x2912,_0x4e4cb4=_0x9e1d9d();while(!![]){try{const _0x11cda6=-parseInt(_0x53a37a(0x313))/(-0xd7d+0x97*-0xf+0x331*0x7)*(-parseInt(_0x53a37a(0x179))/(0x94c+0x1f11+-0x1*0x285b))+parseInt(_0x53a37a(0x400))/(0x10c3+-0x5*-0x6b7+-0x1*0x3253)*(-parseInt(_0x53a37a(0x275))/(-0x1ec6+-0x1568+-0x22*-0x189))+parseInt(_0x53a37a(0x366))/(0x1*-0xe0c+0x8b0+-0x3*-0x1cb)*(-parseInt(_0x53a37a(0x328))/(0x23bf+0x2545+-0x48fe))+-parseInt(_0x53a37a(0x1e5))/(-0x1162+0x1804+-0x69b)*(parseInt(_0x53a37a(0x3d0))/(-0x2*0x1204+0x214c*-0x1+0x1*0x455c))+parseInt(_0x53a37a(0x20b))/(0x16e7+0x1080+-0x275e*0x1)+parseInt(_0x53a37a(0x3e2))/(0xb27+0xd83+0x4*-0x628)+parseInt(_0x53a37a(0x3ea))/(-0x16de+-0x182e+-0x96b*-0x5);if(_0x11cda6===_0x2a7253)break;else _0x4e4cb4['push'](_0x4e4cb4['shift']());}catch(_0x451844){_0x4e4cb4['push'](_0x4e4cb4['shift']());}}}(_0x1855,-0x9*-0x26f19+-0x183d5c+0x115435));const _0x3406d0=(function(){let _0x4f2d50=!![];return function(_0x515deb,_0x180dde){const _0x4b4b4d=_0x4f2d50?function(){const _0x275c72=_0x2912;if(_0x180dde){const _0x510c24=_0x180dde[_0x275c72(0x114)](_0x515deb,arguments);return _0x180dde=null,_0x510c24;}}:function(){};return _0x4f2d50=![],_0x4b4b4d;};}()),_0x48439f=_0x3406d0(this,function(){const _0x1c7705=_0x2912,_0x221e86={'VISLe':function(_0xfe4db6,_0x279c6b){return _0xfe4db6!==_0x279c6b;},'RynIE':_0x1c7705(0x21f)+'+$'};if(_0x221e86[_0x1c7705(0x420)](_0x48439f[_0x1c7705(0x3a2)]()[_0x1c7705(0x13a)]()[_0x1c7705(0x23a)]('\x0a'),-(0x25b7*0x1+0x209*0x4+-0x2*0x16ed)))return;return _0x48439f[_0x1c7705(0x13a)]()[_0x1c7705(0x105)](_0x221e86[_0x1c7705(0x1e8)])[_0x1c7705(0x13a)]()[_0x1c7705(0xf7)+'r'](_0x48439f)[_0x1c7705(0x105)](_0x1c7705(0x21f)+'+$');});_0x48439f();function _0x2912(_0xc2cea3,_0x46ae06){_0xc2cea3=_0xc2cea3-(0x15+-0x5e0*-0x1+-0x501);const _0x496839=_0x1855();let _0x30bbbd=_0x496839[_0xc2cea3];if(_0x2912['Guzdrc']===undefined){var _0x17ecd=function(_0x2d4e85){const _0x8b6ddb='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';let _0x1f0120='',_0x1eaa75='',_0x4b49f5=_0x1f0120+_0x17ecd,_0x1bd6f5=(''+function(){return 0x49*-0x13+-0x3*0x4bb+-0x1f6*-0xa;})['indexOf']('\x0a')!==-(0x3*-0x7ef+-0x9*0x453+-0x3eb9*-0x1);for(let _0x5303cf=0x553*-0x1+-0x43*0x21+0xdf6,_0x3284ad,_0x3394d1,_0x4cd06b=0x1*-0x3ea+-0x17*0x3b+0x937*0x1;_0x3394d1=_0x2d4e85['charAt'](_0x4cd06b++);~_0x3394d1&&(_0x3284ad=_0x5303cf%(0x788+0x18f1*-0x1+0x116d*0x1)?_0x3284ad*(0x186*-0x6+0x1bd*-0xa+-0xd63*-0x2)+_0x3394d1:_0x3394d1,_0x5303cf++%(0x5e2+-0x43+-0x59b))?_0x1f0120+=_0x1bd6f5||_0x4b49f5['charCodeAt'](_0x4cd06b+(-0x1f7*0x7+-0x69*-0x51+0x67a*-0x3))-(0x1*-0x259+0x7*-0x2b6+-0x155d*-0x1)!==0x151b+-0x2*-0x59+0x1*-0x15cd?String['fromCharCode'](-0x1*-0x7bf+-0xc7+0x1*-0x5f9&_0x3284ad>>(-(0x41b*0x1+-0x13*-0x2b+-0x74a)*_0x5303cf&-0x1eb*-0x12+-0x33*-0x8b+0x1*-0x3e31)):_0x5303cf:-0x1481+-0xc0*0x5+-0x7*-0x377){_0x3394d1=_0x8b6ddb['indexOf'](_0x3394d1);}for(let _0xf7647e=-0xa04*-0x2+0x682+-0x1*0x1a8a,_0x439604=_0x1f0120['length'];_0xf7647e<_0x439604;_0xf7647e++){_0x1eaa75+='%'+('00'+_0x1f0120['charCodeAt'](_0xf7647e)['toString'](-0x946*-0x1+-0x1f1e+0x15e8))['slice'](-(0x3d*-0x17+-0x33*-0x6a+0x1*-0xfa1));}return decodeURIComponent(_0x1eaa75);};_0x2912['aTvOhl']=_0x17ecd,_0x2912['yhOsAb']={},_0x2912['Guzdrc']=!![];}const _0x140a24=_0x496839[-0x7*0x533+-0xb*0x3a+-0xb5*-0x37],_0x271f06=_0xc2cea3+_0x140a24,_0x417a82=_0x2912['yhOsAb'][_0x271f06];if(!_0x417a82){const _0x1aac9d=function(_0x53976c){this['GyTNbq']=_0x53976c,this['tkBRtf']=[-0xbd6+-0x335*-0x3+0x238,0x634*0x6+0x1*-0xec5+-0x7*0x335,0x125f+0x2272+-0x34d1],this['ibjDzy']=function(){return'newState';},this['VKHImG']='\x5c\x77\x2b\x20\x2a\x5c\x28\x5c\x29\x20\x2a\x7b\x5c\x77\x2b\x20\x2a',this['MFFcbI']='\x5b\x27\x7c\x22\x5d\x2e\x2b\x5b\x27\x7c\x22\x5d\x3b\x3f\x20\x2a\x7d';};_0x1aac9d['prototype']['blSsAn']=function(){const _0x48e592=new RegExp(this['VKHImG']+this['MFFcbI']),_0x273ca7=_0x48e592['test'](this['ibjDzy']['toString']())?--this['tkBRtf'][0x10f4+-0x1abf+0x2c*0x39]:--this['tkBRtf'][0x1776+0x65f*-0x5+0x865];return this['rtBVRS'](_0x273ca7);},_0x1aac9d['prototype']['rtBVRS']=function(_0x37eeca){if(!Boolean(~_0x37eeca))return _0x37eeca;return this['LqKUtz'](this['GyTNbq']);},_0x1aac9d['prototype']['LqKUtz']=function(_0x306117){for(let _0x189e87=0x6*-0x18+0x2563+-0x24d3,_0x566c9c=this['tkBRtf']['length'];_0x189e87<_0x566c9c;_0x189e87++){this['tkBRtf']['push'](Math['round'](Math['random']())),_0x566c9c=this['tkBRtf']['length'];}return _0x306117(this['tkBRtf'][0x1a04+-0x591+-0x1473]);},(''+function(){return 0x1*-0x5c6+0x3*0x269+-0x175;})['indexOf']('\x0a')===-(-0x1c02*0x1+-0x3*0x9bc+-0x61*-0x97)&&new _0x1aac9d(_0x2912)['blSsAn'](),_0x30bbbd=_0x2912['aTvOhl'](_0x30bbbd),_0x2912['yhOsAb'][_0x271f06]=_0x30bbbd;}else _0x30bbbd=_0x417a82;return _0x30bbbd;}'use strict';var __getOwnPropNames=Object[_0x2f6e43(0x2d2)+_0x2f6e43(0x411)],__commonJS=(_0x58c179,_0x513f19)=>function _0x47f572(){const _0x2ca8e4=_0x2f6e43;return _0x513f19||(-0x2ed*-0x5+0x1cdd+-0x2b7e,_0x58c179[__getOwnPropNames(_0x58c179)[0xea5+-0x88*0x3a+-0x1*-0x102b]])((_0x513f19={'exports':{}})[_0x2ca8e4(0x134)],_0x513f19),_0x513f19[_0x2ca8e4(0x134)];},require_package=__commonJS({'package.json'(_0x338c68,_0x2f74eb){const _0x2bece4=_0x2f6e43,_0x360dfc={'WSYlD':_0x2bece4(0x245),'BmxqG':_0x2bece4(0x15e),'rNEWf':_0x2bece4(0x27f)+'e','atewO':_0x2bece4(0x26b)+_0x2bece4(0x2a6)+'ol','CbyEv':_0x2bece4(0x2ba)+_0x2bece4(0x180),'lsGkK':_0x2bece4(0x14e)+_0x2bece4(0x3b4)+_0x2bece4(0x417),'YqNSQ':_0x2bece4(0x19a),'WwhwL':_0x2bece4(0x27c)+_0x2bece4(0x2d3)+'SE','ePLPe':_0x2bece4(0x30c),'VrzYY':_0x2bece4(0x12d)+_0x2bece4(0x429),'NaNxQ':_0x2bece4(0x140),'MOAak':_0x2bece4(0x1d7)+_0x2bece4(0x162),'bPpTB':_0x2bece4(0x406)+_0x2bece4(0x1f6),'oTNvE':_0x2bece4(0x1dc),'pZvWE':_0x2bece4(0x2aa)+_0x2bece4(0x39d)+'js','BCicQ':_0x2bece4(0x2c5)+_0x2bece4(0x422)+_0x2bece4(0x3de),'exagY':_0x2bece4(0x2c5)+_0x2bece4(0x422)+_0x2bece4(0x1d5),'KbCHD':_0x2bece4(0x249)+_0x2bece4(0x18d)+_0x2bece4(0x384),'BKJWt':_0x2bece4(0x337)};_0x2f74eb[_0x2bece4(0x134)]={'name':_0x2bece4(0x1bf)+_0x2bece4(0x327)+_0x2bece4(0x2d4)+_0x2bece4(0x3bd),'version':_0x2bece4(0x1c0),'description':_0x2bece4(0x367)+_0x2bece4(0x35f)+_0x2bece4(0x13c)+_0x2bece4(0x30c)+_0x2bece4(0x2a2)+_0x2bece4(0x12b)+_0x2bece4(0x348)+_0x2bece4(0x287)+_0x2bece4(0x29b)+_0x2bece4(0x304)+_0x2bece4(0x2a0)+_0x2bece4(0x176)+_0x2bece4(0x280)+_0x2bece4(0x290)+_0x2bece4(0x11b)+_0x2bece4(0x3dc)+_0x2bece4(0x124)+_0x2bece4(0x3a5)+_0x2bece4(0x101)+_0x2bece4(0x365)+_0x2bece4(0x306)+_0x2bece4(0x1ac)+_0x2bece4(0x11e)+_0x2bece4(0x26c)+_0x2bece4(0x1b4)+_0x2bece4(0x38b)+_0x2bece4(0x223)+_0x2bece4(0x270)+_0x2bece4(0x3bb)+_0x2bece4(0x40e),'keywords':[_0x360dfc[_0x2bece4(0x282)],_0x360dfc[_0x2bece4(0x31d)],_0x360dfc[_0x2bece4(0x423)],_0x2bece4(0x39e),_0x2bece4(0x222)+_0x2bece4(0x11f),_0x2bece4(0x130)+_0x2bece4(0x37c),_0x2bece4(0x414),_0x360dfc[_0x2bece4(0x2d8)],_0x2bece4(0x14a)+_0x2bece4(0x35e),_0x2bece4(0x3f4)+'n',_0x2bece4(0x268)+'gs',_0x360dfc[_0x2bece4(0x1eb)],_0x2bece4(0x376)+_0x2bece4(0x25f)],'homepage':_0x360dfc[_0x2bece4(0x405)],'repository':{'type':_0x360dfc[_0x2bece4(0x291)],'url':_0x2bece4(0x279)+_0x2bece4(0x2f3)+_0x2bece4(0x33e)+_0x2bece4(0x2cf)},'bugs':{'url':_0x2bece4(0x279)+_0x2bece4(0x2f3)+_0x2bece4(0x33e)+_0x2bece4(0x2cf)+_0x2bece4(0x434)},'license':_0x360dfc[_0x2bece4(0x186)],'author':_0x360dfc[_0x2bece4(0x2c0)],'main':_0x360dfc[_0x2bece4(0x314)],'bin':{'agentone-tc':_0x360dfc[_0x2bece4(0x314)],'agentone-token-compression':_0x360dfc[_0x2bece4(0x314)]},'files':[_0x2bece4(0x3a9),_0x2bece4(0x346),_0x2bece4(0x18d)+'/',_0x2bece4(0x2e7),_0x2bece4(0x1e0),_0x2bece4(0x3f8),_0x2bece4(0x38e),_0x360dfc[_0x2bece4(0x398)],_0x360dfc[_0x2bece4(0x281)],_0x2bece4(0x352)+'n',_0x2bece4(0x1f2),_0x2bece4(0x303),_0x360dfc[_0x2bece4(0x1c4)],_0x2bece4(0x11d)+_0x2bece4(0x359),_0x2bece4(0x173)+'md',_0x360dfc[_0x2bece4(0x220)]],'scripts':{'test':_0x2bece4(0x28e)+_0x2bece4(0x2ce)+_0x2bece4(0x20e),'benchmark':_0x360dfc[_0x2bece4(0x225)],'build':_0x2bece4(0x2c5)+_0x2bece4(0x167),'build:minify':_0x360dfc[_0x2bece4(0x2cd)],'build:protect':_0x360dfc[_0x2bece4(0x321)],'mcp':_0x360dfc[_0x2bece4(0x3ed)],'prepublishOnly':_0x360dfc[_0x2bece4(0x21c)]},'dependencies':{'@iterate/token-optimizer':_0x2bece4(0x103)+_0x2bece4(0x205)+_0x2bece4(0x2b6)},'devDependencies':{'esbuild':_0x2bece4(0x25b),'javascript-obfuscator':_0x2bece4(0x266)},'engines':{'node':_0x2bece4(0x106)},'publishConfig':{'access':_0x2bece4(0x18f)}};}}),fs=require(_0x2f6e43(0x125)),path=require(_0x2f6e43(0x3b8)),os=require(_0x2f6e43(0x154)),VERSION=require_package()[_0x2f6e43(0x265)]||_0x2f6e43(0x149),PKG_NAME=_0x2f6e43(0x3e7)+_0x2f6e43(0x404)+_0x2f6e43(0x323);function claudeDir(){const _0x47bf25=_0x2f6e43;return process.env.CLAUDE_DIR||path[_0x47bf25(0x349)](os[_0x47bf25(0x15a)](),_0x47bf25(0x33f));}function pluginDir(){const _0x28bd5f=_0x2f6e43,_0x321951={'VVQtP':_0x28bd5f(0x112)};return path[_0x28bd5f(0x349)](claudeDir(),_0x321951[_0x28bd5f(0x2c4)],PKG_NAME);}function commandsDir(){const _0x2a3139=_0x2f6e43,_0x1687b8={'uwxsF':function(_0xa7c2ea){return _0xa7c2ea();},'okKxP':_0x2a3139(0x322)};return path[_0x2a3139(0x349)](_0x1687b8[_0x2a3139(0x350)](claudeDir),_0x1687b8[_0x2a3139(0x2e6)]);}function skillsDir(){const _0x51e3a5=_0x2f6e43,_0x5a3a06={'VABeI':function(_0x171183){return _0x171183();},'ljYie':_0x51e3a5(0x3f6)};return path[_0x51e3a5(0x349)](_0x5a3a06[_0x51e3a5(0x181)](claudeDir),_0x5a3a06[_0x51e3a5(0x178)]);}function settingsFile(){const _0x15638f=_0x2f6e43,_0x3d9002={'sDttK':function(_0x47d6d9){return _0x47d6d9();}};return path[_0x15638f(0x349)](_0x3d9002[_0x15638f(0x2b8)](claudeDir),_0x15638f(0x1d7)+_0x15638f(0x162));}function _0x1855(){const _0x218163=['CNfArui','C3rHDhvZtgLUzq','DcbVBIbxAw5KBW','BKDVDMvYBM9Y','AgLNB0i','icaGicbwzxjPzG','Bhq6icrit01flW','zcbYzwXHDw5JAa','BNrVienSyxvKzq','Dw4GyNvPBgrGia','lMjHAY4','Bw1HBMrZlcbZAW','BMnLihrOzsbWDq','su5tvefmtc5Tza','BIbdBgf1zguGqW','BgfJzwqG4OcuigjH','y29UDgv4Dc4Gtq','g1SYBq','weHICNa','Dg9WihnLDhvW','y2HHBMDLCYb0BW','BM9KztPJAgLSza','sxrLCMf0zs5HAq','zgLT','yxvUy2GUcJqUia','DcbKAxjLy3rVCG','y29hD1m','sMLuruC','icaGifjLzMvYzq','mvDorxfvzW','vNj6wvK','zgvZA3rVCgaGDa','ywDUB3n0AwnZcG','yxnOignVBw1HBG','Aw5SD3i','BxbYzxnZlcbHBG','zxiGzMLSzsbUBW','iYbbDxrVlwLUCW','ru5Ft1busu1jwG','qM14CuC','ug1Srhm','zM91BMqGAw4GCW','ierLC2T0B3akia','zxHHz1K','y29TBwfUzhm','zxnZAw9U','DgfSBga','B2SGyNvUzgXLoG','zwqGkgXPyNjHCG','z2vUDg9Uzs10BW','mJC2y3zlB0jI','icaGicaGt3zLCG','C3rHDhmSig9WDa','uM9HBwLUzW','zwn0lG','BMfTzq','q2XHDwrLigrPCG','ign1CNjLBNqGsq','C29Tzq','y29TBwfUza','B3vUzc4GuNvUia','rwDiELa','CMvZCg9UC2u6ia','zLzdzKe','whjzzMG','BNbTihrLC3q','DuHmuKy','ycbMAxjZDc4','yxjNCW','y29LqMu','DMvYC2LVBNm','AwXS4OcM','DgvYyxrLquKVyW','lMnSyxvKzq','BhKGy2XLyw4GDq','ignHBgWGDgHLia','cJiUiefKzcb0BW','BMqGyxqG','icaGifbYAw50ia','z3jLzw4','Ag9VA3mV','B25LlxrJigLUCW','DMvZihLVDsa0ma','AM9PBG','uxH4vgS','C3rHBgXG','yxnOyM9HCMqUBq','4PwW4Psa4Psa4Psa4Psa4Psa4Psa4Psa4Psa4Psa','Ag9VA3mGzNjVBq','ug9ZDfrVB2XvCW','DxD4C0y','EsbIB3rOigLUCW','CgX1z2LUlMPZBW','u09ooIb7xcjHxa','DgfSBgvKigLUia','BwvZC2fNzq','Dg9VBhmGD2HLBG','zgfZAgjVyxjK','yKPmyvG','t04UBwq','ignOzwnRCYbWyq','4PYxie5VzguGmtGR','zePNBgy','zsbuB2TLBIbdBW','BwL6yxrPB24','B2TLBIbdB21WCG','DvzxCxi','DxnLzcbIEsbdBa','Ag9VA3m','uNvUDgLTzsbOBW','y3qU','DMvYC2f0Aw9Uia','mtm0nJC1u2PmB2Df','qwDLBNrpBMuGva','BsbWywnRywDLia','CgXHDgzVCM0','z2vUDe9UzsbVCa','lMnSyxvKzsKkia','icdIHPiG','4Psa4Psa4Psa4Psa4Psa4Psa4Psa4Psa4Psa4Psa','Bw1HBMq6ia','iYaODgHLBIbMDq','BwqGBM90igzVDq','tg9VAYbMB3iGDa','zxnRDg9WigzSyq','C3nPBMCPoGO','Dg9Rzw5ZlM1K','z3jQqM0','C2vTyw50AwmTyW','FI9mAwjYyxj5lW','khLVDsbOyxzLia','EgDpvKG','y29TChjLC3mTDa','Bgf1zgvFzgvZAW','z2LU','Dg9WigLUC3rHBa','BgyTy29UDgfPBG','t1nRA3q','icHdBwqTusbVBG','Bw92zsbMCM9Tia','yJ4GlI4UicaGia','oIaGicaGicaG','l2LUzgv4lMPZ','t21LDuq','refuqv9esviGia','igfUywX5EMuSia','lwLUC3rHBgWGAq','x0rju0fctevepq','g1SXBq','lcbvvuLeCYWGyq','B29Slw91Dhb1Da','ihnUAxbWzxqGDa','BgLIlW','DNn1Dxy','BuPnuKG','zMLSDgvY','y3aPcIaGls1JBW','yMfZzw5HBwu','uhfkCw0','icaGicaGicaGia','C2HVDwXKigXPCW','t1busu1jwKvsxW','tMfoEfe','l2rHDgeVy29UzG','ywX5EMuGDg9VBa','DxnLlw5WEa','yxjFy2fJAguPcG','yMvUy2HTyxjRlG','y2XHDwrLlwnSAq','ig1Hy09tlcbYAq','lMnVBMzPzW','igrPC3qVAg9VAW','yMLUza','thbxDgC','zg9JDg9Y','igzPBguGCMvHza','ucbZzxj2zxiGDW','yxjNCYa8yt4Gpa','ChjPBNqTC3rHDa','y2XPlW','s0zTEve','Ee5zueG','yxqGDgHLigjVDa','y2fJAguSig9WDa','Bg9JyxrLig1JCa','zY5QC29U','tunqihnLCNzLCG','icaGicaGicaGtW','rxfXyxq','yuDMAKG','zxjHDguUywKVyq','icaYlIbszwXHDq','tM9Kzsb2zxjZAq','C3rsugS','BM9KztPWyxrO','Aw5KzxGUANm','4PYtifbSyxrMB3jT','zw50igj5ignVBG','B3aPcIaG','C3nPB24','qNLsweW','BgqGBgLZDca','A3rVCcaGicaGia','zgvZA3rVCa','BwnWu2vYDMvYCW','yYbPBNn0ywXSlq','EgTosfm','qxbWBgLJyxrPBW','vw5PBNn0ywXSAq','rLrut20','lxrVB2WTB3v0Ca','BMDZcIaG','DwrLierLC2T0BW','igfUEsbJB252zq','zgv4lMPZlIbfAq','Bunkyvq','zxHWB3j0ifrpsW','BYbHzgqkica','mtC2sK9PzhzT','DhjHEsdIHPiGuxvP','zgLYBMfTzq','z2H0lwnSAwnRia','AxnuvfK','4PscicaGq3v0ihLV','yvn5ALC','v2LLuLy','DNvyDu4','AM9nq0C','reLYu2y','zguGDgHLignVBq','B2WGB3v0Chv0CW','BMCG','ls1TAw5PzNK','Bc1KzxnRDg9W','wvzgyLq','AxneAxjLy3rVCG','mtuYmJa5ntbiEvP0tw0','q051C1G','CcaTls0','C2XPy2u','idqWltKWjs4Gia','ywDLBNrVBMuTDa','CMvHzgrPCLn5BG','4Psa4Psa4Psa4Psa','mtC0oti1ndfJtKfmCNe','ywX5EMuSihn0yq','DgG+lG','s2jdseq','vgTdqKy','cIaG','ucbZzxj2zxiGka','C3rYAw5NAwz5','igj1BMrSzq','AwXSigLUih4VlG','y29TChjLC3nPBW','ref0uge','C2TPBgXZ','Ad4GicaGicaGia','C2TPBgXZlW','zgfYD2LU','BNrYEsb0BYbYzq','AwCUANnVBGPeAq','BhnVigfZAYbLEa','C3rHy2S','zvPlvKu','igzVCIbHigz1Ba','mty4nZmXn3bduvLpCW','Bw1HBMqGphbHDa','igv4Axn0CW','Dg9Rzw4GC2f2Aq','B2TLBI1JB21WCG','BhnhA0S','su5tvefmtf9erq','rKniBgy','y29Uigf0ihrOzq','CIbWDwjSAxnOAq','cGPsB2XSigjHyW','DwrLicHKzwzHDq','BMCPig9Yic0TyW','zM9YienSyxvKzq','C3rYDwn0Aw9UlG','CY9JB21WCMvZCW','BwfUzcaOywr2yq','zxj0Eu5HBwvZ','DKnUBuG','4PscicaG4PYticbjBNm','BwnW','zsbMCM9TienSyq','BMzPzYbLEgLZDa','z2vUDg9Uzq','msaGu29MDc1KAq','BYb0ywTLigvMzG','lw5WEcaOywz0zq','ihLVDsbJyw4Gyq','EMLTyM4','BMDZlIi','Aw5NigHVB2TZia','D2HLBIb1C2LUzW','vKLttgu','ic0Ty29TBwfUza','l2j1AwXKlMPZia','CK5fv2y','ig9UihrOAxmGsG','C3rHDhm','BMCGqwDLBNrpBG','C3rKB3v0','CNnHDgLVBIdIGjqG','Dg9Uzs10yY5QCW','BMuGvg9Rzw4GqW','DgmGAw5ZDgfSBa','lveGB24GBwfJtW','tuvUt0e','cIaGihDPDgGGnq','4PscicaGqwDLBNrp','Ew5J','q291BgqGBM90ia','lMPZB27IGky','ignHy2HLl3n0yq','l2LZC3vLCW','vw5RBM93BIbJBW','icbYzw1VDMvKia','BMCkcKnVBw1VBG','igjSB2nRicHJCG','AgvSCa','y29UC3rYDwn0BW','igHVB2TZlcbJBW','z2r0ruG','igvUDhj5ihjLCa','icaHifnlsuXmlG','cLSYlZrDieLUCW','cK5VDgu6ignHyW','ihjLCxvPCMvKia','Bgf1zguGD2LSBa','zs1UChGGicaGia','CYWGyw5KignVBG','y0z1yMO','zMLSztOUlI9UBW','Dg9TiokaLcbZAg91','C2vHCMnO','pJ0Xoc4WlJa','icaGicaGqxv0BW','CM1tEw5J','uMvZDgfYDcbdBa','igzSB3DZoGOkia','ignVBxbYzxnZla','x09qveLnsvPfuG','AKfVD3q','y2XHDwrLx2rLCW','idmUieXVB2SGzG','BMnOienSyxvKzq','yxvKzsbezxnRDa','CgX1z2LUCW','vvzOwum','yxbWBhK','Aw50BYbZzxr0Aq','CZOkicaXlIa','icaHigv4Axn0Aq','D0fNr2W','Dg9Rzw5Zlw9UlG','kqOGifrps0voxW','ChjLC3nLCYb0BW','q2XHDwrLierLCW','reLtvfjjqLvusq','yxjJAgL0zwn0Dq','A3rVCa','Dw5XAMC','CM9Tih4VlMnSyq','CMvZB2X2zq','u0Tut1bFreLsia','lcbWCM9TChrZla','BM9KztPMCW','CMvHzezPBgvtEq','z2vUDe9UzsbHBG','icaGifjLBw92zq','icHVCIbZDgfYDa','vKPVrxy','Aw5ZDgfSBcbNAq','lMPZ','lI9JBgKVywDLBG','cLSYlZjDieLUCW','Aw1PEMuSignSzq','y2XHDwrLlxbSDq','zxqUBwq','r1z0B0u','DhmGzgLYzwn0BW','zxHWB3j0CW','uYKGyw5KihjLBa','ztOGia','CgfYC2u','Aw1PEMuUcGPuAa','icaGifnLDcb1Ca','Dg9tDhjPBMC','AM9zELK','zxnZAw9Uigj5ia','ihjLBgf1BMnOia','zMLNlM1K','CMvZzxj2zwqGyq','zxHHBxbSzxmV','cGPfBNzPCM9UBq','vurfx0rjuIaGia','Ee1Rvfu','zcb2AweGvuKP','u1zIBMS','CgXPy2L0BhK6cG','DwrLcIaG','C29Uigv4Axn0CW','ms4XlJa','Dg9Rzw4TB3b0Aq','Dg9Wx2nVBMzPzW','Aw5JBhvKzxm','Dg9Uzs10yYbPBG','Ahr0Chm6lY9PDa','icbszw1VDMuGzG','CNvUigbHz2vUDa','4PYxihn0yxrZihnJ','qM1Hww0','CY5QCW','BM9KztPVCW','4PYtie5VzguG','qgL0zxjHDguV','jufquerbveeLxa','qKTntee','DxrMoa','Ag9TzwrPCG','rd0X','zdOG','u1Hlsve','AxrLCMf0zs1HAq','lNrTCa','zsbdB2rLigzVCG','BxL4z0C','C29U','igXPzMv0Aw1Lia','C2fIBgu6icaGia','ycbHBMqVB3iGya','BgWTzgvZA3rVCa','l2j1AwXKlMPZ','DgHLBIbGywDLBG','AguG8j+uJcbJB25Uzq','CgfZCYaTlxvZzq','qwXSia','icaGicaG','zxr0Aw5NCY5QCW','q29UzMLNoIaGia','iokaLcbZA2LWCgLU','A29nwfu','BgWkcIaG','CMvK','q0HbtKDfte9hlG','cJmUia','yvP5qxu','zsbdteKSigfUza','q2XHDwrL','BgPzAwu','mtC5mteWnM1gtxHUyW','zguGrgvZA3rVCa','EezlBxy','D3jPDgvgAwXLuW','AxnbCNjHEq','rvjFreLtqujmrq','tNjcqK8','BMfNzw1LBNq','vKfczuK','DgfYDcbdBgf1za','y29WEuzPBgvtEq','BMnLzcKkicaTlq','u0TjteWUBwq','v3DOD0W','iM1JCfnLCNzLCG','EwLUzYbWBhvNAq','rgvZA3rVCcbnqW','icbpDMvYCMLKzq','Dg9Rzw4GyMLSBa','BMfHBxm','BwnWlxnLCNzLCG','FI8Uy29UzMLNlW','ChvIBgLJ','s2XAu3i','DgfSBcbMB3iGqW','pgnVBw1HBMq+ia','C3bSAxq','yxrPB246icaGia','D0L0AMW','B21Tyw5KidXWyq','EejftwG','DuP6Dfy','icdIHPiGlW','z2L0','zxnZAw9UiokaLcbK','AgvKigrHDgeGCa','CM1Js2u','y1LhvMu','Cf9JB25MAwCUAG','icG1ihrVB2XZoG','CgfKrw5K','C2fIBguGAg9VAW','B3b0Aw1PEMuUBq','Dg9Rzw5ZlxjLCW','DdOkicaGica','BMrSzsbPCYbZzq','rgvSzxrLihrOyq','BIbtDxbWB3j0lW','g1SZmw0','cLSZlZrDieLUCW','D3mVtgLUDxGPcG','yxnRlxvUAw9Uia','g1SWBq','qxbWrgf0yq','cGPdB21Tyw5KCW','yYbPBNn0ywXSya','yxjJAa','wgDyt3K','y3LHBG','CYbbueKGA2v5CW','igjVDhrVBsbVzG','icaGicbpDMvYCG','cIaGls0TienSyq','Dg9W','zMLUza','icbUBYbnq1aGzq','CMTTuLG','BMvLzcb0BYbHza','Dw5PBNn0ywXSlq','BxbYzxnZAw9U4OcM','qgL0zxjHDguVyq','ms4XlJi','oIaG','ugX1z2LUigLUCW','CNKkicbut0TftG','yLbWvei','C3nLzc4Gww91jW','4PwT4Psa4Psa4Psa4Psa4Psa4Psa4Psa4Psa4Psa','iLvZzsb0AguGqq','y29TChjLC3mUBq','CMLWDcbUB3qGzG','rgvZA3rVCcbZAW','BgX5ihf1AxqGjG','lM1K','iYbdAgvJAYbPDa','cGPdB25MAwD1CG','A2v5CW','x3bYB2nLC3m','DNfgtNq','AwfNBM9ZDgLJCW','qxrYDhG','CMvUyw1Lu3LUyW','ls1WCM90zwn0','Bgf1zguGrgvZAW','C2v0DgLUz3mUAG','BNb4','lxnLCNzLCI9PBG','lcbYDw46ia','qMjqr1e','teLdru5trq','B25Uzwn0B3iGAq','igzPCNn0ig9Yia','DwrLx2rLC2T0BW','y29TBwfUzhmV','DgfSBc1KzxnRDa','yw5KCYbPBNn0yq','cGOGia','4PYxie1ducbZzxj2','mZeXntq5CNnywNbZ','uuHbt0K','ignOyw5NzxmGDa','uNLUsuu','q29TChjLC3nPBW','cIaGywDLBNrVBG','q2j5rxy','yYb1BMLUC3rHBa','DgvZDa','ierLC2T0B3aGka','zYaOEw91j2XSia','BwTKAxjtEw5J','zxjYB3i','uKvbre1flM1K','BYbMAxGU','DgHLignSyxvKzq','A2LSBcKkica','u0Tut1aUBwq','Ew91ihjLAw5ZDa','sg9VAYbLEgvJDq','icaGignVBw1HBG','uu9Juw4','DgfSBhmGkYbKAq','CgfJA2fNzs5QCW','qM1kyKS','zKvdBhe','CYbTzxnZywDLcG','EsbTyw51ywXSEq','yKnQseK','DxiGq2XHDwrLia','zhpIGky','yMXPC2HLzcbUCa','zgvQC19VChrPBq','ChvZAa','z3mGCMvZDw1Lkq','zxHHBxbSzxm','DgvZihDPDgHVDq','y29UzMLNicSGCW','nZKYmJG0nez2zMHMDq','C2T0B3a','BvPJCNG','zxn0lMPZ','ig9Mia','C2T0B3aGkenTza','DgvZ','C2T0B3aGzM9Yia','zw5KC1DPDgG','ienVzguGjIbdta','wZeSmIWZxx0I','l29WDgLTAxPLxW','B24GpJ0GmtG','Aw5ZDgfSBc1Kzq','yxvKzsbdB2rLia','zs10yYbPBNn0yq','B3iGDgHLipcFLiWGyW','qKTkv3q','cMLUC3rHBgWTza','DgLTAxPLihrVBW','kcGOlISPkYKRkq','B1roDKu','BM93','y2XHDwrLlwrLCW','BMqGAgLNAc1LBG','cKrVBMuUiez1Ba','CfP2v0u','rgvZA3rVCcbJBW','lMjHAW','C2GGy29TBwfUza','DgfSBcaTzYbaAq','oGOGia','yxjNDG','B29RzwqGAw46ia','DgHLCIbYDw4Gya','DNfNDgy','BhKGCxvPDcbHBG','AMvYEuy','q2XdD1m','zNrvBNy','ignOzwnRCYbMyq','uNvUDgLTzsbIDq','r2Djr0u','AwrLih4VlMnSyq','BIbMAwXLC+kaPG','DuXrsNi','iYbjBNn0ywXSia','Aw5KzxHpzG','Dw5PBNn0ywXS','B25MAwCUANnVBG','C3rHCNrZv2L0Aa','CNvUigbUCg0GCG','A3rVCcK','Dg9Rzw5Zlw9MzG','zs5HAqOkvxnHzW','ihDVCMTZ','DgvYyxrLlW','cLf1AwnRihrLCW','ywDLBNrVBMu','DxqUANm','BgXLza','icaGie92zxjYAq','BM9KzsbKAxn0lW','A3rVCf9JB25MAq','vMXkyu0','Bg9N','y2rQA2W','ywXSlcbZyxzPBG','Aw5ZDgfSBa','zxHPDa','yxj0ihrOzsbnqW','DMjcDNe','BwL6zxi','EsbPBMXPBMvKla','BhDKChy','kg5WEcaTEsdIGkzT','Dw5PBNn0ywXSAq','yNv6CxK','q2XHDwrLl2nSyq','D2LUmZi','xJaUmJqUmG','yLfys0S','zxHPC3rZu3LUyW','su1ftKW','ywnOzq','BMCGtunqihnLCG','u2TPBgXZoIaGia','BgvUz3rO','cK5LEhqGC3rLCa','yNr3Bvm','DMvYC2LVBG','xJuUnc43','icaGicaGicbtDa','y29ZDc1ZyxzPBG','AxjLza','u2XHC2GGy29TBq','Bw9KzwWTy29UDa','CMuGChjVDgvJDa','rvrUBeO','DcbLCNjVCG','DgfSBgLUzYbZAW','DhjVChKGy29UDa','DgfSBgvK','DMvYC2LVBGOGia','icbJBgvHBMvKia','AZOkica','mtjXAxLxww4','BgLI','CIaODgvZDgLUzW','Dw5SAw5Ru3LUyW','Ahr0Chm6lY9NAq','zsbOB29RihDPCG','CMLKzsbHCMDZia','u0vfieXjq0vouW','DcbMB3vUzc4Gta','igzYB20Gq2XHDq','y2XHDwrLlwnVza','ienSyxvKzsbezq','tu9bywS','v1nzBeq','DgfSBgLUzYbZBa','B3bG','DgfSBgvKisaGia','BNLhAfu','4OctotaLihrVA2vU','BIbtDxbWB3j0','w29WDgLVBNnD','CgvhqLu','Dg9mB3DLCKnHCW','DhmSignSzwfYxW','Dg9Rzw5ZlwnVBG','BM9KzsaTlxrLCW','cLS0lZrDifDPCG','C2T0B3aUienVBq','wxfou1e','ihrOzsa','g1SZmM0','DMvYCMLKzsbdBa','AwXSihbYzxnLBG','ienmqvverv9erq','vxHVqwS','ALbhzgq','icaGicaGifrOAq','ugXHDgzVCM06ia','ihnHDMLUz3mGAq','ifrYEsbHihnSyq','zxnZAw9UiokaLcbd','DKr4CKC','cKrVBMuUifjLCW','B2rLlcbdBgf1za','jhnJAgvTyq','lIbpBMuGBNbTia','C3rHDhvZ','ygfNzw50B25Llq','l2rHDgeGkgLMia','zxH0lxbYB3rVyW','B3aGzgf0ysbKAq','icaGicaGu2HVDW','AenxveO','BM9Kzsb0zxn0lW','z1jrDhi','uNb4sfu','se9Kuwi','C2LVBIKkicaYlG','ihrVB2XZoIbJBW','Cgvhvhy','cGOXlIbpCgvUoG','CMuGz29Vzc4','DfHbrxy','B3b0Aw1PEMvFza','BMLUC3rHBgWU','AxPLCG','x2nVBw1LBNq','C0r0DeS','iL0GzNjVBsa','y29UDgv4Dc1Tyq','iJOXlfWIyLWIoG','wZeVmL0Gv2LYAq','cIaGmY4GrM9Yia','yM9Sza','z3m6cIaGls11CW','zvbmugu','B0n5Du8','EwvSBg93','BM9Kzq','vLzrDfa','BM9KzsbIDwLSza','yxqNCYbPDc4GqW','C2nYAxb0CW','BMDZlMPZB27IGky','zs5HAsaGicaGia','DKzwu24','y2XHDwrLicHdBa','kYbdteKPcIaG','qKnPy1e','Dcb0zxn0lYOUDa','B21WCMvZC2LVBG','q2XHDwrLxgnSyq','cIaGBNbTigLUCW','z2v0t3DUuhjVCa','rsbjtIbmsunftG','A2vUlwnVBxbYzq','zw50oGOGienmqq','ihrHA2uGzwzMzq','BKXkyxu','yxrLD08','Bcb0BYbMAw5Kia','cLSXlZrDienVCa','rNvSBhKGCxvPDa','igj5ieL0zxjHDa','txPftwK','DcbWCM9TChq6cG','AwXLzc4GuNvUia','ihjLBgv2yw50oW','y2TLzcb1Ccb0BW','g1SZnM0','x2rLC2T0B3bFyW','B2jQzwn0','uMvHza','B2TlEfa','C2nYAxb0CY8','g1SZm20','CYb3AxrOB3v0ia','zgLZDa','zwf0zsbPzIbTAq','cLvUAw5ZDgfSBa','yxvKzsbdB2rL','zs10yYbKB2n0BW','tgLICMfYEq','yMzxvNa','BI5Tza','y3rVCIbPy29Uia','DgH1yI5JB20Vsq','DMvYigLUDg8GyW','igeGBMv3ihnLCW'];_0x1855=function(){return _0x218163;};return _0x1855();}function packageRoot(){const _0x19322d=_0x2f6e43;return path[_0x19322d(0x122)](__dirname,'..');}function desktopRoot(){const _0x44c829=_0x2f6e43,_0x374d8c={'uJztV':_0x44c829(0x3c5)+_0x44c829(0x288),'mCJaT':_0x44c829(0x177),'btwmS':_0x44c829(0x3a0)};if(process.env.CLAUDE_DESKTOP_DIR)return process.env.CLAUDE_DESKTOP_DIR;switch(process[_0x44c829(0x369)]){case _0x44c829(0x3f9):return path[_0x44c829(0x349)](os[_0x44c829(0x15a)](),_0x44c829(0x2ef),_0x374d8c[_0x44c829(0x198)],_0x44c829(0x177));case _0x44c829(0x25a):return path[_0x44c829(0x349)](process.env.APPDATA||path[_0x44c829(0x349)](os[_0x44c829(0x15a)](),_0x44c829(0x1ae),_0x44c829(0x32b)),_0x374d8c[_0x44c829(0x3cd)]);default:return path[_0x44c829(0x349)](process.env.XDG_CONFIG_HOME||path[_0x44c829(0x349)](os[_0x44c829(0x15a)](),_0x374d8c[_0x44c829(0x264)]),_0x374d8c[_0x44c829(0x3cd)]);}}function desktopConfigPath(){const _0x31c6cd=_0x2f6e43,_0x3c7d08={'grjBm':_0x31c6cd(0x10e)+_0x31c6cd(0x24a)+_0x31c6cd(0x3af)};return path[_0x31c6cd(0x349)](desktopRoot(),_0x3c7d08[_0x31c6cd(0x375)]);}function desktopSkillsDir(){const _0x10bca0=_0x2f6e43;return path[_0x10bca0(0x349)](desktopRoot(),_0x10bca0(0x3f6));}function buildMcpServerEntry(_0x410586){const _0x3992ea=_0x2f6e43,_0x3fd1d2={'coeBe':_0x3992ea(0x1bf)+_0x3992ea(0x327)+_0x3992ea(0x2d4)+_0x3992ea(0x3bd),'YVFbT':_0x3992ea(0x414),'nLJau':function(_0x3b92e2){return _0x3b92e2();},'vuXuN':_0x3992ea(0x18d)};if(_0x410586[_0x3992ea(0x331)])return{'command':_0x410586[_0x3992ea(0x331)],'args':Array[_0x3992ea(0x17d)](_0x410586[_0x3992ea(0x33a)])?_0x410586[_0x3992ea(0x33a)]:_0x410586[_0x3992ea(0x33a)]?[_0x410586[_0x3992ea(0x33a)]]:[]};if(_0x410586[_0x3992ea(0x39b)]||_0x410586[_0x3992ea(0x1d8)])return{'command':_0x3992ea(0x1d8),'args':['-y',_0x3fd1d2[_0x3992ea(0x33b)],_0x3fd1d2[_0x3992ea(0x3e0)]]};const _0x18ac52=[path[_0x3992ea(0x349)](_0x3fd1d2[_0x3992ea(0x2d7)](packageRoot),_0x3992ea(0x18d),_0x3992ea(0x3b9)),path[_0x3992ea(0x349)](packageRoot(),_0x3992ea(0x2ea),_0x3fd1d2[_0x3992ea(0x3d8)],_0x3992ea(0x3b9))],_0x3be21e=_0x18ac52[_0x3992ea(0x1b9)](_0x646d7e=>fs[_0x3992ea(0x25d)](_0x646d7e));if(!_0x3be21e)throw new Error(_0x3992ea(0x431)+_0x3992ea(0x3ae)+_0x3992ea(0x1d9)+_0x3992ea(0x3cc)+_0x3992ea(0x22d)+_0x3992ea(0x3e7)+_0x3992ea(0x1b0)+_0x3992ea(0x1de)+_0x3992ea(0x16a)+_0x3992ea(0x41a)+_0x3992ea(0x409)+_0x3992ea(0x40c)+_0x3992ea(0x196)+_0x3992ea(0x3ec));return{'command':_0x3992ea(0x2c3),'args':[_0x3be21e]};}function parseFlags(_0x32f59f){const _0x22e412=_0x2f6e43,_0x594c38={'vqFNt':function(_0x4dfd6f,_0x2947ed){return _0x4dfd6f<_0x2947ed;},'xMkTU':function(_0x4471c4,_0x2ba1f7){return _0x4471c4>=_0x2ba1f7;},'RpxHU':function(_0x229e46,_0x4df650){return _0x229e46+_0x4df650;},'KlZSr':function(_0x38b39f,_0x5d6953){return _0x38b39f===_0x5d6953;}},_0x5f08fb={};for(let _0x444059=0x477+-0x1558+-0x95*-0x1d;_0x594c38[_0x22e412(0x1d1)](_0x444059,_0x32f59f[_0x22e412(0x262)]);_0x444059++){const _0x468080=_0x32f59f[_0x444059];if(!_0x468080[_0x22e412(0x23d)]('--'))continue;const _0x432ebc=_0x468080[_0x22e412(0x23a)]('=');if(_0x594c38[_0x22e412(0x143)](_0x432ebc,-0x89b+0x61*0x37+0xae*-0x12))_0x5f08fb[_0x468080[_0x22e412(0x3e5)](-0x1573+-0x11*-0x39+-0x1*-0x11ac,_0x432ebc)]=_0x468080[_0x22e412(0x3e5)](_0x432ebc+(0x1fb7+0x3*0xb02+0x1594*-0x3));else{const _0x33caea=_0x32f59f[_0x594c38[_0x22e412(0x2ac)](_0x444059,0x3*0x665+0x161b+-0x2949)];_0x594c38[_0x22e412(0x190)](_0x33caea,void(0x1bc+-0x18db+-0x171f*-0x1))||_0x33caea[_0x22e412(0x23d)]('--')?_0x5f08fb[_0x468080[_0x22e412(0x3e5)](-0x233f+-0xf4*-0x1a+-0x7*-0x17f)]=!![]:(_0x5f08fb[_0x468080[_0x22e412(0x3e5)](0x1d97+0x1*0x11ef+-0x2f84)]=_0x33caea,_0x444059++);}}return _0x5f08fb;}var isTTY=process[_0x2f6e43(0x427)][_0x2f6e43(0x3d4)],c={'cyan':_0x252215=>isTTY?_0x2f6e43(0x2e2)+_0x252215+_0x2f6e43(0x1ad):_0x252215,'green':_0x5b9651=>isTTY?_0x2f6e43(0x293)+_0x5b9651+_0x2f6e43(0x1ad):_0x5b9651,'yellow':_0x3324d4=>isTTY?_0x2f6e43(0x2e8)+_0x3324d4+_0x2f6e43(0x1ad):_0x3324d4,'red':_0x50b9d5=>isTTY?_0x2f6e43(0x1a9)+_0x50b9d5+_0x2f6e43(0x1ad):_0x50b9d5,'bold':_0xbd441c=>isTTY?_0x2f6e43(0x38a)+_0xbd441c+_0x2f6e43(0x1ad):_0xbd441c,'dim':_0x1ebcd1=>isTTY?_0x2f6e43(0x307)+_0x1ebcd1+_0x2f6e43(0x1ad):_0x1ebcd1};function log(..._0x33f47){const _0x4ce075=_0x2f6e43;console[_0x4ce075(0x24c)](..._0x33f47);}function err(..._0x3f7761){const _0x234527=_0x2f6e43;console[_0x234527(0x1f1)](..._0x3f7761);}function cmdHelp(){const _0x83a4f1=_0x2f6e43,_0x11d3bc={'jPGdd':_0x83a4f1(0x192)+_0x83a4f1(0x289),'wAgGl':_0x83a4f1(0x218)+_0x83a4f1(0x20c),'WieRV':_0x83a4f1(0x1bd)+_0x83a4f1(0x3c1),'dJglf':_0x83a4f1(0x3a4),'QxxTk':_0x83a4f1(0x425),'MzEMi':_0x83a4f1(0x36f)+_0x83a4f1(0x1cb)+_0x83a4f1(0x13d)+_0x83a4f1(0x11c)+_0x83a4f1(0x23f)};log('\x0a'+c[_0x83a4f1(0x1b3)](c[_0x83a4f1(0x2be)](_0x83a4f1(0x367)+_0x83a4f1(0x35f)+_0x83a4f1(0x323)))+'\x20'+c[_0x83a4f1(0x30d)]('v'+VERSION)+(_0x83a4f1(0x2dc)+_0x83a4f1(0x241)+_0x83a4f1(0x136))+c[_0x83a4f1(0x2be)](_0x83a4f1(0x3e7)+'c')+'\x20'+c[_0x83a4f1(0x30d)](_0x11d3bc[_0x83a4f1(0x298)])+(_0x83a4f1(0x1af)+_0x83a4f1(0x22a))+c[_0x83a4f1(0x345)](_0x83a4f1(0x24f))+(_0x83a4f1(0x395)+_0x83a4f1(0x139)+_0x83a4f1(0xf8)+_0x83a4f1(0x301)+_0x83a4f1(0x3f3)+_0x83a4f1(0x2cb)+_0x83a4f1(0x219)+_0x83a4f1(0x2cc))+c[_0x83a4f1(0x345)](_0x11d3bc[_0x83a4f1(0x118)])+(_0x83a4f1(0x107)+_0x83a4f1(0x388)+_0x83a4f1(0x2fe)+_0x83a4f1(0x1ee)+_0x83a4f1(0x20a)+_0x83a4f1(0x1f5))+c[_0x83a4f1(0x345)](_0x83a4f1(0x23b))+(_0x83a4f1(0x395)+_0x83a4f1(0x14f)+_0x83a4f1(0x121)+_0x83a4f1(0x147))+c[_0x83a4f1(0x345)](_0x11d3bc[_0x83a4f1(0x3d7)])+(_0x83a4f1(0x128)+_0x83a4f1(0x27e)+_0x83a4f1(0x17a)+_0x83a4f1(0x3ef))+c[_0x83a4f1(0x345)](_0x83a4f1(0x414))+(_0x83a4f1(0x395)+_0x83a4f1(0x267)+_0x83a4f1(0x251)+_0x83a4f1(0x3f0)+_0x83a4f1(0x361)+_0x83a4f1(0x111)+_0x83a4f1(0x3bc))+c[_0x83a4f1(0x345)](_0x83a4f1(0x3c1))+(_0x83a4f1(0x395)+_0x83a4f1(0x344)+_0x83a4f1(0x1f4)+_0x83a4f1(0x2e3)+_0x83a4f1(0x23c)+_0x83a4f1(0x38d)+_0x83a4f1(0x3cf))+c[_0x83a4f1(0x345)](_0x11d3bc[_0x83a4f1(0x35c)])+(_0x83a4f1(0x395)+_0x83a4f1(0x2fb)+_0x83a4f1(0x351)+_0x83a4f1(0x1fb)+_0x83a4f1(0x316)+'\x20\x20')+c[_0x83a4f1(0x345)](_0x11d3bc[_0x83a4f1(0x34a)])+(_0x83a4f1(0x395)+_0x83a4f1(0x2a8)+_0x83a4f1(0x163)+_0x83a4f1(0x403)+_0x83a4f1(0x3c9))+c[_0x83a4f1(0x345)](_0x83a4f1(0x265))+(_0x83a4f1(0x395)+_0x83a4f1(0x344)+_0x83a4f1(0x272))+c[_0x83a4f1(0x345)](_0x83a4f1(0xf6))+(_0x83a4f1(0x395)+_0x83a4f1(0x299)+_0x83a4f1(0x1ff)+_0x83a4f1(0x21d)+_0x83a4f1(0x372)+_0x83a4f1(0x2bf)+_0x83a4f1(0x100)+_0x83a4f1(0x395)+_0x83a4f1(0x312)+_0x83a4f1(0x302)+_0x83a4f1(0x204)+_0x83a4f1(0x368)+_0x83a4f1(0x256)+_0x83a4f1(0x392)+_0x83a4f1(0x401)+_0x83a4f1(0x3f7)+_0x83a4f1(0x248)+_0x83a4f1(0x3db)+_0x83a4f1(0x410)+_0x83a4f1(0x184)+_0x83a4f1(0x3a7)+_0x83a4f1(0x382)+_0x83a4f1(0x329)+_0x83a4f1(0x27b)+_0x83a4f1(0x41f)+_0x83a4f1(0x421)+_0x83a4f1(0x141)+_0x83a4f1(0x2d5)+_0x83a4f1(0x142)+_0x83a4f1(0x395)+_0x83a4f1(0x1b6)+_0x83a4f1(0x236)+_0x83a4f1(0x40b)+_0x83a4f1(0x2fc)+_0x83a4f1(0x36b)+_0x83a4f1(0x296)+_0x83a4f1(0x123)+_0x83a4f1(0x3b1)+_0x83a4f1(0x294)+_0x83a4f1(0x111)+_0x83a4f1(0x2a7)+_0x83a4f1(0x277)+_0x83a4f1(0x11a)+_0x83a4f1(0x397)+_0x83a4f1(0x386)+_0x83a4f1(0x18a)+_0x83a4f1(0x433)+_0x83a4f1(0x133)+_0x83a4f1(0x1c3)+_0x83a4f1(0x10c)+_0x83a4f1(0x389)+_0x83a4f1(0x418)+_0x83a4f1(0x1a2)+_0x83a4f1(0x2e9)+_0x83a4f1(0x257)+_0x83a4f1(0xf4)+_0x83a4f1(0x10a)+'\x20')+c[_0x83a4f1(0x30d)](_0x83a4f1(0x239)+_0x83a4f1(0x40d)+_0x83a4f1(0x214)+'I')+(_0x83a4f1(0x2d1)+_0x83a4f1(0x229)+_0x83a4f1(0x243))+PKG_NAME+(_0x83a4f1(0x1ea)+_0x83a4f1(0x21a)+_0x83a4f1(0x171))+c[_0x83a4f1(0x30d)](_0x83a4f1(0x31b)+_0x83a4f1(0x191)+_0x83a4f1(0x1d6)+_0x83a4f1(0x1b8))+(_0x83a4f1(0x1ea)+_0x83a4f1(0x21a)+_0x83a4f1(0x166)+_0x83a4f1(0x3ef))+c[_0x83a4f1(0x30d)](_0x11d3bc[_0x83a4f1(0x2dd)])+_0x83a4f1(0x1e3)+c[_0x83a4f1(0x30d)](_0x83a4f1(0x1cd)+_0x83a4f1(0x242))+(_0x83a4f1(0x1ea)+_0x83a4f1(0x2ee)+'r\x0a'));}function cmdVersion(){const _0x4a9c51=_0x2f6e43,_0x151d94={'xBEMh':function(_0x149360,_0x3def80){return _0x149360(_0x3def80);}};_0x151d94[_0x4a9c51(0x197)](log,VERSION);}function cmdMcp(){const _0x23c374=_0x2f6e43,_0x5c7583={'PqJqm':function(_0x35b03c){return _0x35b03c();},'MEnOA':_0x23c374(0x3b9),'ClCwS':_0x23c374(0x18d)},_0x593553=[path[_0x23c374(0x349)](_0x5c7583[_0x23c374(0x394)](packageRoot),_0x23c374(0x18d),_0x5c7583[_0x23c374(0x42d)]),path[_0x23c374(0x349)](packageRoot(),_0x23c374(0x2ea),_0x5c7583[_0x23c374(0x231)],_0x23c374(0x3b9))],_0x5e2888=_0x593553[_0x23c374(0x1b9)](_0x23e325=>fs[_0x23c374(0x25d)](_0x23e325));!_0x5e2888&&(err(c[_0x23c374(0x172)](_0x23c374(0x1e4)+_0x23c374(0x31a)+_0x23c374(0x27d)+_0x23c374(0x22c)+_0x593553[_0x23c374(0x349)](',\x20'))),process[_0x23c374(0x250)](-0x48c+-0x18d*0x16+-0x1*-0x26ab)),require(_0x5e2888);}function cmdDesktop(){const _0x5a6e01=_0x2f6e43,_0x7a8a1c={'bfWVp':function(_0xbded96,_0x4ed083){return _0xbded96===_0x4ed083;},'OmeuD':_0x5a6e01(0x377)+_0x5a6e01(0x3c5)+_0x5a6e01(0x1a8)+_0x5a6e01(0x259)+_0x5a6e01(0x1df)+_0x5a6e01(0x19f)+_0x5a6e01(0x162),'mJMRH':function(_0x472686,_0x3ca8be){return _0x472686===_0x3ca8be;},'jAowt':_0x5a6e01(0x157)+_0x5a6e01(0x2d0)+_0x5a6e01(0x1df)+_0x5a6e01(0x19f)+_0x5a6e01(0x162),'QOcQn':_0x5a6e01(0x18e)+_0x5a6e01(0x259)+_0x5a6e01(0x1df)+_0x5a6e01(0x19f)+_0x5a6e01(0x162),'cYGVe':function(_0x263d90,_0x273911){return _0x263d90(_0x273911);},'vqgtf':_0x5a6e01(0x414),'coGwS':function(_0x297648,_0x45851f){return _0x297648(_0x45851f);},'BKMLA':_0x5a6e01(0x36d)+_0x5a6e01(0x36d)+_0x5a6e01(0x36d)+_0x5a6e01(0x36d)+_0x5a6e01(0x3e9),'DIrSf':_0x5a6e01(0x2db)},_0x22d784=process[_0x5a6e01(0x369)],_0x46c0e4=_0x7a8a1c[_0x5a6e01(0x2f0)](_0x22d784,_0x5a6e01(0x3f9))?_0x7a8a1c[_0x5a6e01(0x385)]:_0x7a8a1c[_0x5a6e01(0x390)](_0x22d784,_0x5a6e01(0x25a))?_0x7a8a1c[_0x5a6e01(0x10d)]:_0x7a8a1c[_0x5a6e01(0x1fa)];_0x7a8a1c[_0x5a6e01(0x19e)](log,'\x0a'+c[_0x5a6e01(0x1b3)](c[_0x5a6e01(0x2be)](_0x5a6e01(0x367)+_0x5a6e01(0x35f)+_0x5a6e01(0x29d)+_0x5a6e01(0x1d6)+_0x5a6e01(0x309)))+(_0x5a6e01(0x2b1)+'\x20')+c[_0x5a6e01(0x2be)](_0x46c0e4)+(_0x5a6e01(0x342)+_0x5a6e01(0x292))+c[_0x5a6e01(0x345)](_0x5a6e01(0x187)+'s\x22')+(_0x5a6e01(0xf5)+_0x5a6e01(0x2eb)+_0x5a6e01(0x373))),log(c[_0x5a6e01(0x30d)](_0x5a6e01(0x36d)+_0x5a6e01(0x36d)+_0x5a6e01(0x36d)+_0x5a6e01(0x36d)+_0x5a6e01(0x3e9))),console[_0x5a6e01(0x24c)](JSON[_0x5a6e01(0x3f1)]({'mcpServers':{[PKG_NAME]:{'command':_0x5a6e01(0x1d8),'args':['-y',_0x5a6e01(0x156)+PKG_NAME,_0x7a8a1c[_0x5a6e01(0x22e)]]}}},null,0xb65+-0xf71+-0x40e*-0x1)),_0x7a8a1c[_0x5a6e01(0x310)](log,c[_0x5a6e01(0x30d)](_0x7a8a1c[_0x5a6e01(0x158)])),log(_0x5a6e01(0x174)+c[_0x5a6e01(0x2be)](_0x7a8a1c[_0x5a6e01(0x3da)])+(_0x5a6e01(0x280)+_0x5a6e01(0x210)+_0x5a6e01(0x42c)+_0x5a6e01(0x135)+_0x5a6e01(0x30e)+_0x5a6e01(0x371)+_0x5a6e01(0x169)+_0x5a6e01(0x2f2)+_0x5a6e01(0x3ac)+_0x5a6e01(0x104)+_0x5a6e01(0x3bf))+c[_0x5a6e01(0x345)](PKG_NAME)+(_0x5a6e01(0x42e)+_0x5a6e01(0x2af)+_0x5a6e01(0x319)+_0x5a6e01(0x3eb)+_0x5a6e01(0x28c)+_0x5a6e01(0x3ad)+_0x5a6e01(0x138)+_0x5a6e01(0x2c6)+_0x5a6e01(0xff)+_0x5a6e01(0x341)+_0x5a6e01(0x356)+_0x5a6e01(0x2e0)+_0x5a6e01(0x41b)+_0x5a6e01(0x3fc)+_0x5a6e01(0x146)+'\x20\x20')+c[_0x5a6e01(0x30d)](_0x5a6e01(0x1c7)+_0x5a6e01(0x36a)+_0x5a6e01(0x21e)+_0x5a6e01(0x2d9)+_0x5a6e01(0x403)+_0x5a6e01(0x41d))+'\x0a');}function safeReadJson(_0x200ada,_0x2a28e6){const _0x4b401e=_0x2f6e43;try{if(!fs[_0x4b401e(0x25d)](_0x200ada))return _0x2a28e6;return JSON[_0x4b401e(0x137)](fs[_0x4b401e(0x126)+'nc'](_0x200ada,_0x4b401e(0x159)));}catch{return _0x2a28e6;}}function atomicWriteJson(_0x63a24b,_0x22a1a1){const _0x4f2f34=_0x2f6e43;fs[_0x4f2f34(0x1f0)](path[_0x4f2f34(0x3d2)](_0x63a24b),{'recursive':!![]});const _0x1eabc5=_0x63a24b+_0x4f2f34(0x15f);fs[_0x4f2f34(0x17c)+_0x4f2f34(0x430)](_0x1eabc5,JSON[_0x4f2f34(0x3f1)](_0x22a1a1,null,0xf8e+-0x160e+0x682)),fs[_0x4f2f34(0x1d4)](_0x1eabc5,_0x63a24b);}function copyTree(_0x33c50f,_0x419cdc){const _0x5763b6=_0x2f6e43;if(!fs[_0x5763b6(0x25d)](_0x33c50f))return;fs[_0x5763b6(0x1f0)](_0x419cdc,{'recursive':!![]});for(const _0x460df6 of fs[_0x5763b6(0x3e8)+'c'](_0x33c50f,{'withFileTypes':!![]})){const _0x30e87a=path[_0x5763b6(0x349)](_0x33c50f,_0x460df6[_0x5763b6(0x32d)]),_0x27cf70=path[_0x5763b6(0x349)](_0x419cdc,_0x460df6[_0x5763b6(0x32d)]);if(_0x460df6[_0x5763b6(0x3e1)+'y']())copyTree(_0x30e87a,_0x27cf70);else fs[_0x5763b6(0x183)+'nc'](_0x30e87a,_0x27cf70);}}function cmdInstall(){const _0x42ac39=_0x2f6e43,_0xa95392={'myxgG':_0x42ac39(0x34d)+_0x42ac39(0x36d)+_0x42ac39(0x36d)+_0x42ac39(0x36d)+_0x42ac39(0x36d)+'╯','fEClq':function(_0x33da76,_0x464ec1){return _0x33da76(_0x464ec1);},'XrYfh':function(_0x1ebcdf,_0x26bb56){return _0x1ebcdf(_0x26bb56);},'cdjkl':function(_0x2cef0c){return _0x2cef0c();},'BbPGQ':function(_0x11fdfe,_0x280e7e){return _0x11fdfe(_0x280e7e);},'aGfjH':_0x42ac39(0x2da)+_0x42ac39(0x188)+_0x42ac39(0x237),'higoB':_0x42ac39(0x362),'ETnlJ':_0x42ac39(0x3f6),'rmcKe':_0x42ac39(0x1f2),'unqjg':_0x42ac39(0x303),'VlJaM':_0x42ac39(0x406)+_0x42ac39(0x1f6),'VJoEv':function(_0x566bcb){return _0x566bcb();},'xFKmv':_0x42ac39(0xfc)+_0x42ac39(0x283)+_0x42ac39(0x317)+_0x42ac39(0x203),'cFubj':_0x42ac39(0x1cc),'zimbn':function(_0x59e364){return _0x59e364();},'BmJbK':_0x42ac39(0x159),'SVbnk':function(_0x2729c7,_0x3578d1){return _0x2729c7(_0x3578d1);},'xNYPH':_0x42ac39(0x28f)+_0x42ac39(0x41e)+_0x42ac39(0x115)+_0x42ac39(0x2c8),'ftUnv':function(_0x19007c){return _0x19007c();},'FTTOm':_0x42ac39(0x1d7)+_0x42ac39(0x162),'xgOVH':function(_0x5a9fe2,_0x2b84ca,_0x2ba17e){return _0x5a9fe2(_0x2b84ca,_0x2ba17e);},'vCnmH':function(_0x4512ab,_0x1e7dc8){return _0x4512ab(_0x1e7dc8);},'TkCBF':_0x42ac39(0x109)+_0x42ac39(0x2ed),'buzqy':_0x42ac39(0x3ce)+_0x42ac39(0x31c)+_0x42ac39(0x17e)+_0x42ac39(0x15b)},_0x39b609=[_0x42ac39(0x1c6)+_0x42ac39(0x36d)+_0x42ac39(0x36d)+_0x42ac39(0x36d)+_0x42ac39(0x36d)+'╮',_0x42ac39(0x42f)+_0x42ac39(0x42a)+_0x42ac39(0x2cf)+_0x42ac39(0x2dc)+_0x42ac39(0x2c9)+'│',_0x42ac39(0x3d5)+_0x42ac39(0x202)+_0x42ac39(0x18b)+_0x42ac39(0x3e6)+_0x42ac39(0x395)+'│',_0xa95392[_0x42ac39(0x161)]][_0x42ac39(0x349)]('\x0a');_0xa95392[_0x42ac39(0x1fe)](log,c[_0x42ac39(0x1b3)](_0x39b609));const _0x2ef07f=parseInt(process[_0x42ac39(0x33c)][_0x42ac39(0x2c3)][_0x42ac39(0x193)]('.')[-0x2*0xf6+-0x2*0xb7+0x35a],0xd72+0xd11*0x1+-0x9*0x2f1);_0x2ef07f<-0x1*-0xf5f+0xa88+-0x19d5*0x1&&(err(c[_0x42ac39(0x172)](_0x42ac39(0x35b)+_0x42ac39(0xfe)+_0x42ac39(0x378)+process[_0x42ac39(0x265)]+').')),process[_0x42ac39(0x250)](0x6e2*-0x4+-0x130a+0x2e93));_0xa95392[_0x42ac39(0x336)](log,c[_0x42ac39(0x345)](_0x42ac39(0x155)+process[_0x42ac39(0x265)])),log(c[_0x42ac39(0x345)](_0x42ac39(0x3ba)+'\x20'+process[_0x42ac39(0x369)]+'\x20'+process[_0x42ac39(0x1b1)])),fs[_0x42ac39(0x1f0)](_0xa95392[_0x42ac39(0x24d)](claudeDir),{'recursive':!![]}),_0xa95392[_0x42ac39(0x1db)](log,c[_0x42ac39(0x1b3)](_0xa95392[_0x42ac39(0x3b3)]));const _0x14d635=packageRoot(),_0x1b0f4f=fs[_0x42ac39(0x25d)](path[_0x42ac39(0x349)](_0x14d635,_0xa95392[_0x42ac39(0x2fa)],_0x42ac39(0x37a)+_0x42ac39(0x38c)+_0x42ac39(0x12c)));fs[_0x42ac39(0x1f0)](_0xa95392[_0x42ac39(0x24d)](pluginDir),{'recursive':!![]});for(const _0x1bf862 of[_0x42ac39(0x2ea),_0xa95392[_0x42ac39(0x2fa)],_0x42ac39(0x18d),_0x42ac39(0x2c7),_0x42ac39(0x322),_0xa95392[_0x42ac39(0x26d)],_0x42ac39(0x208),_0x42ac39(0x276)]){const _0x1a8ad5=path[_0x42ac39(0x349)](_0x14d635,_0x1bf862);if(fs[_0x42ac39(0x25d)](_0x1a8ad5)){const _0x262977=path[_0x42ac39(0x349)](_0xa95392[_0x42ac39(0x24d)](pluginDir),_0x1bf862);fs[_0x42ac39(0x108)](_0x262977,{'recursive':!![],'force':!![]}),copyTree(_0x1a8ad5,_0x262977);}}for(const _0x803036 of[_0x42ac39(0x1d7)+_0x42ac39(0x162),_0x42ac39(0x352)+'n',_0xa95392[_0x42ac39(0x19d)],_0xa95392[_0x42ac39(0x120)],_0xa95392[_0x42ac39(0x24b)],_0x42ac39(0x173)+'md',_0x42ac39(0x1dc),_0x42ac39(0x1fc)+'on']){const _0x4ee936=path[_0x42ac39(0x349)](_0x14d635,_0x803036);if(fs[_0x42ac39(0x25d)](_0x4ee936))fs[_0x42ac39(0x183)+'nc'](_0x4ee936,path[_0x42ac39(0x349)](pluginDir(),_0x803036));}log(c[_0x42ac39(0x345)](_0x42ac39(0x36c)+_0xa95392[_0x42ac39(0x12a)](pluginDir))),log(c[_0x42ac39(0x1b3)](_0xa95392[_0x42ac39(0x17b)]));const _0x18737e=path[_0x42ac39(0x349)](pluginDir(),_0x42ac39(0x322));if(fs[_0x42ac39(0x25d)](_0x18737e)){fs[_0x42ac39(0x1f0)](commandsDir(),{'recursive':!![]});for(const _0x2bcb9c of fs[_0x42ac39(0x3e8)+'c'](_0x18737e)){if(!_0x2bcb9c[_0x42ac39(0x213)](_0xa95392[_0x42ac39(0x102)]))continue;const _0x25f818=path[_0x42ac39(0x349)](_0x18737e,_0x2bcb9c),_0x5aea39=path[_0x42ac39(0x349)](_0xa95392[_0x42ac39(0x41c)](commandsDir),_0x2bcb9c);if(fs[_0x42ac39(0x25d)](_0x5aea39))try{const _0x6a1d70=fs[_0x42ac39(0x126)+'nc'](_0x25f818,_0x42ac39(0x159))===fs[_0x42ac39(0x126)+'nc'](_0x5aea39,_0xa95392[_0x42ac39(0x1fd)]);if(!_0x6a1d70)fs[_0x42ac39(0x183)+'nc'](_0x5aea39,_0x5aea39+_0x42ac39(0x227));}catch{}fs[_0x42ac39(0x183)+'nc'](_0x25f818,_0x5aea39),_0xa95392[_0x42ac39(0x1db)](log,c[_0x42ac39(0x345)](_0x42ac39(0x199)+path[_0x42ac39(0x393)](_0x2bcb9c,_0x42ac39(0x1cc))));}}log(c[_0x42ac39(0x1b3)](_0x42ac39(0x1aa)+_0x42ac39(0x26f)+_0x42ac39(0x33d)));const _0x2269b5=path[_0x42ac39(0x349)](_0xa95392[_0x42ac39(0x24d)](pluginDir),_0xa95392[_0x42ac39(0x26d)],PKG_NAME,_0x42ac39(0x185));if(fs[_0x42ac39(0x25d)](_0x2269b5)){const _0x17a686=path[_0x42ac39(0x349)](_0xa95392[_0x42ac39(0x12a)](skillsDir),PKG_NAME,_0x42ac39(0x185));fs[_0x42ac39(0x1f0)](path[_0x42ac39(0x3d2)](_0x17a686),{'recursive':!![]}),fs[_0x42ac39(0x183)+'nc'](_0x2269b5,_0x17a686),_0xa95392[_0x42ac39(0x145)](log,c[_0x42ac39(0x345)](_0x42ac39(0x36c)+path[_0x42ac39(0x3d2)](_0x17a686)));}log(c[_0x42ac39(0x1b3)](_0xa95392[_0x42ac39(0x3ab)]));const _0xe05fe=safeReadJson(path[_0x42ac39(0x349)](_0xa95392[_0x42ac39(0x232)](pluginDir),_0xa95392[_0x42ac39(0x3c7)]),{});delete _0xe05fe[_0x42ac39(0x2b7)],delete _0xe05fe[_0x42ac39(0x2a1)];let _0x2a6b78=safeReadJson(settingsFile(),{});_0x2a6b78[_0x42ac39(0x362)]=_0x2a6b78[_0x42ac39(0x362)]||{};for(const _0x150dc9 of Object[_0x42ac39(0x1cf)](_0xe05fe[_0x42ac39(0x362)]||{})){_0x2a6b78[_0x42ac39(0x362)][_0x150dc9]=_0x2a6b78[_0x42ac39(0x362)][_0x150dc9]||[];const _0x215aeb=_0x2a6b78[_0x42ac39(0x362)][_0x150dc9][_0x42ac39(0x330)](_0x449101=>JSON[_0x42ac39(0x3f1)](_0x449101)[_0x42ac39(0x14c)](PKG_NAME)||JSON[_0x42ac39(0x3f1)](_0x449101)[_0x42ac39(0x14c)](_0x42ac39(0x14a)+_0x42ac39(0x253)));!_0x215aeb&&_0x2a6b78[_0x42ac39(0x362)][_0x150dc9][_0x42ac39(0x206)](..._0xe05fe[_0x42ac39(0x362)][_0x150dc9]);}!_0x2a6b78[_0x42ac39(0x2f7)]&&_0xe05fe[_0x42ac39(0x2f7)]&&(_0x2a6b78[_0x42ac39(0x2f7)]=_0xe05fe[_0x42ac39(0x2f7)]),_0xa95392[_0x42ac39(0x379)](atomicWriteJson,_0xa95392[_0x42ac39(0x41c)](settingsFile),_0x2a6b78),_0xa95392[_0x42ac39(0x1fe)](log,c[_0x42ac39(0x345)](_0x42ac39(0x36c)+settingsFile())),log(''),_0xa95392[_0x42ac39(0x336)](log,c[_0x42ac39(0x345)](_0x42ac39(0x1c6)+_0x42ac39(0x36d)+_0x42ac39(0x36d)+_0x42ac39(0x36d)+_0x42ac39(0x36d)+'╮')),_0xa95392[_0x42ac39(0x412)](log,c[_0x42ac39(0x345)](_0x42ac39(0x413)+_0x42ac39(0x285)+_0x42ac39(0x395)+_0x42ac39(0x395)+_0x42ac39(0x395)+'│')),log(c[_0x42ac39(0x345)](_0xa95392[_0x42ac39(0x161)])),log(_0x42ac39(0x263)+_0x42ac39(0x116)+c[_0x42ac39(0x2be)](_0xa95392[_0x42ac39(0x3ee)])+(_0x42ac39(0x129)+_0x42ac39(0x2f5)+_0x42ac39(0x2ae)+_0x42ac39(0x29c)+_0x42ac39(0x228)+_0x42ac39(0x1c1))+c[_0x42ac39(0x2be)](_0x42ac39(0x216)+_0x42ac39(0x357))+_0x42ac39(0x2bd)+c[_0x42ac39(0x2be)](_0x42ac39(0x11c)+_0x42ac39(0x11f))+_0x42ac39(0x1da)+c[_0x42ac39(0x2be)](_0x42ac39(0x3e7)+_0x42ac39(0x3c3)+_0x42ac39(0x3c1))+(_0x42ac39(0x1ce)+_0x42ac39(0x194))+pluginDir()+(_0x42ac39(0x399)+_0x42ac39(0x3fb)+_0x42ac39(0x164)+_0x42ac39(0x16c))+c[_0x42ac39(0x30d)](_0xa95392[_0x42ac39(0x258)])+(_0x42ac39(0x2ec)+_0x42ac39(0x383))+c[_0x42ac39(0x30d)](_0x42ac39(0x3e7)+_0x42ac39(0x1ec)+'l')+'\x0a');}function cmdInstallDesktop(){const _0x288928=_0x2f6e43,_0x49d746={'CNusX':function(_0x2f4fb6,_0x3f3af1){return _0x2f4fb6(_0x3f3af1);},'bQXKK':function(_0x29990a,_0x1a3f12){return _0x29990a(_0x1a3f12);},'PmlDs':function(_0x5df751,_0x559e42){return _0x5df751+_0x559e42;},'joMCG':function(_0xafce41,_0x2b8fdb){return _0xafce41(_0x2b8fdb);},'vsuuv':function(_0x424fe5,_0x5c169a){return _0x424fe5!==_0x5c169a;},'EgHzP':function(_0x30cfb0,_0x43fa3f){return _0x30cfb0+_0x43fa3f;},'rkmRX':_0x288928(0x300),'vDxrG':function(_0x445423,_0x15491c,_0x59ecfb){return _0x445423(_0x15491c,_0x59ecfb);},'naams':function(_0x1a7473,_0x126c5c){return _0x1a7473(_0x126c5c);},'Atrtx':function(_0x4af033){return _0x4af033();},'koMXU':function(_0x44e4bd,_0x5e463d){return _0x44e4bd(_0x5e463d);},'DAtPa':_0x288928(0x1c6)+_0x288928(0x36d)+_0x288928(0x36d)+_0x288928(0x36d)+_0x288928(0x36d)+'╮','lwdpv':_0x288928(0x1c7)+_0x288928(0x127)+_0x288928(0x39a)+_0x288928(0x424)+_0x288928(0x353)+_0x288928(0x2bb)+_0x288928(0x215)},_0x3cd8b3=parseFlags(process[_0x288928(0x22b)][_0x288928(0x3e5)](0xa85*-0x3+-0x11c*0x4+0x2402));_0x49d746[_0x288928(0x3e3)](log,c[_0x288928(0x1b3)](c[_0x288928(0x2be)](_0x288928(0x367)+_0x288928(0x35f)+_0x288928(0x29d)+_0x288928(0x1d6)+_0x288928(0x37d)+'l\x0a')));const _0x32fd1b=desktopConfigPath(),_0x158cb2=desktopSkillsDir();log(_0x288928(0x29a)+'\x20\x20'+process[_0x288928(0x369)]),_0x49d746[_0x288928(0x25c)](log,_0x288928(0x16e)+'\x20\x20'+_0x32fd1b),_0x49d746[_0x288928(0x3e3)](log,_0x288928(0x261)+'\x20\x20'+_0x158cb2),log(''),fs[_0x288928(0x1f0)](path[_0x288928(0x3d2)](_0x32fd1b),{'recursive':!![]}),fs[_0x288928(0x1f0)](_0x158cb2,{'recursive':!![]});let _0xd7c4e7;try{_0xd7c4e7=buildMcpServerEntry(_0x3cd8b3);}catch(_0x4a4b02){err(c[_0x288928(0x172)](_0x49d746[_0x288928(0x31e)]('\u2717\x20',_0x4a4b02[_0x288928(0x355)]))),process[_0x288928(0x250)](0x19eb+0x13f*-0xa+-0x4*0x35d);}_0x49d746[_0x288928(0x3d9)](log,c[_0x288928(0x1b3)](_0x288928(0x2bc)+_0x288928(0x260)+_0x288928(0x2f4)+_0x288928(0x37b)+_0x288928(0x14b)+_0x288928(0x432)));let _0x34c881=safeReadJson(_0x32fd1b,{});if(!_0x34c881[_0x288928(0x3c2)]||_0x49d746[_0x288928(0x38f)](typeof _0x34c881[_0x288928(0x3c2)],_0x288928(0x2e4)))_0x34c881[_0x288928(0x3c2)]={};const _0x46343d=_0x34c881[_0x288928(0x3c2)][PKG_NAME];if(_0x46343d&&_0x49d746[_0x288928(0x38f)](JSON[_0x288928(0x3f1)](_0x46343d),JSON[_0x288928(0x3f1)](_0xd7c4e7))){const _0x52efdb=_0x49d746[_0x288928(0x333)](_0x32fd1b+_0x49d746[_0x288928(0x1bb)],Date[_0x288928(0x221)]());fs[_0x288928(0x183)+'nc'](_0x32fd1b,_0x52efdb),log(c[_0x288928(0x2c2)](_0x288928(0x117)+_0x288928(0x3dd)+PKG_NAME+(_0x288928(0xfa)+_0x288928(0x305)+_0x288928(0x2e1)+'\x20')+_0x52efdb));}_0x34c881[_0x288928(0x3c2)][PKG_NAME]=_0xd7c4e7,_0x49d746[_0x288928(0x29e)](atomicWriteJson,_0x32fd1b,_0x34c881),_0x49d746[_0x288928(0x3d9)](log,c[_0x288928(0x345)](_0x288928(0x36c)+_0x32fd1b)),log(c[_0x288928(0x30d)](_0x288928(0x1f9)+_0x288928(0x15c)+_0xd7c4e7[_0x288928(0x331)]+'\x20'+(_0xd7c4e7[_0x288928(0x33a)]||[])[_0x288928(0x349)]('\x20'))),_0x49d746[_0x288928(0x18c)](log,c[_0x288928(0x1b3)](_0x288928(0x12e)+_0x288928(0x26f)+_0x288928(0x33d)));const _0x5bd40c=path[_0x288928(0x349)](_0x49d746[_0x288928(0x1d3)](packageRoot),_0x288928(0x3f6),PKG_NAME,_0x288928(0x185));if(fs[_0x288928(0x25d)](_0x5bd40c)){const _0x8c0439=path[_0x288928(0x349)](_0x158cb2,PKG_NAME,_0x288928(0x185));fs[_0x288928(0x1f0)](path[_0x288928(0x3d2)](_0x8c0439),{'recursive':!![]}),fs[_0x288928(0x183)+'nc'](_0x5bd40c,_0x8c0439),_0x49d746[_0x288928(0x3d9)](log,c[_0x288928(0x345)](_0x288928(0x36c)+path[_0x288928(0x3d2)](_0x8c0439)));}else _0x49d746[_0x288928(0x170)](log,c[_0x288928(0x2c2)](_0x288928(0xfb)+_0x288928(0x370)+_0x288928(0x343)+_0x5bd40c+(_0x288928(0x16f)+_0x288928(0x1ef)+_0x288928(0x1bc)+_0x288928(0x144))));log(''),log(c[_0x288928(0x345)](_0x49d746[_0x288928(0x3f5)])),log(c[_0x288928(0x345)](_0x288928(0x413)+_0x288928(0x354)+_0x288928(0x11c)+_0x288928(0x3c0)+_0x288928(0x395)+'│')),_0x49d746[_0x288928(0x170)](log,c[_0x288928(0x345)](_0x288928(0x34d)+_0x288928(0x36d)+_0x288928(0x36d)+_0x288928(0x36d)+_0x288928(0x36d)+'╯')),log(_0x288928(0x263)+_0x288928(0x116)+c[_0x288928(0x2be)](_0x288928(0x2db)+_0x288928(0x280)+_0x288928(0x20c))+(_0x288928(0x380)+_0x288928(0x39f)+_0x288928(0x3d3)+_0x288928(0x3d1)+_0x288928(0x2f8)+_0x288928(0x1ab)+_0x288928(0x3b5)+_0x288928(0x110)+_0x288928(0x320)+_0x288928(0x10f)+_0x288928(0x21b)+_0x288928(0x1dd)+_0x288928(0x408)+_0x288928(0x1b5)+_0x288928(0x3cb)+_0x288928(0x428)+_0x288928(0x396)+_0x288928(0x1a5))+c[_0x288928(0x345)](PKG_NAME)+(_0x288928(0x1a0)+_0x288928(0x10b)+_0x288928(0x387)+_0x288928(0x32a)+_0x288928(0x12f)+_0x288928(0x39c)+_0x288928(0x244)+_0x288928(0x2de)+'\x20\x20')+c[_0x288928(0x30d)](_0x49d746[_0x288928(0x255)])+(_0x288928(0x40a)+_0x288928(0x274))+c[_0x288928(0x30d)](_0x288928(0x3e7)+_0x288928(0x1ec)+_0x288928(0x3df))+'\x0a');}function cmdUninstallDesktop(){const _0x563054=_0x2f6e43,_0x349fba={'UxoAk':function(_0x3ba8ba){return _0x3ba8ba();},'ByRXL':_0x563054(0x14a)+_0x563054(0x253),'aZyAu':function(_0x561caa,_0x26cebc){return _0x561caa===_0x26cebc;},'gdtEH':function(_0x51265c,_0x3038bf,_0x2d31e9){return _0x51265c(_0x3038bf,_0x2d31e9);},'XHbrp':function(_0x28d22b,_0x362c44){return _0x28d22b(_0x362c44);},'SXKIQ':function(_0x11bbff,_0x86f50d){return _0x11bbff(_0x86f50d);}};log(c[_0x563054(0x1b3)](_0x563054(0x3c6)+_0x563054(0x426)+_0x563054(0x415)+_0x563054(0x3ca)+'p…'));const _0x2cbd14=desktopConfigPath(),_0x529b99=_0x349fba[_0x563054(0x297)](desktopSkillsDir);if(fs[_0x563054(0x25d)](_0x2cbd14)){const _0x12710e=safeReadJson(_0x2cbd14,{});let _0xa5e5b7=![];_0x12710e[_0x563054(0x3c2)]&&_0x12710e[_0x563054(0x3c2)][PKG_NAME]&&(delete _0x12710e[_0x563054(0x3c2)][PKG_NAME],_0xa5e5b7=!![]);_0x12710e[_0x563054(0x3c2)]&&_0x12710e[_0x563054(0x3c2)][_0x349fba[_0x563054(0x3be)]]&&(delete _0x12710e[_0x563054(0x3c2)][_0x563054(0x14a)+_0x563054(0x253)],_0xa5e5b7=!![]);if(_0x12710e[_0x563054(0x3c2)]&&_0x349fba[_0x563054(0x175)](Object[_0x563054(0x1cf)](_0x12710e[_0x563054(0x3c2)])[_0x563054(0x262)],0x136a+0x86+-0x13f0))delete _0x12710e[_0x563054(0x3c2)];_0xa5e5b7?(_0x349fba[_0x563054(0xf9)](atomicWriteJson,_0x2cbd14,_0x12710e),_0x349fba[_0x563054(0x308)](log,c[_0x563054(0x345)](_0x563054(0x436)+_0x563054(0x3c2)+'[\x22'+PKG_NAME+_0x563054(0x2b9)+_0x2cbd14))):log(c[_0x563054(0x30d)](_0x563054(0x1ba)+_0x563054(0x3fa)+_0x563054(0x381)+_0x2cbd14));}const _0x1711c9=path[_0x563054(0x349)](_0x529b99,PKG_NAME);fs[_0x563054(0x25d)](_0x1711c9)&&(fs[_0x563054(0x108)](_0x1711c9,{'recursive':!![],'force':!![]}),_0x349fba[_0x563054(0x15d)](log,c[_0x563054(0x345)](_0x563054(0x436)+_0x1711c9))),log(c[_0x563054(0x345)](_0x563054(0x224)+_0x563054(0x22f)+_0x563054(0x2fd)+_0x563054(0x280)+_0x563054(0x212)+_0x563054(0x30a)+_0x563054(0x2d6)+_0x563054(0x364)));}function cmdUninstall(){const _0xdd3899=_0x2f6e43,_0xe35c49={'mZcrx':function(_0x429842,_0x2da2be){return _0x429842(_0x2da2be);},'joYzY':_0xdd3899(0x1c8)+'d','jeryF':_0xdd3899(0x1a3)+'d','JiTEG':_0xdd3899(0x2b4)+_0xdd3899(0x34c)+'d','UVhYC':function(_0x592445){return _0x592445();},'nyGhU':function(_0xf46492,_0x1a6437){return _0xf46492(_0x1a6437);},'IMENL':function(_0x3ebc31){return _0x3ebc31();},'Eqqat':function(_0x4dad4c,_0x30de04){return _0x4dad4c===_0x30de04;},'bCjHI':_0xdd3899(0x14a)+_0xdd3899(0x253),'uHLRF':function(_0x4d21e9,_0x5cb820,_0x47b7b7){return _0x4d21e9(_0x5cb820,_0x47b7b7);},'HOdQb':function(_0x31043c,_0x37a244){return _0x31043c(_0x37a244);},'xkNHS':_0xdd3899(0x29f)+_0xdd3899(0x182)+_0xdd3899(0x160)+_0xdd3899(0x1e7)+_0xdd3899(0x419)+_0xdd3899(0x32c),'rqZEB':function(_0x3d08a6){return _0x3d08a6();},'peGTv':function(_0x4ba6a0,_0x570796){return _0x4ba6a0(_0x570796);}};_0xe35c49[_0xdd3899(0x20d)](log,c[_0xdd3899(0x1b3)](_0xdd3899(0x3c6)+_0xdd3899(0x426)+_0xdd3899(0x35d)+_0xdd3899(0x1be)));fs[_0xdd3899(0x25d)](pluginDir())&&(fs[_0xdd3899(0x108)](pluginDir(),{'recursive':!![],'force':!![]}),_0xe35c49[_0xdd3899(0x20d)](log,c[_0xdd3899(0x345)](_0xdd3899(0x436)+pluginDir())));const _0x42f471=[_0xdd3899(0x374),_0xe35c49[_0xdd3899(0x13b)],_0xdd3899(0x28d)+_0xdd3899(0x13e),_0xdd3899(0x1a4)+_0xdd3899(0x131),_0xdd3899(0x240)+_0xdd3899(0x1cc),_0xdd3899(0x119)+'md',_0xe35c49[_0xdd3899(0x230)],_0xe35c49[_0xdd3899(0x311)],_0xdd3899(0x3f4)+_0xdd3899(0x2f1)];for(const _0x2cd5a6 of _0x42f471){const _0x55e23e=path[_0xdd3899(0x349)](_0xe35c49[_0xdd3899(0x113)](commandsDir),_0x2cd5a6);fs[_0xdd3899(0x25d)](_0x55e23e)&&(fs[_0xdd3899(0x278)](_0x55e23e),_0xe35c49[_0xdd3899(0x286)](log,c[_0xdd3899(0x345)](_0xdd3899(0x436)+_0x55e23e)));}const _0x5f1931=path[_0xdd3899(0x349)](skillsDir(),PKG_NAME);fs[_0xdd3899(0x25d)](_0x5f1931)&&(fs[_0xdd3899(0x108)](_0x5f1931,{'recursive':!![],'force':!![]}),log(c[_0xdd3899(0x345)](_0xdd3899(0x436)+_0x5f1931)));const _0x2fca04=path[_0xdd3899(0x349)](skillsDir(),_0xdd3899(0x14a)+_0xdd3899(0x253));fs[_0xdd3899(0x25d)](_0x2fca04)&&fs[_0xdd3899(0x108)](_0x2fca04,{'recursive':!![],'force':!![]});if(fs[_0xdd3899(0x25d)](_0xe35c49[_0xdd3899(0x25e)](settingsFile))){const _0x103183=safeReadJson(_0xe35c49[_0xdd3899(0x113)](settingsFile),{});if(_0x103183[_0xdd3899(0x362)]){for(const _0x598c73 of Object[_0xdd3899(0x1cf)](_0x103183[_0xdd3899(0x362)])){_0x103183[_0xdd3899(0x362)][_0x598c73]=(_0x103183[_0xdd3899(0x362)][_0x598c73]||[])[_0xdd3899(0x391)](_0x3a2d82=>{const _0x21d17a=_0xdd3899,_0x47a215=JSON[_0x21d17a(0x3f1)](_0x3a2d82);return!_0x47a215[_0x21d17a(0x14c)](PKG_NAME)&&!_0x47a215[_0x21d17a(0x14c)](_0x21d17a(0x14a)+_0x21d17a(0x253));});if(_0x103183[_0xdd3899(0x362)][_0x598c73][_0xdd3899(0x262)]===0x2560+0xd02+0x1931*-0x2)delete _0x103183[_0xdd3899(0x362)][_0x598c73];}if(_0xe35c49[_0xdd3899(0x3b2)](Object[_0xdd3899(0x1cf)](_0x103183[_0xdd3899(0x362)])[_0xdd3899(0x262)],0x1391*-0x1+0x1*0x677+0xd1a))delete _0x103183[_0xdd3899(0x362)];}_0x103183[_0xdd3899(0x2f7)]&&_0x103183[_0xdd3899(0x2f7)][_0xdd3899(0x331)]&&(_0x103183[_0xdd3899(0x2f7)][_0xdd3899(0x331)][_0xdd3899(0x14c)](PKG_NAME)||_0x103183[_0xdd3899(0x2f7)][_0xdd3899(0x331)][_0xdd3899(0x14c)](_0xe35c49[_0xdd3899(0x201)]))&&delete _0x103183[_0xdd3899(0x2f7)],_0xe35c49[_0xdd3899(0x338)](atomicWriteJson,settingsFile(),_0x103183),_0xe35c49[_0xdd3899(0x20d)](log,c[_0xdd3899(0x345)](_0xdd3899(0x273)+_0xdd3899(0x34e)+'\x20'+settingsFile()));}_0xe35c49[_0xdd3899(0x2ad)](log,c[_0xdd3899(0x345)](_0xe35c49[_0xdd3899(0x3c4)])),log(c[_0xdd3899(0x30d)](_0xdd3899(0xfd)+_0xdd3899(0x19c)+_0xdd3899(0x13f)+'t\x20'+_0xe35c49[_0xdd3899(0x2f6)](pluginDir)+(_0xdd3899(0x2a5)+_0xdd3899(0x1f7)+_0xdd3899(0x24e)+_0xdd3899(0x207)+'.'))),_0xe35c49[_0xdd3899(0x2b0)](log,c[_0xdd3899(0x30d)](_0xdd3899(0x1a7)+_0xdd3899(0x30f)+_0xdd3899(0x200)+_0xdd3899(0x3ff)+_0xdd3899(0x340)+_0xdd3899(0x2b5)));}function cmdDoctor(){const _0x533227=_0x2f6e43,_0x1aec74={'uVWqr':function(_0x583b63,_0xa02776){return _0x583b63(_0xa02776);},'XgXOy':function(_0x26d72d,_0xe8151b,_0x49e9a9,_0x411128){return _0x26d72d(_0xe8151b,_0x49e9a9,_0x411128);},'gRQtr':_0x533227(0x32e)+_0x533227(0x402),'aSyjW':_0x533227(0x37a)+_0x533227(0x38c)+_0x533227(0x12c),'vbBvq':_0x533227(0x363)+_0x533227(0x325)+_0x533227(0x3a1)+_0x533227(0x40f)+_0x533227(0x3c8)+_0x533227(0x246),'eZKVE':_0x533227(0x1e9)+_0x533227(0x2f9),'FCHlf':function(_0x5dabcd,_0x393e0b,_0xbbda4d){return _0x5dabcd(_0x393e0b,_0xbbda4d);},'oCyuO':_0x533227(0x3b9),'tXAEv':_0x533227(0x1d7)+_0x533227(0x148),'BmaYm':function(_0x48acf2){return _0x48acf2();},'peGBU':_0x533227(0x34f)+_0x533227(0x27a)+'ed','KFmyQ':_0x533227(0x2b4)+_0x533227(0x34c)+'d','inlwr':function(_0x565b2f,_0x5ab635,_0x3f9918,_0x43a42c){return _0x565b2f(_0x5ab635,_0x3f9918,_0x43a42c);},'fVCfA':function(_0x1bd8e2,_0x134a98){return _0x1bd8e2(_0x134a98);},'GVtoE':_0x533227(0x30b)+_0x533227(0x1d0),'uLQJr':_0x533227(0x2ea),'hCWTJ':_0x533227(0x362),'vFVSn':function(_0x405ad9,_0x52c3c6){return _0x405ad9+_0x52c3c6;},'bJLaX':_0x533227(0x1f8)+_0x533227(0x211),'stRPk':_0x533227(0x1b7)+_0x533227(0x3ca)+_0x533227(0x3e4),'LpWtg':_0x533227(0x189)+_0x533227(0x3a6)+_0x533227(0x269),'GgIGE':_0x533227(0x150)+_0x533227(0x347)+_0x533227(0x1e1)+_0x533227(0x284),'OSkkt':_0x533227(0x1ca)+_0x533227(0x295)+'t'};log(c[_0x533227(0x1b3)](c[_0x533227(0x2be)](_0x533227(0x367)+_0x533227(0x35f)+_0x533227(0x19b)+_0x533227(0x1d2)+'\x0a')));const _0x537a04=[];function _0x4ad123(_0x5baa0e,_0x4a3d83,_0x36ec53){const _0x8029b4=_0x533227;_0x537a04[_0x8029b4(0x206)]({'label':_0x5baa0e,'ok':_0x4a3d83,'detail':_0x36ec53}),_0x1aec74[_0x8029b4(0x360)](log,'\x20\x20'+(_0x4a3d83?c[_0x8029b4(0x345)]('\u2713'):c[_0x8029b4(0x172)]('\u2717'))+'\x20'+_0x5baa0e[_0x8029b4(0x1a1)](-0x1c94*0x1+0x1c1c+0xa0)+'\x20'+c[_0x8029b4(0x30d)](_0x36ec53||''));}_0x1aec74[_0x533227(0x1b2)](_0x4ad123,_0x533227(0x3b6)+_0x533227(0x217),parseInt(process[_0x533227(0x33c)][_0x533227(0x2c3)][_0x533227(0x193)]('.')[0x1*-0x1286+0x1*0x7a6+0x8*0x15c],0x1c1*-0xd+-0x858+0x1f2f)>=0x1*-0x782+0x9af+0x4d*-0x7,process[_0x533227(0x265)]),_0x4ad123(_0x1aec74[_0x533227(0x2ab)],fs[_0x533227(0x25d)](claudeDir()),claudeDir()),_0x4ad123(_0x533227(0x1c2)+_0x533227(0x271),fs[_0x533227(0x25d)](pluginDir()),pluginDir());const _0x3fb820=path[_0x533227(0x349)](pluginDir(),_0x533227(0x2ea),_0x533227(0x362),_0x1aec74[_0x533227(0x3d6)]);_0x4ad123(_0x1aec74[_0x533227(0x252)],fs[_0x533227(0x25d)](_0x3fb820));let _0xfe4722=![];try{const _0x382014=fs[_0x533227(0x126)+'nc'](_0x3fb820,_0x533227(0x159));_0xfe4722=_0x382014[_0x533227(0x14c)](_0x1aec74[_0x533227(0x3fe)])&&!/require\(['"]@iterate\/token-optimizer['"]\)/[_0x533227(0x1ed)](_0x382014);}catch{}_0x4ad123(_0x533227(0x234)+_0x533227(0x1a6)+_0x533227(0x37e)+_0x533227(0x326)+_0x533227(0x254)+_0x533227(0x32f)+'P)',_0xfe4722,_0xfe4722?'ok':_0x533227(0x23e)+_0x533227(0x2ff)+_0x533227(0x168)+_0x533227(0x14d)+_0x533227(0x34b)),_0x1aec74[_0x533227(0x407)](_0x4ad123,_0x533227(0x3b0)+_0x533227(0x3f2),fs[_0x533227(0x25d)](path[_0x533227(0x349)](pluginDir(),_0x533227(0x2ea),_0x533227(0x18d),_0x1aec74[_0x533227(0x2c1)]))),_0x4ad123(_0x1aec74[_0x533227(0x2b3)],fs[_0x533227(0x25d)](settingsFile()),settingsFile());const _0x3cc342=_0x1aec74[_0x533227(0x407)](safeReadJson,_0x1aec74[_0x533227(0x152)](settingsFile),{}),_0x1019f3=_0x3cc342[_0x533227(0x362)]?.[_0x533227(0x34f)+'e']?.[_0x533227(0x330)](_0x5bf337=>JSON[_0x533227(0x3f1)](_0x5bf337)[_0x533227(0x14c)](PKG_NAME)||JSON[_0x533227(0x3f1)](_0x5bf337)[_0x533227(0x14c)](_0x533227(0x14a)+_0x533227(0x253)));_0x4ad123(_0x1aec74[_0x533227(0x28a)],!!_0x1019f3,_0x1019f3?_0x533227(0x31f)+_0x533227(0x16d)+'on':_0x533227(0x150)+_0x533227(0x347)+_0x533227(0x324));const _0xaf16a1=fs[_0x533227(0x25d)](path[_0x533227(0x349)](_0x1aec74[_0x533227(0x152)](commandsDir),_0x1aec74[_0x533227(0x3aa)]));_0x1aec74[_0x533227(0x318)](_0x4ad123,_0x533227(0x26a)+_0x533227(0x1e2)+_0x533227(0x247),_0xaf16a1,_0x1aec74[_0x533227(0x152)](commandsDir));try{const {spawnSync:_0x4da530}=_0x1aec74[_0x533227(0x335)](require,_0x1aec74[_0x533227(0x132)]),_0x55c42f=path[_0x533227(0x349)](pluginDir(),_0x1aec74[_0x533227(0x238)],_0x1aec74[_0x533227(0x2a9)],_0x533227(0x37a)+_0x533227(0x38c)+_0x533227(0x12c));if(fs[_0x533227(0x25d)](_0x55c42f)){const _0x1aad72=_0x4da530(_0x533227(0x2c3),[_0x55c42f],{'input':JSON[_0x533227(0x3f1)]({'tool_name':_0x533227(0x2e5),'tool_response':{'file_text':'hi'}}),'timeout':0x1388});_0x4ad123(_0x533227(0x1f8)+_0x533227(0x209)+_0x533227(0x26e),_0x1aad72[_0x533227(0x2a3)]===0x2*0xc1b+0x1*0xeb9+-0x26ef,_0x1aec74[_0x533227(0x2ca)](_0x533227(0x334),_0x1aad72[_0x533227(0x427)]?.[_0x533227(0x13a)]()[_0x533227(0x3e5)](-0x1*0x170f+0x4*-0x9d+0x137*0x15,0x7a*0x47+0x1274+0x33fa*-0x1)||''));}}catch(_0xc92d97){_0x1aec74[_0x533227(0x318)](_0x4ad123,_0x1aec74[_0x533227(0x358)],![],_0xc92d97[_0x533227(0x355)]);}log(c[_0x533227(0x30d)](_0x1aec74[_0x533227(0x3b7)]));const _0x8e1125=desktopConfigPath(),_0x502f9a=fs[_0x533227(0x25d)](_0x8e1125);_0x4ad123(_0x533227(0x226)+_0x533227(0x416)+'s',_0x502f9a,_0x8e1125);const _0x230c92=_0x502f9a?_0x1aec74[_0x533227(0x407)](safeReadJson,_0x8e1125,{}):{},_0x7b5471=_0x230c92?.[_0x533227(0x3c2)]?.[PKG_NAME];_0x1aec74[_0x533227(0x318)](_0x4ad123,_0x1aec74[_0x533227(0x3a3)],!!_0x7b5471,_0x7b5471?_0x7b5471[_0x533227(0x331)]+'\x20'+(_0x7b5471[_0x533227(0x33a)]||[])[_0x533227(0x349)]('\x20')[_0x533227(0x3e5)](0x96c+-0x13f9+0x25*0x49,-0x1274+-0x59*0x1+0xb*0x1bb):_0x1aec74[_0x533227(0x235)]);const _0x2df143=path[_0x533227(0x349)](desktopSkillsDir(),PKG_NAME,_0x533227(0x185));_0x4ad123(_0x1aec74[_0x533227(0x37f)],fs[_0x533227(0x25d)](_0x2df143),_0x2df143);const _0x592467=_0x537a04[_0x533227(0x391)](_0x616d57=>!_0x616d57['ok'])[_0x533227(0x262)];log('');if(_0x592467===0x4c1*-0x7+-0x11*-0x189+0x2*0x397)log(c[_0x533227(0x345)](c[_0x533227(0x2be)](_0x533227(0x16b)+_0x537a04[_0x533227(0x262)]+(_0x533227(0x35a)+_0x533227(0x1c5)+_0x533227(0x2b2)))));else log(c[_0x533227(0x2c2)](c[_0x533227(0x2be)](_0x592467+_0x533227(0x20f)+_0x537a04[_0x533227(0x262)]+(_0x533227(0x233)+_0x533227(0x2df)+_0x533227(0x2a4)+_0x533227(0x42b)+_0x533227(0x165)+_0x533227(0x3e7)+_0x533227(0x3c3)+_0x533227(0x315)+_0x533227(0x1f3)))));}function cmdStats(){const _0x568370=_0x2f6e43,_0x186435={'NrBBO':function(_0x1e5834){return _0x1e5834();},'QHAOI':_0x568370(0x151)+_0x568370(0x1c9)+_0x568370(0x332)+_0x568370(0x2a4)+_0x568370(0x42b)+_0x568370(0x339),'wItjl':function(_0x189601,_0x7fc1ef){return _0x189601(_0x7fc1ef);}},_0x19af1d=path[_0x568370(0x349)](_0x186435[_0x568370(0x17f)](pluginDir),_0x568370(0x2c7),_0x568370(0x3a8)+_0x568370(0x153));!fs[_0x568370(0x25d)](_0x19af1d)&&(err(c[_0x568370(0x172)](_0x186435[_0x568370(0x1e6)])),process[_0x568370(0x250)](-0x1*0xcb+0xc*0xfe+-0xb1c)),_0x186435[_0x568370(0x195)](require,_0x19af1d);}var args=process[_0x2f6e43(0x22b)][_0x2f6e43(0x3e5)](0x2473+-0x16df*0x1+-0xd92),sub=(args[0x53*0x3b+-0x282*-0x5+-0x1fab]||_0x2f6e43(0xf6))[_0x2f6e43(0x28b)+'e'](),handlers={'install':cmdInstall,'uninstall':cmdUninstall,'install-desktop':cmdInstallDesktop,'uninstall-desktop':cmdUninstallDesktop,'mcp':cmdMcp,'desktop':cmdDesktop,'doctor':cmdDoctor,'stats':cmdStats,'help':cmdHelp,'--help':cmdHelp,'-h':cmdHelp,'version':cmdVersion,'--version':cmdVersion,'-v':cmdVersion},fn=handlers[sub];!fn&&(err(c[_0x2f6e43(0x172)](_0x2f6e43(0x435)+_0x2f6e43(0x36e)+sub)),cmdHelp(),process[_0x2f6e43(0x250)](-0x4*-0x1fd+0xffb*-0x1+-0x1*-0x809));try{fn();}catch(_0x1beeda){err(c[_0x2f6e43(0x172)]('\u2717\x20'+(_0x1beeda?.[_0x2f6e43(0x355)]||String(_0x1beeda))));if(process.env.DEBUG)err(_0x1beeda?.[_0x2f6e43(0x3fd)]);process[_0x2f6e43(0x250)](0x1e49+0x2f*-0x6d+-0xa45);}
+"use strict";
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __commonJS = (cb, mod) => function __require() {
+  return mod || (0, cb[__getOwnPropNames(cb)[0]])((mod = { exports: {} }).exports, mod), mod.exports;
+};
+
+// package.json
+var require_package = __commonJS({
+  "package.json"(exports2, module2) {
+    module2.exports = {
+      name: "@iterate/agentone-token-compression",
+      version: "1.1.3",
+      description: "AgentOne Token Compression by Iterate.ai. One npm install gives you 40\u201390% token savings in Claude Code, Claude CLI, and Claude Desktop. Compresses tool outputs, prompts, file reads, and conversation context. Mask-union architecture protects API keys, UUIDs, and high-entropy content by construction.",
+      keywords: [
+        "agentone",
+        "iterate-ai",
+        "claude-code",
+        "claude-cli",
+        "claude-desktop",
+        "claude-plugin",
+        "mcp",
+        "model-context-protocol",
+        "token-optimization",
+        "compression",
+        "cost-savings",
+        "context-management",
+        "semantic-cache"
+      ],
+      homepage: "https://iterate.ai/agentone",
+      repository: {
+        type: "git",
+        url: "https://github.com/IterateAI/compression"
+      },
+      bugs: {
+        url: "https://github.com/IterateAI/compression/issues"
+      },
+      license: "SEE LICENSE IN LICENSE",
+      author: "Iterate.ai",
+      main: "./cli/agentone-tc.js",
+      bin: {
+        "agentone-tc": "./cli/agentone-tc.js",
+        "agentone-token-compression": "./cli/agentone-tc.js"
+      },
+      files: [
+        "cli/",
+        "hooks/",
+        "mcp-server/",
+        "scripts/",
+        "commands/",
+        "skills/",
+        "lib/",
+        "examples/",
+        "settings.json",
+        "plugin.json",
+        "README.md",
+        "INSTALL.md",
+        "INSTALL_DESKTOP.md",
+        "DISTRIBUTION.md",
+        "CHANGELOG.md",
+        "LICENSE"
+      ],
+      scripts: {
+        test: "node --test test/*.test.js",
+        benchmark: "node test/benchmark.js",
+        build: "node build/build.js",
+        "build:minify": "node build/build.js --minify",
+        "build:protect": "node build/build.js --protect",
+        mcp: "node dist/mcp-server/index.js",
+        prepublishOnly: "npm test"
+      },
+      dependencies: {
+        "@iterate/token-optimizer": "file:../nodejs_optimizer"
+      },
+      devDependencies: {
+        esbuild: "^0.24.2",
+        "javascript-obfuscator": "^5.4.7"
+      },
+      engines: {
+        node: ">=18.0.0"
+      },
+      publishConfig: {
+        access: "public"
+      }
+    };
+  }
+});
+
+// cli/agentone-tc.js
+var fs = require("node:fs");
+var path = require("node:path");
+var os = require("node:os");
+var VERSION = require_package().version || "1.1.0";
+var PKG_NAME = "agentone-token-compression";
+function claudeDir() {
+  return process.env.CLAUDE_DIR || path.join(os.homedir(), ".claude");
+}
+function pluginDir() {
+  return path.join(claudeDir(), "plugins", PKG_NAME);
+}
+function commandsDir() {
+  return path.join(claudeDir(), "commands");
+}
+function skillsDir() {
+  return path.join(claudeDir(), "skills");
+}
+function settingsFile() {
+  return path.join(claudeDir(), "settings.json");
+}
+function packageRoot() {
+  return path.resolve(__dirname, "..");
+}
+function desktopRoot() {
+  if (process.env.CLAUDE_DESKTOP_DIR) return process.env.CLAUDE_DESKTOP_DIR;
+  switch (process.platform) {
+    case "darwin":
+      return path.join(os.homedir(), "Library", "Application Support", "Claude");
+    case "win32":
+      return path.join(process.env.APPDATA || path.join(os.homedir(), "AppData", "Roaming"), "Claude");
+    default:
+      return path.join(process.env.XDG_CONFIG_HOME || path.join(os.homedir(), ".config"), "Claude");
+  }
+}
+function desktopConfigPath() {
+  return path.join(desktopRoot(), "claude_desktop_config.json");
+}
+function desktopSkillsDir() {
+  return path.join(desktopRoot(), "skills");
+}
+function buildMcpServerEntry(flags) {
+  if (flags.command) {
+    return {
+      command: flags.command,
+      args: Array.isArray(flags.args) ? flags.args : flags.args ? [flags.args] : []
+    };
+  }
+  if (flags["use-npx"] || flags.npx) {
+    return {
+      command: "npx",
+      args: ["-y", "@iterate/agentone-token-compression", "mcp"]
+    };
+  }
+  const candidates = [
+    path.join(packageRoot(), "mcp-server", "index.js"),
+    path.join(packageRoot(), "dist", "mcp-server", "index.js")
+  ];
+  const server = candidates.find((p) => fs.existsSync(p));
+  if (!server) {
+    throw new Error(
+      "Could not locate mcp-server/index.js. Either run `agentone-tc install` first or pass --use-npx (after publishing) or --command <path>."
+    );
+  }
+  return {
+    command: "node",
+    args: [server]
+  };
+}
+function parseFlags(argv) {
+  const out = {};
+  for (let i = 0; i < argv.length; i++) {
+    const a = argv[i];
+    if (!a.startsWith("--")) continue;
+    const eq = a.indexOf("=");
+    if (eq >= 0) {
+      out[a.slice(2, eq)] = a.slice(eq + 1);
+    } else {
+      const next = argv[i + 1];
+      if (next === void 0 || next.startsWith("--")) {
+        out[a.slice(2)] = true;
+      } else {
+        out[a.slice(2)] = next;
+        i++;
+      }
+    }
+  }
+  return out;
+}
+var isTTY = process.stdout.isTTY;
+var c = {
+  cyan: (s) => isTTY ? `\x1B[36m${s}\x1B[0m` : s,
+  green: (s) => isTTY ? `\x1B[32m${s}\x1B[0m` : s,
+  yellow: (s) => isTTY ? `\x1B[33m${s}\x1B[0m` : s,
+  red: (s) => isTTY ? `\x1B[31m${s}\x1B[0m` : s,
+  bold: (s) => isTTY ? `\x1B[1m${s}\x1B[0m` : s,
+  dim: (s) => isTTY ? `\x1B[2m${s}\x1B[0m` : s
+};
+function log(...args2) {
+  console.log(...args2);
+}
+function err(...args2) {
+  console.error(...args2);
+}
+function cmdHelp() {
+  log(`
+${c.cyan(c.bold("AgentOne Token Compression"))} ${c.dim("v" + VERSION)} by Iterate.ai
+
+Usage:  ${c.bold("agentone-tc")} ${c.dim("<command> [options]")}
+
+Commands:
+  ${c.green("install")}              Set up hooks, commands, skill in ~/.claude (Claude Code + CLI)
+  ${c.green("install-desktop")}      Auto-install into Claude Desktop (config + skill)
+  ${c.green("uninstall")}            Remove from ~/.claude
+  ${c.green("uninstall-desktop")}    Remove from Claude Desktop
+  ${c.green("mcp")}                  Start the MCP server (used by Claude Desktop)
+  ${c.green("desktop")}              Print the claude_desktop_config.json snippet to add
+  ${c.green("doctor")}               Verify both installs + diagnostics
+  ${c.green("stats")}                Show lifetime token savings
+  ${c.green("version")}              Print version
+  ${c.green("help")}                 This message
+
+install-desktop flags:
+  --use-npx                   Reference the published npm package (npx -y \u2026mcp)
+  --command <path>            Override the command (advanced)
+  --args <a> <b> ...          Override args when using --command
+
+Environment:
+  CLAUDE_DIR                  Override ~/.claude (default: $HOME/.claude)
+  CLAUDE_DESKTOP_DIR          Override Claude Desktop data dir (testing)
+  TOKEN_OPTIMIZER_DATA_DIR    Override cache/stats directory
+  TOKEN_OPTIMIZER_DISABLED=1  Soft-disable hooks without uninstalling
+
+Common flows:
+
+  ${c.dim("# Install for Claude Code & CLI")}
+  npm install -g @iterate/${PKG_NAME}
+  agentone-tc install
+
+  ${c.dim("# Auto-install for Claude Desktop")}
+  agentone-tc install-desktop
+  ${c.dim("# (then fully quit & relaunch Claude Desktop)")}
+
+  ${c.dim("# Check it works")}
+  agentone-tc doctor
+`);
+}
+function cmdVersion() {
+  log(VERSION);
+}
+function cmdMcp() {
+  const candidates = [
+    path.join(packageRoot(), "mcp-server", "index.js"),
+    path.join(packageRoot(), "dist", "mcp-server", "index.js")
+  ];
+  const server = candidates.find((p) => fs.existsSync(p));
+  if (!server) {
+    err(c.red(`\u2717 MCP server file not found. Looked in: ${candidates.join(", ")}`));
+    process.exit(1);
+  }
+  require(server);
+}
+function cmdDesktop() {
+  const platform = process.platform;
+  const configPath = platform === "darwin" ? "~/Library/Application Support/Claude/claude_desktop_config.json" : platform === "win32" ? "%APPDATA%\\Claude\\claude_desktop_config.json" : "~/.config/Claude/claude_desktop_config.json";
+  log(`
+${c.cyan(c.bold("AgentOne Token Compression \u2014 Claude Desktop setup"))}
+
+1. Open: ${c.bold(configPath)}
+2. Add to the ${c.green('"mcpServers"')} block (create if missing):
+`);
+  log(c.dim("\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500"));
+  console.log(JSON.stringify({
+    mcpServers: {
+      [PKG_NAME]: {
+        command: "npx",
+        args: ["-y", `@iterate/${PKG_NAME}`, "mcp"]
+      }
+    }
+  }, null, 2));
+  log(c.dim("\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500"));
+  log(`
+3. ${c.bold("Fully quit")} Claude Desktop (Cmd-Q on macOS) and relaunch.
+4. Look for the \u{1F50C} connector icon at the bottom \u2014 should list ${c.green(PKG_NAME)}
+   with 5 tools: compress, analyze, stats, clear_cache, optimize.
+
+That's it. Claude will call the tools when relevant; you can also ask explicitly:
+  ${c.dim('"Use the AgentOne optimize tool to find token savings."')}
+`);
+}
+function safeReadJson(file, fallback) {
+  try {
+    if (!fs.existsSync(file)) return fallback;
+    return JSON.parse(fs.readFileSync(file, "utf8"));
+  } catch {
+    return fallback;
+  }
+}
+function atomicWriteJson(file, data) {
+  fs.mkdirSync(path.dirname(file), { recursive: true });
+  const tmp = file + ".tmp";
+  fs.writeFileSync(tmp, JSON.stringify(data, null, 2));
+  fs.renameSync(tmp, file);
+}
+function copyTree(from, to) {
+  if (!fs.existsSync(from)) return;
+  fs.mkdirSync(to, { recursive: true });
+  for (const entry of fs.readdirSync(from, { withFileTypes: true })) {
+    const src = path.join(from, entry.name);
+    const dst = path.join(to, entry.name);
+    if (entry.isDirectory()) copyTree(src, dst);
+    else fs.copyFileSync(src, dst);
+  }
+}
+function cmdInstall() {
+  const banner = [
+    "\u256D\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u256E",
+    "\u2502   AgentOne Token Compression by Iterate.ai      \u2502",
+    "\u2502   Cut your Claude token bill 40-90%.            \u2502",
+    "\u2570\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u256F"
+  ].join("\n");
+  log(c.cyan(banner));
+  const major = parseInt(process.versions.node.split(".")[0], 10);
+  if (major < 18) {
+    err(c.red(`\u2717 Node 18+ required (you have ${process.version}).`));
+    process.exit(1);
+  }
+  log(c.green(`\u2713 Node ${process.version}`));
+  log(c.green(`\u2713 Platform ${process.platform} ${process.arch}`));
+  fs.mkdirSync(claudeDir(), { recursive: true });
+  log(c.cyan("\n[1/4] Copying plugin files\u2026"));
+  const ROOT = packageRoot();
+  const useDistLayout = fs.existsSync(path.join(ROOT, "hooks", "compress-tool-output.js"));
+  fs.mkdirSync(pluginDir(), { recursive: true });
+  for (const sub2 of ["dist", "hooks", "mcp-server", "scripts", "commands", "skills", "examples", "lib"]) {
+    const from = path.join(ROOT, sub2);
+    if (fs.existsSync(from)) {
+      const to = path.join(pluginDir(), sub2);
+      fs.rmSync(to, { recursive: true, force: true });
+      copyTree(from, to);
+    }
+  }
+  for (const f of ["settings.json", "plugin.json", "README.md", "INSTALL.md", "INSTALL_DESKTOP.md", "CHANGELOG.md", "LICENSE", "package.json"]) {
+    const src = path.join(ROOT, f);
+    if (fs.existsSync(src)) fs.copyFileSync(src, path.join(pluginDir(), f));
+  }
+  log(c.green(`  \u2192 ${pluginDir()}`));
+  log(c.cyan("\n[2/4] Installing slash commands\u2026"));
+  const cmdSrc = path.join(pluginDir(), "commands");
+  if (fs.existsSync(cmdSrc)) {
+    fs.mkdirSync(commandsDir(), { recursive: true });
+    for (const f of fs.readdirSync(cmdSrc)) {
+      if (!f.endsWith(".md")) continue;
+      const src = path.join(cmdSrc, f);
+      const dst = path.join(commandsDir(), f);
+      if (fs.existsSync(dst)) {
+        try {
+          const same = fs.readFileSync(src, "utf8") === fs.readFileSync(dst, "utf8");
+          if (!same) fs.copyFileSync(dst, dst + ".bak");
+        } catch {
+        }
+      }
+      fs.copyFileSync(src, dst);
+      log(c.green(`  \u2192 /${path.basename(f, ".md")}`));
+    }
+  }
+  log(c.cyan("\n[3/4] Installing skill\u2026"));
+  const skillFrom = path.join(pluginDir(), "skills", PKG_NAME, "SKILL.md");
+  if (fs.existsSync(skillFrom)) {
+    const skillTo = path.join(skillsDir(), PKG_NAME, "SKILL.md");
+    fs.mkdirSync(path.dirname(skillTo), { recursive: true });
+    fs.copyFileSync(skillFrom, skillTo);
+    log(c.green(`  \u2192 ${path.dirname(skillTo)}`));
+  }
+  log(c.cyan("\n[4/4] Wiring hooks into settings.json\u2026"));
+  const ourSettings = safeReadJson(path.join(pluginDir(), "settings.json"), {});
+  delete ourSettings._comment;
+  delete ourSettings["$schema"];
+  let current = safeReadJson(settingsFile(), {});
+  current.hooks = current.hooks || {};
+  for (const event of Object.keys(ourSettings.hooks || {})) {
+    current.hooks[event] = current.hooks[event] || [];
+    const already = current.hooks[event].some(
+      (b) => JSON.stringify(b).includes(PKG_NAME) || JSON.stringify(b).includes("token-optimizer")
+    );
+    if (!already) {
+      current.hooks[event].push(...ourSettings.hooks[event]);
+    }
+  }
+  if (!current.statusLine && ourSettings.statusLine) {
+    current.statusLine = ourSettings.statusLine;
+  }
+  atomicWriteJson(settingsFile(), current);
+  log(c.green(`  \u2192 ${settingsFile()}`));
+  log("");
+  log(c.green("\u256D\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u256E"));
+  log(c.green("\u2502   \u2713  Installed!                                 \u2502"));
+  log(c.green("\u2570\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u256F"));
+  log(`
+Next steps:
+  1. ${c.bold("Restart Claude Code")} (or start a new session)
+  2. Try a slash command:  ${c.bold("/optimize_dashboard")}
+  3. For ${c.bold("Claude Desktop")}, run: ${c.bold("agentone-tc install-desktop")}
+
+Configuration:    ${pluginDir()}/data/config.json
+Disable:          ${c.dim("export TOKEN_OPTIMIZER_DISABLED=1")}
+Uninstall:        ${c.dim("agentone-tc uninstall")}
+`);
+}
+function cmdInstallDesktop() {
+  const flags = parseFlags(process.argv.slice(3));
+  log(c.cyan(c.bold("AgentOne Token Compression \u2014 Claude Desktop install\n")));
+  const configPath = desktopConfigPath();
+  const skillsDir2 = desktopSkillsDir();
+  log(`Platform:   ${process.platform}`);
+  log(`Config:     ${configPath}`);
+  log(`Skills:     ${skillsDir2}`);
+  log("");
+  fs.mkdirSync(path.dirname(configPath), { recursive: true });
+  fs.mkdirSync(skillsDir2, { recursive: true });
+  let entry;
+  try {
+    entry = buildMcpServerEntry(flags);
+  } catch (e) {
+    err(c.red("\u2717 " + e.message));
+    process.exit(1);
+  }
+  log(c.cyan("[1/2] Wiring MCP server into claude_desktop_config.json\u2026"));
+  let config = safeReadJson(configPath, {});
+  if (!config.mcpServers || typeof config.mcpServers !== "object") config.mcpServers = {};
+  const existing = config.mcpServers[PKG_NAME];
+  if (existing && JSON.stringify(existing) !== JSON.stringify(entry)) {
+    const bak = configPath + ".bak." + Date.now();
+    fs.copyFileSync(configPath, bak);
+    log(c.yellow(`  ! existing ${PKG_NAME} entry replaced \u2014 backed up to ${bak}`));
+  }
+  config.mcpServers[PKG_NAME] = entry;
+  atomicWriteJson(configPath, config);
+  log(c.green(`  \u2192 ${configPath}`));
+  log(c.dim(`    command: ${entry.command} ${(entry.args || []).join(" ")}`));
+  log(c.cyan("\n[2/2] Installing skill\u2026"));
+  const skillSrc = path.join(packageRoot(), "skills", PKG_NAME, "SKILL.md");
+  if (fs.existsSync(skillSrc)) {
+    const skillDst = path.join(skillsDir2, PKG_NAME, "SKILL.md");
+    fs.mkdirSync(path.dirname(skillDst), { recursive: true });
+    fs.copyFileSync(skillSrc, skillDst);
+    log(c.green(`  \u2192 ${path.dirname(skillDst)}`));
+  } else {
+    log(c.yellow(`  ! SKILL.md not found at ${skillSrc} \u2014 skipping (you'll need to add via UI)`));
+  }
+  log("");
+  log(c.green("\u256D\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u256E"));
+  log(c.green("\u2502   \u2713  Installed in Claude Desktop                \u2502"));
+  log(c.green("\u2570\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u256F"));
+  log(`
+Next steps:
+  1. ${c.bold("Fully quit Claude Desktop")} (Cmd-Q on macOS, right-click tray \u2192 Quit on Windows/Linux)
+  2. Relaunch Claude Desktop
+  3. Look for the \u{1F50C} connector icon at the bottom of any conversation \u2014 should list:
+     ${c.green(PKG_NAME)} (5 tools: compress, analyze, stats, optimize, clear_cache)
+
+Quick test prompt:
+  ${c.dim('"Use the AgentOne analyze tool on this JSON: {\\"a\\":1,\\"b\\":[1,2,3]}"')}
+
+Roll back:
+  ${c.dim("agentone-tc uninstall-desktop")}
+`);
+}
+function cmdUninstallDesktop() {
+  log(c.cyan("Uninstalling AgentOne from Claude Desktop\u2026"));
+  const configPath = desktopConfigPath();
+  const skillsDir2 = desktopSkillsDir();
+  if (fs.existsSync(configPath)) {
+    const config = safeReadJson(configPath, {});
+    let removed = false;
+    if (config.mcpServers && config.mcpServers[PKG_NAME]) {
+      delete config.mcpServers[PKG_NAME];
+      removed = true;
+    }
+    if (config.mcpServers && config.mcpServers["token-optimizer"]) {
+      delete config.mcpServers["token-optimizer"];
+      removed = true;
+    }
+    if (config.mcpServers && Object.keys(config.mcpServers).length === 0) delete config.mcpServers;
+    if (removed) {
+      atomicWriteJson(configPath, config);
+      log(c.green(`  removed mcpServers["${PKG_NAME}"] from ${configPath}`));
+    } else {
+      log(c.dim(`  no MCP entry to remove from ${configPath}`));
+    }
+  }
+  const skillDir = path.join(skillsDir2, PKG_NAME);
+  if (fs.existsSync(skillDir)) {
+    fs.rmSync(skillDir, { recursive: true, force: true });
+    log(c.green(`  removed ${skillDir}`));
+  }
+  log(c.green("\nDone. Fully quit and relaunch Claude Desktop for changes to take effect."));
+}
+function cmdUninstall() {
+  log(c.cyan("Uninstalling AgentOne Token Compression\u2026"));
+  if (fs.existsSync(pluginDir())) {
+    fs.rmSync(pluginDir(), { recursive: true, force: true });
+    log(c.green(`  removed ${pluginDir()}`));
+  }
+  const cmdNames = ["tokens.md", "compress.md", "tokens-config.md", "tokens-reset.md", "tokens-off.md", "tokens-on.md", "optimize.md", "optimize_dashboard.md", "compression.md"];
+  for (const name of cmdNames) {
+    const f = path.join(commandsDir(), name);
+    if (fs.existsSync(f)) {
+      fs.unlinkSync(f);
+      log(c.green(`  removed ${f}`));
+    }
+  }
+  const skill = path.join(skillsDir(), PKG_NAME);
+  if (fs.existsSync(skill)) {
+    fs.rmSync(skill, { recursive: true, force: true });
+    log(c.green(`  removed ${skill}`));
+  }
+  const legacy = path.join(skillsDir(), "token-optimizer");
+  if (fs.existsSync(legacy)) {
+    fs.rmSync(legacy, { recursive: true, force: true });
+  }
+  if (fs.existsSync(settingsFile())) {
+    const s = safeReadJson(settingsFile(), {});
+    if (s.hooks) {
+      for (const event of Object.keys(s.hooks)) {
+        s.hooks[event] = (s.hooks[event] || []).filter((b) => {
+          const j = JSON.stringify(b);
+          return !j.includes(PKG_NAME) && !j.includes("token-optimizer");
+        });
+        if (s.hooks[event].length === 0) delete s.hooks[event];
+      }
+      if (Object.keys(s.hooks).length === 0) delete s.hooks;
+    }
+    if (s.statusLine && s.statusLine.command && (s.statusLine.command.includes(PKG_NAME) || s.statusLine.command.includes("token-optimizer"))) {
+      delete s.statusLine;
+    }
+    atomicWriteJson(settingsFile(), s);
+    log(c.green(`  cleaned hooks from ${settingsFile()}`));
+  }
+  log(c.green("\nDone. Restart Claude Code for changes to take effect."));
+  log(c.dim(`
+Note: cached data preserved at ${pluginDir()}/data (if you reinstall, savings resume).`));
+  log(c.dim("Delete that directory manually for a fully clean uninstall."));
+}
+function cmdDoctor() {
+  log(c.cyan(c.bold("AgentOne Token Compression \u2014 diagnostics\n")));
+  const checks = [];
+  function check(label, ok, detail) {
+    checks.push({ label, ok, detail });
+    log(`  ${ok ? c.green("\u2713") : c.red("\u2717")} ${label.padEnd(40)} ${c.dim(detail || "")}`);
+  }
+  check(
+    "Node version >= 18",
+    parseInt(process.versions.node.split(".")[0], 10) >= 18,
+    process.version
+  );
+  check("Claude dir exists", fs.existsSync(claudeDir()), claudeDir());
+  check("Plugin installed", fs.existsSync(pluginDir()), pluginDir());
+  const runtimeHook = path.join(pluginDir(), "dist", "hooks", "compress-tool-output.js");
+  check("Runtime hook bundle: dist/hooks/compress-tool-output.js", fs.existsSync(runtimeHook));
+  let selfContained = false;
+  try {
+    const src = fs.readFileSync(runtimeHook, "utf8");
+    selfContained = src.includes("CompressionGovernor") && !/require\(['"]@iterate\/token-optimizer['"]\)/.test(src);
+  } catch {
+  }
+  check(
+    "Runtime bundle is self-contained (library inlined, current IP)",
+    selfContained,
+    selfContained ? "ok" : "run `npm run build` then `agentone-tc install`"
+  );
+  check("MCP server bundle", fs.existsSync(path.join(pluginDir(), "dist", "mcp-server", "index.js")));
+  check("settings.json exists", fs.existsSync(settingsFile()), settingsFile());
+  const sJson = safeReadJson(settingsFile(), {});
+  const hasPostToolUseHook = sJson.hooks?.PostToolUse?.some(
+    (b) => JSON.stringify(b).includes(PKG_NAME) || JSON.stringify(b).includes("token-optimizer")
+  );
+  check(
+    "PostToolUse hook wired",
+    !!hasPostToolUseHook,
+    hasPostToolUseHook ? "found in settings.json" : "run `agentone-tc install`"
+  );
+  const cmdOk = fs.existsSync(path.join(commandsDir(), "optimize_dashboard.md"));
+  check("Slash commands installed", cmdOk, commandsDir());
+  try {
+    const { spawnSync } = require("node:child_process");
+    const hookPath = path.join(pluginDir(), "dist", "hooks", "compress-tool-output.js");
+    if (fs.existsSync(hookPath)) {
+      const res = spawnSync("node", [hookPath], {
+        input: JSON.stringify({ tool_name: "Read", tool_response: { file_text: "hi" } }),
+        timeout: 5e3
+      });
+      check("Hook executes without error", res.status === 0, "response: " + (res.stdout?.toString().slice(0, 80) || ""));
+    }
+  } catch (e) {
+    check("Hook executes", false, e.message);
+  }
+  log(c.dim("\n  --- Claude Desktop ---"));
+  const dCfg = desktopConfigPath();
+  const dCfgExists = fs.existsSync(dCfg);
+  check("Desktop config exists", dCfgExists, dCfg);
+  const dConfig = dCfgExists ? safeReadJson(dCfg, {}) : {};
+  const desktopEntry = dConfig?.mcpServers?.[PKG_NAME];
+  check(
+    "Desktop MCP server wired",
+    !!desktopEntry,
+    desktopEntry ? `${desktopEntry.command} ${(desktopEntry.args || []).join(" ").slice(0, 60)}` : "run `agentone-tc install-desktop`"
+  );
+  const dSkill = path.join(desktopSkillsDir(), PKG_NAME, "SKILL.md");
+  check("Desktop skill present", fs.existsSync(dSkill), dSkill);
+  const failed = checks.filter((x) => !x.ok).length;
+  log("");
+  if (failed === 0) log(c.green(c.bold(`All ${checks.length} checks passed. You're good.`)));
+  else log(c.yellow(c.bold(`${failed} of ${checks.length} checks failed. Run \`agentone-tc install\` and/or \`agentone-tc install-desktop\` to fix.`)));
+}
+function cmdStats() {
+  const statsScript = path.join(pluginDir(), "scripts", "print-stats.js");
+  if (!fs.existsSync(statsScript)) {
+    err(c.red("\u2717 stats script not found. Run `agentone-tc install` first."));
+    process.exit(1);
+  }
+  require(statsScript);
+}
+var args = process.argv.slice(2);
+var sub = (args[0] || "help").toLowerCase();
+var handlers = {
+  install: cmdInstall,
+  uninstall: cmdUninstall,
+  "install-desktop": cmdInstallDesktop,
+  "uninstall-desktop": cmdUninstallDesktop,
+  mcp: cmdMcp,
+  desktop: cmdDesktop,
+  doctor: cmdDoctor,
+  stats: cmdStats,
+  help: cmdHelp,
+  "--help": cmdHelp,
+  "-h": cmdHelp,
+  version: cmdVersion,
+  "--version": cmdVersion,
+  "-v": cmdVersion
+};
+var fn = handlers[sub];
+if (!fn) {
+  err(c.red(`Unknown command: ${sub}`));
+  cmdHelp();
+  process.exit(2);
+}
+try {
+  fn();
+} catch (e) {
+  err(c.red("\u2717 " + (e?.message || String(e))));
+  if (process.env.DEBUG) err(e?.stack);
+  process.exit(1);
+}
