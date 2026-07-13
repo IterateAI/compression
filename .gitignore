@@ -1,24 +1,5 @@
-# Dependencies
 node_modules/
-
-# OS cruft
+data/
 .DS_Store
 **/.DS_Store
-
-# Runtime caches / stats (created at use time)
-data/
 *.log
-
-# Published plugin ships only the self-contained, obfuscated dist/ bundle.
-# Raw source stays in the working tree but is NOT published to the marketplace.
-/lib/
-/mcp-server/
-/cli/
-/scripts/
-/build/
-/test/
-/hooks/*.js
-!/hooks/hooks.json
-
-# npm lockfile — not needed by the marketplace plugin
-package-lock.json
