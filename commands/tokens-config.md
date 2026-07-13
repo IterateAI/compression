@@ -30,3 +30,20 @@ For example:
 - `/tokens-config pipeline.abbreviation.enabled=true` → enable phrase abbreviation
 
 Booleans accept: true, false, 1, 0, yes, no.
+
+**Special case — `statusline=on` / `statusline=on!` / `statusline=off`**
+
+This manages the live savings status bar, which lives in `~/.claude/settings.json`
+(NOT the plugin config file). Do **not** hand-edit settings.json — run the bundled
+setter, which does it safely (checks for an existing status line, backs up the file):
+
+```bash
+!SCRIPT="${CLAUDE_PLUGIN_ROOT}/dist/scripts/set-statusline.js"; [ -f "$SCRIPT" ] || SCRIPT="$(ls -d $HOME/.claude/plugins/cache/iterate-ai/agentone-token-compression/*/dist/scripts/set-statusline.js | sort -V | tail -1)"; node "$SCRIPT" on
+```
+
+- `statusline=on` → enable (won't overwrite a different existing status line)
+- `statusline=on!` → force-enable (replace whatever status line is set)
+- `statusline=off` → remove the AgentOne status line
+
+Pass the matching word (`on` / `on!` / `off`) as the script argument. After it runs,
+tell the user to **restart Claude Code** for the status bar to appear/disappear.

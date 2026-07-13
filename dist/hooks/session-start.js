@@ -1863,7 +1863,7 @@ var require_pricingModel = __commonJS({
       { match: /^claude/, provider: "anthropic" },
       { match: /^(gpt-|o[0-9]|chatgpt)/, provider: "openai" }
     ];
-    function deepMerge2(base, extra) {
+    function deepMerge(base, extra) {
       const out = { ...base };
       if (extra) for (const k of Object.keys(extra)) out[k] = extra[k];
       return out;
@@ -1878,12 +1878,12 @@ var require_pricingModel = __commonJS({
           for (const k of Object.keys(rule)) {
             if (k !== "match" && k !== "provider") perModel[k] = rule[k];
           }
-          entry = deepMerge2(base, perModel);
+          entry = deepMerge(base, perModel);
           break;
         }
       }
       if (overrides && overrides[entry.provider]) {
-        entry = deepMerge2(entry, overrides[entry.provider]);
+        entry = deepMerge(entry, overrides[entry.provider]);
       }
       return Object.freeze(entry);
     }
@@ -4279,9 +4279,9 @@ var require_src = __commonJS({
 var require_optimizer_instance = __commonJS({
   "lib/optimizer-instance.js"(exports2, module2) {
     "use strict";
-    var fs = require("node:fs");
+    var fs2 = require("node:fs");
     var path2 = require("node:path");
-    var os = require("node:os");
+    var os2 = require("node:os");
     var TokenOptimizer;
     var optimizers;
     var strategies;
@@ -4296,17 +4296,17 @@ var require_optimizer_instance = __commonJS({
       const lib = require(fallback);
       ({ TokenOptimizer, optimizers, strategies, CCRStore, countTokens, detectContentType } = lib);
     }
-    var DATA_DIR = process.env.TOKEN_OPTIMIZER_DATA_DIR || path2.join(os.homedir(), ".claude", "plugins", "agentone-token-compression", "data");
+    var DATA_DIR2 = process.env.TOKEN_OPTIMIZER_DATA_DIR || path2.join(os2.homedir(), ".claude", "plugins", "agentone-token-compression", "data");
     function ensureDir() {
       try {
-        fs.mkdirSync(DATA_DIR, { recursive: true });
+        fs2.mkdirSync(DATA_DIR2, { recursive: true });
       } catch {
       }
     }
     function safeReadJson(file, fallback) {
       try {
-        if (!fs.existsSync(file)) return fallback;
-        const raw = fs.readFileSync(file, "utf8");
+        if (!fs2.existsSync(file)) return fallback;
+        const raw = fs2.readFileSync(file, "utf8");
         if (!raw.trim()) return fallback;
         return JSON.parse(raw);
       } catch {
@@ -4317,8 +4317,8 @@ var require_optimizer_instance = __commonJS({
       try {
         ensureDir();
         const tmp = file + ".tmp";
-        fs.writeFileSync(tmp, JSON.stringify(data));
-        fs.renameSync(tmp, file);
+        fs2.writeFileSync(tmp, JSON.stringify(data));
+        fs2.renameSync(tmp, file);
       } catch (e) {
       }
     }
@@ -4378,7 +4378,7 @@ var require_optimizer_instance = __commonJS({
     function getOptimizer(overrides = {}) {
       if (_instance) return _instance;
       ensureDir();
-      const userConfigPath = path2.join(DATA_DIR, "config.json");
+      const userConfigPath = path2.join(DATA_DIR2, "config.json");
       const userConfig = safeReadJson(userConfigPath, {});
       const config = {
         exactCache: {
@@ -4506,9 +4506,9 @@ var require_optimizer_instance = __commonJS({
         cacheEconomics: { enabled: false, ...userConfig.cacheEconomics },
         ...overrides
       };
-      const exactBackend = new JsonFileBackend(path2.join(DATA_DIR, "cache-exact.json"), config.exactCache.maxEntries);
-      const governorBackend = new JsonFileBackend(path2.join(DATA_DIR, "governor-arms.json"), 500);
-      const dictionaryBackend = new JsonFileBackend(path2.join(DATA_DIR, "dictionary-codebook.json"), 500);
+      const exactBackend = new JsonFileBackend(path2.join(DATA_DIR2, "cache-exact.json"), config.exactCache.maxEntries);
+      const governorBackend = new JsonFileBackend(path2.join(DATA_DIR2, "governor-arms.json"), 500);
+      const dictionaryBackend = new JsonFileBackend(path2.join(DATA_DIR2, "dictionary-codebook.json"), 500);
       _instance = {
         optimizer: new TokenOptimizer(config, {
           cacheBackend: exactBackend,
@@ -4528,12 +4528,12 @@ var require_optimizer_instance = __commonJS({
         countTokens,
         detectContentType,
         config,
-        dataDir: DATA_DIR
+        dataDir: DATA_DIR2
       };
       return _instance;
     }
     function loadStats() {
-      return safeReadJson(path2.join(DATA_DIR, "stats.json"), {
+      return safeReadJson(path2.join(DATA_DIR2, "stats.json"), {
         createdAt: Date.now(),
         totalRequests: 0,
         totalCacheHits: 0,
@@ -4546,7 +4546,7 @@ var require_optimizer_instance = __commonJS({
     }
     function saveStats(stats) {
       stats.lastUpdated = Date.now();
-      atomicWriteJson(path2.join(DATA_DIR, "stats.json"), stats);
+      atomicWriteJson(path2.join(DATA_DIR2, "stats.json"), stats);
     }
     function recordSavings({ hook, sessionId, beforeTokens, afterTokens, cacheHit }) {
       ensureDir();
@@ -4572,7 +4572,7 @@ var require_optimizer_instance = __commonJS({
     function maybeBuildOptimizeSuggestion() {
       try {
         const stats = loadStats();
-        const config = safeReadJson(path2.join(DATA_DIR, "config.json"), {});
+        const config = safeReadJson(path2.join(DATA_DIR2, "config.json"), {});
         if (config.dismissSuggestions === true) return null;
         const requests = stats.totalRequests || 0;
         const tokensSeen = stats.totalTokensSeen || 0;
@@ -4603,7 +4603,7 @@ var require_optimizer_instance = __commonJS({
         return null;
       }
     }
-    function readStdin() {
+    function readStdin2() {
       return new Promise((resolve) => {
         if (process.stdin.isTTY) return resolve("");
         let buf = "";
@@ -4630,7 +4630,7 @@ var require_optimizer_instance = __commonJS({
         timer.unref && timer.unref();
       });
     }
-    function isDisabled() {
+    function isDisabled2() {
       return process.env.TOKEN_OPTIMIZER_DISABLED === "1" || process.env.TOKEN_OPTIMIZER_DISABLED === "true";
     }
     module2.exports = {
@@ -4639,657 +4639,47 @@ var require_optimizer_instance = __commonJS({
       maybeBuildOptimizeSuggestion,
       loadStats,
       saveStats,
-      readStdin,
-      isDisabled,
-      DATA_DIR
+      readStdin: readStdin2,
+      isDisabled: isDisabled2,
+      DATA_DIR: DATA_DIR2
     };
   }
 });
 
-// lib/body-store.js
-var require_body_store = __commonJS({
-  "lib/body-store.js"(exports2, module2) {
-    "use strict";
-    var fs = require("node:fs");
-    var path2 = require("node:path");
-    var os = require("node:os");
-    var crypto = require("node:crypto");
-    var MAX_ENTRIES = 5e3;
-    var TTL_MS = 7 * 24 * 60 * 60 * 1e3;
-    var DATA_DIR = process.env.TOKEN_OPTIMIZER_DATA_DIR || path2.join(os.homedir(), ".claude", "plugins", "agentone-token-compression", "data");
-    function storePath() {
-      const base = process.env.CLAUDE_PLUGIN_DATA || process.env.TOKEN_OPTIMIZER_DATA_DIR || DATA_DIR;
-      return path2.join(base, "bodies.json");
-    }
-    function idFor(body) {
-      return crypto.createHash("sha1").update(body, "utf8").digest("hex").slice(0, 10);
-    }
-    function loadStore(file) {
-      try {
-        if (!fs.existsSync(file)) return { entries: {}, order: [] };
-        const raw = fs.readFileSync(file, "utf8");
-        if (!raw.trim()) return { entries: {}, order: [] };
-        const parsed = JSON.parse(raw);
-        if (!parsed || typeof parsed !== "object") return { entries: {}, order: [] };
-        if (!parsed.entries) parsed.entries = {};
-        if (!Array.isArray(parsed.order)) parsed.order = [];
-        return parsed;
-      } catch {
-        return { entries: {}, order: [] };
-      }
-    }
-    function atomicWrite(file, data) {
-      fs.mkdirSync(path2.dirname(file), { recursive: true });
-      const tmp = file + "." + process.pid + ".tmp";
-      fs.writeFileSync(tmp, JSON.stringify(data));
-      fs.renameSync(tmp, file);
-    }
-    function pruneExpired(store, now) {
-      const live = [];
-      for (const id of store.order) {
-        const e = store.entries[id];
-        if (!e || e.at && now - e.at > TTL_MS) {
-          delete store.entries[id];
-        } else {
-          live.push(id);
-        }
-      }
-      store.order = live;
-      return store;
-    }
-    function putBody(body, meta = {}) {
-      if (typeof body !== "string" || body.length === 0) return null;
-      const file = storePath();
-      try {
-        const now = Date.now();
-        const store = pruneExpired(loadStore(file), now);
-        const id = idFor(body);
-        if (id in store.entries) {
-          store.entries[id].at = now;
-          store.order = store.order.filter((k) => k !== id);
-          store.order.push(id);
-        } else {
-          store.entries[id] = { body, at: now, meta: meta || {} };
-          store.order.push(id);
-          while (store.order.length > MAX_ENTRIES) {
-            const oldest = store.order.shift();
-            if (oldest) delete store.entries[oldest];
-          }
-        }
-        atomicWrite(file, store);
-        return id;
-      } catch {
-        return null;
-      }
-    }
-    function getBody(id) {
-      if (typeof id !== "string" || !id) return null;
-      const file = storePath();
-      try {
-        const store = loadStore(file);
-        const e = store.entries[id];
-        if (!e) return null;
-        if (e.at && Date.now() - e.at > TTL_MS) return null;
-        return typeof e.body === "string" ? e.body : null;
-      } catch {
-        return null;
-      }
-    }
-    function count() {
-      try {
-        const store = pruneExpired(loadStore(storePath()), Date.now());
-        return store.order.length;
-      } catch {
-        return 0;
-      }
-    }
-    module2.exports = { putBody, getBody, count, idFor, storePath, MAX_ENTRIES, TTL_MS };
-  }
-});
-
-// mcp-server/index.js
+// hooks/session-start.js
+var fs = require("node:fs");
+var os = require("node:os");
 var path = require("node:path");
-var readline = require("node:readline");
-var optModule = require_optimizer_instance();
-var bodyStore = require_body_store();
-var inst = null;
-function ensureInst() {
-  if (inst) return inst;
-  inst = optModule.getOptimizer();
-  return inst;
-}
-var PROTOCOL_VERSION = "2024-11-05";
-var SERVER_INFO = {
-  name: "agentone-token-compression",
-  vendor: "Iterate.ai",
-  version: "1.1.9",
-  title: "AgentOne Token Compression"
-};
-var TOOLS = [
-  {
-    name: "compress",
-    title: "Compress text",
-    description: 'Compress arbitrary text content (JSON, logs, code, prose) using the AgentOne Token Compression engine. Returns the compressed text plus a summary of tokens saved, content type detected, and which optimizers fired. API keys, UUIDs, hashes, JWTs, URLs, and other high-entropy content are protected verbatim by the mask-union architecture. Set codeMode to "ast" for aggressive AST-based body-dropping on source code (preserves signatures + types + docstrings, drops bodies).',
-    inputSchema: {
-      type: "object",
-      properties: {
-        text: { type: "string", description: "The content to compress." },
-        codeMode: {
-          type: "string",
-          enum: ["comments", "ast"],
-          description: "Code compression aggressiveness: 'comments' (default, strip comments only) or 'ast' (drop function bodies, keep signatures + types).",
-          default: "comments"
-        },
-        aggressive: {
-          type: "boolean",
-          description: "Enable aggressive content-type-specific compression. Lossy on prose.",
-          default: false
-        }
-      },
-      required: ["text"]
-    }
-  },
-  {
-    name: "analyze",
-    title: "Analyze content",
-    description: "Detect content type (json / log / code / sql / xml / html / csv / markdown / prose), estimate token count, and recommend optimization settings \u2014 without modifying the text.",
-    inputSchema: {
-      type: "object",
-      properties: {
-        text: { type: "string", description: "The content to analyze." }
-      },
-      required: ["text"]
-    }
-  },
-  {
-    name: "stats",
-    title: "Show savings stats",
-    description: "Return lifetime token-savings statistics: total tokens saved, cache hit rate, estimated $ saved at Claude pricing, per-hook breakdowns, per-session breakdowns.",
-    inputSchema: { type: "object", properties: {} }
-  },
-  {
-    name: "clear_cache",
-    title: "Clear cache / stats",
-    description: "Reset cached compressed responses and/or accumulated stats. Useful when switching workloads or to reclaim disk.",
-    inputSchema: {
-      type: "object",
-      properties: {
-        target: {
-          type: "string",
-          enum: ["cache", "stats", "all"],
-          description: "What to clear. Default 'cache'.",
-          default: "cache"
-        }
-      }
-    }
-  },
-  {
-    name: "optimize",
-    title: "Analyze and apply optimizations",
-    description: "Analyze current usage stats and recommend (or auto-apply) configuration changes that maximize token savings. Returns a ranked list of recommendations with expected impact, plus the updated config if `apply` is set. Equivalent to the /optimize slash command in Claude Code.",
-    inputSchema: {
-      type: "object",
-      properties: {
-        apply: {
-          type: "string",
-          enum: ["recommendations", "high", "all"],
-          description: "What to apply: 'recommendations' (just return them, no changes), 'high' (apply only HIGH-impact suggestions), 'all' (apply every safe suggestion). Default: 'recommendations'.",
-          default: "recommendations"
-        }
-      }
-    }
-  },
-  {
-    name: "retrieve",
-    title: "Retrieve elided function body",
-    description: 'Return the exact original source code for a function body elided by AgentOne TokenOptimizer. When you see a marker like AGENTONE-ELIDED:ID (or call retrieve("ID")) in compressed code and you need the implementation, call this with that ID to get the verbatim original body before relying on or modifying that implementation.',
-    inputSchema: {
-      type: "object",
-      properties: {
-        id: { type: "string", description: "The elision id from an AGENTONE-ELIDED:<id> marker." }
-      },
-      required: ["id"]
-    }
-  }
-];
-async function handleCompress(args) {
-  const { text, codeMode = "comments", aggressive = false } = args || {};
-  if (typeof text !== "string" || !text) {
-    return { content: [{ type: "text", text: "Error: `text` must be a non-empty string." }], isError: true };
-  }
-  const { optimizer, countTokens, detectContentType } = ensureInst();
-  const beforeBytes = Buffer.byteLength(text, "utf8");
-  const beforeTokens = countTokens(text);
-  const detectedType = detectContentType(text);
-  const synth = {
-    model: "claude-desktop-mcp:compress",
-    messages: [{ role: "user", content: text }]
-  };
-  if (codeMode === "ast" || aggressive) {
-    optimizer.pipeline.config.contentRouter = {
-      ...optimizer.pipeline.config.contentRouter || {},
-      codeMode,
-      aggressive
-    };
-  }
-  const result = await optimizer.optimize(synth);
-  const compressed = result.cacheHit ? result.cachedResponse : result.request.messages[0].content;
-  if (!result.cacheHit) {
-    await optimizer.recordResponse(synth, compressed);
-  }
-  const afterTokens = countTokens(compressed);
-  const saved = Math.max(0, beforeTokens - afterTokens);
-  const savedPct = beforeTokens === 0 ? 0 : saved / beforeTokens * 100;
-  optModule.recordSavings({
-    hook: "MCP:compress",
-    sessionId: "desktop",
-    beforeTokens,
-    afterTokens,
-    cacheHit: result.cacheHit
-  });
-  const summary = {
-    detectedType,
-    cacheHit: !!result.cacheHit,
-    cacheType: result.cacheType || null,
-    beforeBytes,
-    afterBytes: Buffer.byteLength(compressed, "utf8"),
-    beforeTokens,
-    afterTokens,
-    savedTokens: saved,
-    savedPct: Number(savedPct.toFixed(1)),
-    techniques: (result.stats?.steps || []).map((s) => s.name)
-  };
-  return {
-    content: [
-      { type: "text", text: `## Compression result
-
-\`\`\`json
-` + JSON.stringify(summary, null, 2) + `
-\`\`\`
-
-### Compressed content
-
-${compressed}` }
-    ],
-    structuredContent: summary
-  };
-}
-async function handleAnalyze(args) {
-  const { text } = args || {};
-  if (typeof text !== "string" || !text) {
-    return { content: [{ type: "text", text: "Error: `text` must be a non-empty string." }], isError: true };
-  }
-  const { countTokens, detectContentType } = ensureInst();
-  const type = detectContentType(text);
-  const tokens = countTokens(text);
-  const bytes = Buffer.byteLength(text, "utf8");
-  const recs = {
-    json: "Use compress with default settings \u2014 typical 20-90% reduction on verbose JSON.",
-    log: "Use compress \u2014 log compressor masks volatile fields + collapses repeats. 70-95% reduction typical.",
-    code: 'Use compress with codeMode="ast" for ~50% reduction (preserves signatures, drops bodies).',
-    sql: "Use compress \u2014 comment + whitespace strip.",
-    xml: "Use compress \u2014 strips comments + collapses tag-to-tag whitespace.",
-    html: "Use compress \u2014 strips scripts/styles/comments. 40-70% reduction typical.",
-    csv: "No compression \u2014 CSV is already minimal.",
-    markdown: "Use compress \u2014 whitespace normalization + (opt-in) abbreviation. 10-30% typical.",
-    prose: "Use compress \u2014 whitespace normalization. Conservative savings. Enable abbreviation for more aggressive reduction."
-  };
-  const summary = {
-    detectedType: type,
-    estimatedTokens: tokens,
-    bytes,
-    recommendation: recs[type] || "Use compress with default settings.",
-    estimatedSavingsRange: {
-      json: "20-90%",
-      log: "70-95%",
-      code: "15-50%",
-      sql: "10-30%",
-      xml: "40-70%",
-      html: "40-70%",
-      csv: "0-5%",
-      markdown: "10-30%",
-      prose: "5-30%"
-    }[type] || "0-30%"
-  };
-  return {
-    content: [{ type: "text", text: "```json\n" + JSON.stringify(summary, null, 2) + "\n```" }],
-    structuredContent: summary
-  };
-}
-async function handleStats() {
-  const stats = optModule.loadStats();
-  const totalSeen = stats.totalTokensSeen || 0;
-  const totalSaved = stats.totalTokensSaved || 0;
-  const hitRate = stats.totalRequests ? stats.totalCacheHits / stats.totalRequests * 100 : 0;
-  const reductionPct = totalSeen ? totalSaved / totalSeen * 100 : 0;
-  const pricePerMillion = { opus: 15, sonnet: 3, haiku: 0.8, blended: 1.5 };
-  const costSaved = {
-    opus: (totalSaved / 1e6 * pricePerMillion.opus).toFixed(2),
-    sonnet: (totalSaved / 1e6 * pricePerMillion.sonnet).toFixed(2),
-    haiku: (totalSaved / 1e6 * pricePerMillion.haiku).toFixed(2),
-    blended: (totalSaved / 1e6 * pricePerMillion.blended).toFixed(2)
-  };
-  const summary = {
-    lifetime: {
-      totalRequests: stats.totalRequests,
-      totalCacheHits: stats.totalCacheHits,
-      cacheHitRatePct: Number(hitRate.toFixed(1)),
-      tokensSeen: totalSeen,
-      tokensSaved: totalSaved,
-      reductionPct: Number(reductionPct.toFixed(1))
-    },
-    estimatedDollarsSaved: {
-      atClaudeOpus: `$${costSaved.opus}`,
-      atClaudeSonnet: `$${costSaved.sonnet}`,
-      atClaudeHaiku: `$${costSaved.haiku}`,
-      blended: `$${costSaved.blended}`
-    },
-    byHook: stats.byHook || {}
-  };
-  return {
-    content: [{ type: "text", text: "```json\n" + JSON.stringify(summary, null, 2) + "\n```" }],
-    structuredContent: summary
-  };
-}
-async function handleClearCache(args) {
-  const target = (args?.target || "cache").toLowerCase();
-  const fs = require("node:fs");
-  const { DATA_DIR } = optModule;
-  const cleared = [];
-  const targets = [];
-  if (target === "cache" || target === "all") {
-    targets.push("cache-exact.json", "cache-semantic.json");
-  }
-  if (target === "stats" || target === "all") {
-    targets.push("stats.json");
-  }
-  for (const t of targets) {
-    const f = path.join(DATA_DIR, t);
-    try {
-      if (fs.existsSync(f)) {
-        fs.unlinkSync(f);
-        cleared.push(t);
-      }
-    } catch (e) {
-      cleared.push(`${t} (failed: ${e.message})`);
-    }
-  }
-  const summary = { target, cleared };
-  return {
-    content: [{ type: "text", text: `Cleared: ${cleared.length ? cleared.join(", ") : "(nothing to clear)"}` }],
-    structuredContent: summary
-  };
-}
-async function handleOptimize(args) {
-  const apply = (args?.apply || "recommendations").toLowerCase();
-  const fs = require("node:fs");
-  const { DATA_DIR } = optModule;
-  const stats = optModule.loadStats();
-  const configPath = path.join(DATA_DIR, "config.json");
-  let config = {};
+var { DATA_DIR, isDisabled, readStdin } = require_optimizer_instance();
+async function main() {
+  await readStdin();
+  if (isDisabled()) return done({});
   try {
-    if (fs.existsSync(configPath)) config = JSON.parse(fs.readFileSync(configPath, "utf8"));
+    const marker = path.join(DATA_DIR, ".statusline-hint-shown");
+    if (fs.existsSync(marker)) return done({});
+    let hasStatusLine = false;
+    try {
+      const s = JSON.parse(fs.readFileSync(path.join(os.homedir(), ".claude", "settings.json"), "utf8"));
+      hasStatusLine = !!(s && s.statusLine);
+    } catch {
+    }
+    touch(marker);
+    if (hasStatusLine) return done({});
+    return done({
+      systemMessage: "[AgentOne TokenOptimizer by Iterate.ai] Tip: enable the live token-savings status bar with  /tokens-config statusline=on  (one-time, optional)."
+    });
+  } catch {
+    return done({});
+  }
+}
+function touch(f) {
+  try {
+    fs.mkdirSync(path.dirname(f), { recursive: true });
+    fs.writeFileSync(f, String(Date.now()));
   } catch {
   }
-  const totalSeen = stats.totalTokensSeen || 0;
-  const totalSaved = stats.totalTokensSaved || 0;
-  const hitRate = stats.totalRequests ? stats.totalCacheHits / stats.totalRequests : 0;
-  const reductionPct = totalSeen ? totalSaved / totalSeen : 0;
-  const codeMode = config?.pipeline?.contentRouter?.codeMode ?? "comments";
-  const semanticThreshold = config?.semanticCache?.threshold ?? 0.92;
-  const abbreviationEnabled = config?.pipeline?.abbreviation?.enabled ?? false;
-  const exactMax = config?.exactCache?.maxEntries ?? 2e3;
-  const recs = [];
-  if (codeMode !== "ast") {
-    recs.push({
-      id: "code-mode-ast",
-      impact: "HIGH",
-      title: "Enable AST body-drop for code reads",
-      summary: "Compress code by keeping signatures + types + docstrings and dropping function bodies.",
-      expectedAdditionalSavingsPct: "30-50%",
-      expectedSavingsRange: { min: 30, max: 50, unit: "percent", appliesTo: "code reads (Read on .py/.js/.ts/etc.)" },
-      tradeoffs: [
-        "Claude sees function signatures + types + docstrings but NOT bodies \u2014 great for navigation, weaker for line-by-line debugging.",
-        "Lossless via CCR: Claude can call retrieve_compressed(id) to get the original back when needed.",
-        "Python uses stdlib `ast` (100% accurate). JS/TS uses brace-balanced regex (~95% accurate on common patterns)."
-      ],
-      configChange: { pipeline: { contentRouter: { codeMode: "ast" } } }
-    });
-  }
-  if (stats.totalRequests >= 30 && hitRate < 0.15) {
-    recs.push({
-      id: "semantic-threshold",
-      impact: "MEDIUM",
-      title: "Loosen semantic cache threshold",
-      summary: `Lower fuzzy-match threshold from ${semanticThreshold} to 0.85 so near-duplicate prompts hit the cache.`,
-      expectedAdditionalSavingsPct: "15-25%",
-      expectedSavingsRange: { min: 15, max: 25, unit: "percent", appliesTo: "recurring or near-duplicate requests" },
-      tradeoffs: [
-        `Current hit rate is only ${(hitRate * 100).toFixed(1)}% \u2014 looser threshold typically 2-3x the hit rate.`,
-        "Possible (rare) false-positive cache hits where a slightly different prompt returns a previous response. Mitigate by clearing cache on workload change: /tokens-reset cache.",
-        "Latency improves on hits (no LLM call needed). No quality loss on misses \u2014 pipeline falls through unchanged."
-      ],
-      configChange: { semanticCache: { threshold: 0.85 } }
-    });
-  }
-  if (!abbreviationEnabled && (stats.byHook?.UserPromptSubmit?.requests || 0) > 10) {
-    recs.push({
-      id: "abbreviation",
-      impact: "LOW",
-      title: "Enable phrase abbreviation on prompts",
-      summary: 'Rewrite verbose phrases ("please could you in order to" \u2192 "to") before sending to Claude.',
-      expectedAdditionalSavingsPct: "5-15%",
-      expectedSavingsRange: { min: 5, max: 15, unit: "percent", appliesTo: "long, prose-heavy user prompts" },
-      tradeoffs: [
-        "Your prose gets rewritten \u2014 quotes, code blocks, and API keys are preserved verbatim.",
-        "No accuracy impact in benchmarks: 60+ substitutions validated against GPT-4 and Claude.",
-        "Disable if you care about exact wording, or use /tokens-config pipeline.abbreviation.aggressive=false for safer subset."
-      ],
-      configChange: { pipeline: { abbreviation: { enabled: true } } }
-    });
-  }
-  if (exactMax < 5e3 && stats.totalRequests > 500) {
-    recs.push({
-      id: "cache-capacity",
-      impact: "LOW",
-      title: "Increase exact cache capacity",
-      summary: `Bump exact-cache cap from ${exactMax} to 5000 entries so heavy users don't evict useful entries.`,
-      expectedAdditionalSavingsPct: "5-10%",
-      expectedSavingsRange: { min: 5, max: 10, unit: "percent", appliesTo: "high-volume sessions with diverse content" },
-      tradeoffs: [
-        `You've made ${stats.totalRequests} requests \u2014 cache currently capped at ${exactMax}. Bumping reduces eviction churn.`,
-        "Disk usage grows linearly with entry count \u2014 typically a few MB total even at 5000 entries.",
-        "No impact on quality. Pure cache-size tweak."
-      ],
-      configChange: { exactCache: { maxEntries: 5e3 } }
-    });
-  }
-  if (recs.length === 0) {
-    recs.push({
-      id: "none",
-      impact: "INFO",
-      title: "Configuration is already well-tuned",
-      summary: "No high-value tweaks identified given your current usage pattern.",
-      expectedAdditionalSavingsPct: "0%",
-      expectedSavingsRange: { min: 0, max: 0, unit: "percent", appliesTo: "none" },
-      tradeoffs: [
-        `Current reduction: ${(reductionPct * 100).toFixed(1)}%.`,
-        `Cache hit rate: ${(hitRate * 100).toFixed(1)}%.`,
-        "Savings compound \u2014 keep using Claude and watch /optimize_dashboard."
-      ],
-      configChange: null
-    });
-  }
-  const applied = [];
-  if (apply === "high" || apply === "all") {
-    let nextConfig = JSON.parse(JSON.stringify(config));
-    for (const rec of recs) {
-      if (!rec.configChange) continue;
-      if (apply === "high" && rec.impact !== "HIGH") continue;
-      nextConfig = deepMerge(nextConfig, rec.configChange);
-      applied.push(rec.id);
-    }
-    if (applied.length > 0) {
-      try {
-        fs.mkdirSync(DATA_DIR, { recursive: true });
-        const tmp = configPath + ".tmp";
-        fs.writeFileSync(tmp, JSON.stringify(nextConfig, null, 2));
-        fs.renameSync(tmp, configPath);
-        config = nextConfig;
-      } catch (e) {
-        applied.length = 0;
-        applied.push(`write_failed: ${e.message}`);
-      }
-    }
-  }
-  const summary = {
-    apply,
-    appliedChangeIds: applied,
-    stats: {
-      totalRequests: stats.totalRequests,
-      totalCacheHits: stats.totalCacheHits,
-      cacheHitRatePct: Number((hitRate * 100).toFixed(1)),
-      tokensSaved: totalSaved,
-      reductionPct: Number((reductionPct * 100).toFixed(1))
-    },
-    recommendations: recs,
-    currentConfig: config,
-    nextSteps: applied.length ? `Applied ${applied.length} change(s). Effective on next request \u2014 no restart needed.` : apply === "recommendations" ? 'Re-run with apply="high" to apply HIGH-impact changes automatically, or apply="all" to apply everything safe.' : "No changes were applied. Configuration is already optimal."
-  };
-  return {
-    content: [{ type: "text", text: "```json\n" + JSON.stringify(summary, null, 2) + "\n```" }],
-    structuredContent: summary
-  };
 }
-function deepMerge(target, source) {
-  if (target === null || typeof target !== "object") return source;
-  if (source === null || typeof source !== "object") return source;
-  const out = Array.isArray(target) ? [...target] : { ...target };
-  for (const k of Object.keys(source)) {
-    if (source[k] !== null && typeof source[k] === "object" && !Array.isArray(source[k])) {
-      out[k] = deepMerge(out[k] ?? {}, source[k]);
-    } else {
-      out[k] = source[k];
-    }
-  }
-  return out;
+function done(out) {
+  process.stdout.write(JSON.stringify(out));
 }
-async function handleRetrieve(args) {
-  const { id } = args || {};
-  if (typeof id !== "string" || !id) {
-    return { content: [{ type: "text", text: "Error: `id` must be a non-empty string (the id from an AGENTONE-ELIDED:<id> marker)." }], isError: true };
-  }
-  const body = bodyStore.getBody(id);
-  if (body === null) {
-    return {
-      content: [{ type: "text", text: `No body found for id "${id}". It may have expired (7-day TTL), been evicted, or the id is incorrect.` }],
-      structuredContent: { id, found: false }
-    };
-  }
-  return {
-    content: [{ type: "text", text: body }],
-    structuredContent: { id, found: true, body }
-  };
-}
-var TOOL_HANDLERS = {
-  compress: handleCompress,
-  analyze: handleAnalyze,
-  stats: handleStats,
-  clear_cache: handleClearCache,
-  optimize: handleOptimize,
-  retrieve: handleRetrieve
-};
-function send(message) {
-  process.stdout.write(JSON.stringify(message) + "\n");
-}
-function sendResult(id, result) {
-  send({ jsonrpc: "2.0", id, result });
-}
-function sendError(id, code, message, data) {
-  const err = { code, message };
-  if (data !== void 0) err.data = data;
-  send({ jsonrpc: "2.0", id, error: err });
-}
-async function handleRequest(req) {
-  const { id, method, params } = req;
-  try {
-    switch (method) {
-      case "initialize": {
-        sendResult(id, {
-          protocolVersion: PROTOCOL_VERSION,
-          serverInfo: SERVER_INFO,
-          capabilities: {
-            tools: { listChanged: false }
-          },
-          instructions: "AgentOne Token Compression by Iterate.ai. Call `compress` on any large text to reduce its token count 40-90%. Call `analyze` first if you want a recommendation without modifying. Call `stats` to see lifetime savings."
-        });
-        return;
-      }
-      case "notifications/initialized": {
-        return;
-      }
-      case "tools/list": {
-        sendResult(id, { tools: TOOLS });
-        return;
-      }
-      case "tools/call": {
-        const name = params?.name;
-        const args = params?.arguments;
-        const handler = TOOL_HANDLERS[name];
-        if (!handler) {
-          sendError(id, -32602, `Unknown tool: ${name}`);
-          return;
-        }
-        const result = await handler(args);
-        sendResult(id, result);
-        return;
-      }
-      case "ping": {
-        sendResult(id, {});
-        return;
-      }
-      case "shutdown": {
-        sendResult(id, null);
-        return;
-      }
-      case "exit": {
-        process.exit(0);
-      }
-      default: {
-        if (id !== void 0) {
-          sendError(id, -32601, `Method not found: ${method}`);
-        }
-      }
-    }
-  } catch (e) {
-    sendError(id, -32603, "Internal error: " + (e && e.message ? e.message : String(e)));
-  }
-}
-function main() {
-  console.log = (...args) => process.stderr.write(args.join(" ") + "\n");
-  console.warn = (...args) => process.stderr.write(args.join(" ") + "\n");
-  console.error = (...args) => process.stderr.write(args.join(" ") + "\n");
-  const rl = readline.createInterface({ input: process.stdin });
-  rl.on("line", (line) => {
-    const trimmed = line.trim();
-    if (!trimmed) return;
-    let req;
-    try {
-      req = JSON.parse(trimmed);
-    } catch {
-      sendError(null, -32700, "Parse error");
-      return;
-    }
-    if (Array.isArray(req)) {
-      for (const r of req) handleRequest(r);
-    } else {
-      handleRequest(req);
-    }
-  });
-  rl.on("close", () => process.exit(0));
-  process.stderr.write(
-    `[AgentOne Token Compression MCP server ready \xB7 v${SERVER_INFO.version} \xB7 engine: @iterate/token-optimizer]
-`
-  );
-}
-main();
+main().catch(() => done({}));
