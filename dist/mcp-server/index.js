@@ -4762,7 +4762,7 @@ var PROTOCOL_VERSION = "2024-11-05";
 var SERVER_INFO = {
   name: "agentone-token-compression",
   vendor: "Iterate.ai",
-  version: "1.1.7",
+  version: "1.1.8",
   title: "AgentOne Token Compression"
 };
 var TOOLS = [

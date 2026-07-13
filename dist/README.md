@@ -113,6 +113,23 @@ agentone-tc desktop   # print the JSON snippet for Claude Desktop config
 
 ---
 
+## Status line (optional)
+
+The live savings bar — `⚡ AgentOne TokenOptimizer by Iterate.ai saved … tokens · … · … cache hits` — is a Claude Code **`statusLine`** setting, **not** a plugin feature: Claude Code plugins cannot register a status line, so a marketplace install doesn't set it up automatically. To enable it, add this to `~/.claude/settings.json` (this form resolves the newest installed version, so it keeps working across updates):
+
+```json
+{
+  "statusLine": {
+    "type": "command",
+    "command": "node \"$(ls -d $HOME/.claude/plugins/cache/iterate-ai/agentone-token-compression/*/dist/hooks/statusline.js | sort -V | tail -1)\""
+  }
+}
+```
+
+Restart Claude Code and the bar appears. (The npm/CLI install path — `agentone-tc install` — configures this for you automatically.)
+
+---
+
 ## Commands and tools
 
 ### Slash commands (Claude Code + CLI)
@@ -325,8 +342,8 @@ For Claude Desktop, also remove the `agentone-token-compression` entry from `cla
 → Fully quit (Cmd-Q on macOS) and relaunch Claude Desktop.
 → Verify the path in `claude_desktop_config.json` is absolute and node is on `PATH` for GUI apps. On macOS try `"command": "/opt/homebrew/bin/node"`.
 
-**"Status line is empty"**
-→ Your `settings.json` may have another `statusLine`. Either remove it or merge ours in.
+**"Status line is empty" or missing**
+→ The status line is a Claude Code `statusLine` **setting**, not a plugin feature (plugins can't register one) — marketplace installs must add it manually. See [Status line (optional)](#status-line-optional). If you already have a `statusLine`, merge ours in or keep yours.
 
 **"It compressed something I needed verbatim"**
 → Disable per-hook: edit `~/.claude/settings.json`, remove the specific tool from `matcher`.
