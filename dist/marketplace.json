@@ -13,7 +13,7 @@
       "name": "agentone-token-compression",
       "source": ".",
       "displayName": "AgentOne Token Compression",
-      "version": "1.1.0",
+      "version": "1.1.1",
       "description": "Cut your Claude token bill 40–90% on verbose/repetitive tool output (less on prose). Automatic compression for Claude Code via hooks, and on-demand compression for Claude Desktop via a bundled MCP server. Compresses prompts, tool outputs, and file reads with mask-union safety for API keys and UUIDs. Part of the AgentOne platform.",
       "category": "productivity",
       "tags": [
@@ -29,7 +29,12 @@
       "homepage": "https://iterate.ai/agentone",
       "repository": "https://github.com/IterateAI/compression",
       "license": "SEE LICENSE IN LICENSE",
-      "keywords": ["claude-code", "claude-desktop", "mcp", "token-optimization"]
+      "keywords": [
+        "claude-code",
+        "claude-desktop",
+        "mcp",
+        "token-optimization"
+      ]
     }
   ]
 }
