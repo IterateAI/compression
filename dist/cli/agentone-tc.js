@@ -11,7 +11,7 @@ var require_package = __commonJS({
   "package.json"(exports2, module2) {
     module2.exports = {
       name: "@iterate.ai/agentone-token-compression",
-      version: "1.1.11",
+      version: "1.1.12",
       description: "AgentOne Token Compression by Iterate.ai. One npm install gives you 40\u201390% token savings in Claude Code, Claude CLI, and Claude Desktop. Compresses tool outputs, prompts, file reads, and conversation context. Mask-union architecture protects API keys, UUIDs, and high-entropy content by construction.",
       keywords: [
         "agentone",

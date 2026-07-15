@@ -26,7 +26,7 @@
 </p>
 
 <p align="center">
-  <img src="assets/agentone_token_compression.gif" alt="AgentOne Token Compression — live token savings on a real Claude Code session (41.9k tokens saved, 18% of context)" width="820"/>
+  <img src="https://raw.githubusercontent.com/IterateAI/compression/main/assets/agentone_token_compression.gif" alt="AgentOne Token Compression — live token savings on a real Claude Code session (41.9k tokens saved, 18% of context)" width="820"/>
 </p>
 
 ---
