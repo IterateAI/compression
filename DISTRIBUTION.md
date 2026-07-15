@@ -15,13 +15,13 @@ AgentOne Token Compression supports **three install paths**. Pick whichever fits
 
 ## A. npm package (recommended)
 
-We publish to npm under **`@iterate/agentone-token-compression`**. The package is a self-contained bundle (the optimizer engine is inlined via esbuild — no separate dependency to manage).
+We publish to npm under **`@iterate.ai/agentone-token-compression`**. The package is a self-contained bundle (the optimizer engine is inlined via esbuild — no separate dependency to manage).
 
 ### Claude Code + CLI
 
 ```bash
 # Install globally so `agentone-tc` is on PATH
-npm install -g @iterate/agentone-token-compression
+npm install -g @iterate.ai/agentone-token-compression
 
 # Run the bundled installer (sets up ~/.claude hooks, commands, skill)
 agentone-tc install
@@ -41,7 +41,7 @@ The MCP server entry point is the same package; no separate install. Just add to
   "mcpServers": {
     "agentone-token-compression": {
       "command": "npx",
-      "args": ["-y", "@iterate/agentone-token-compression", "mcp"]
+      "args": ["-y", "@iterate.ai/agentone-token-compression", "mcp"]
     }
   }
 }
@@ -58,7 +58,7 @@ agentone-tc desktop
 ### Updates
 
 ```bash
-npm update -g @iterate/agentone-token-compression
+npm update -g @iterate.ai/agentone-token-compression
 agentone-tc install   # re-run to pick up any new commands/skills
 ```
 

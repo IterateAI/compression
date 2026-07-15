@@ -80,7 +80,7 @@ Restart Claude Code. Hooks auto-compress every tool call — no further setup.
 ### Claude Code & CLI (npm — alternative)
 
 ```bash
-npm install -g @iterate/agentone-token-compression
+npm install -g @iterate.ai/agentone-token-compression
 agentone-tc install
 ```
 
@@ -95,7 +95,7 @@ Add to your `claude_desktop_config.json`:
   "mcpServers": {
     "agentone-token-compression": {
       "command": "npx",
-      "args": ["-y", "@iterate/agentone-token-compression", "mcp"]
+      "args": ["-y", "@iterate.ai/agentone-token-compression", "mcp"]
     }
   }
 }
