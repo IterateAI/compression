@@ -25,6 +25,10 @@
   Part of the <a href="https://iterate.ai/agentone">AgentOne</a> platform.
 </p>
 
+<p align="center">
+  <img src="assets/agentone_token_compression.gif" alt="AgentOne Token Compression — live token savings on a real Claude Code session (41.9k tokens saved, 18% of context)" width="820"/>
+</p>
+
 ---
 
 ## What it does
