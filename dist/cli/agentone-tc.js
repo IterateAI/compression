@@ -11,7 +11,7 @@ var require_package = __commonJS({
   "package.json"(exports2, module2) {
     module2.exports = {
       name: "@iterate.ai/agentone-token-compression",
-      version: "1.1.12",
+      version: "1.1.13",
       description: "AgentOne Token Compression by Iterate.ai. One npm install gives you 40\u201390% token savings in Claude Code, Claude CLI, and Claude Desktop. Compresses tool outputs, prompts, file reads, and conversation context. Mask-union architecture protects API keys, UUIDs, and high-entropy content by construction.",
       keywords: [
         "agentone",
@@ -319,9 +319,17 @@ function cmdInstall() {
   fs.mkdirSync(claudeDir(), { recursive: true });
   log(c.cyan("\n[1/4] Copying plugin files\u2026"));
   const ROOT = packageRoot();
-  const useDistLayout = fs.existsSync(path.join(ROOT, "hooks", "compress-tool-output.js"));
   fs.mkdirSync(pluginDir(), { recursive: true });
-  for (const sub2 of ["dist", "hooks", "mcp-server", "scripts", "commands", "skills", "examples", "lib"]) {
+  const runtimeRoot = fs.existsSync(path.join(ROOT, "dist", "hooks")) ? path.join(ROOT, "dist") : ROOT;
+  for (const sub2 of ["hooks", "mcp-server", "scripts"]) {
+    const from = path.join(runtimeRoot, sub2);
+    if (fs.existsSync(from)) {
+      const to = path.join(pluginDir(), "dist", sub2);
+      fs.rmSync(to, { recursive: true, force: true });
+      copyTree(from, to);
+    }
+  }
+  for (const sub2 of ["commands", "skills", "examples"]) {
     const from = path.join(ROOT, sub2);
     if (fs.existsSync(from)) {
       const to = path.join(pluginDir(), sub2);
@@ -329,7 +337,7 @@ function cmdInstall() {
       copyTree(from, to);
     }
   }
-  for (const f of ["settings.json", "plugin.json", "README.md", "INSTALL.md", "INSTALL_DESKTOP.md", "CHANGELOG.md", "LICENSE", "package.json"]) {
+  for (const f of ["settings.json", "plugin.json", "README.md", "INSTALL.md", "INSTALL_DESKTOP.md", "CHANGELOG.md", "LICENSE", "THIRD-PARTY-NOTICES.md", "Apache-2.0.txt", "package.json"]) {
     const src = path.join(ROOT, f);
     if (fs.existsSync(src)) fs.copyFileSync(src, path.join(pluginDir(), f));
   }
