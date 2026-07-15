@@ -38,7 +38,7 @@ This manages the live savings status bar, which lives in `~/.claude/settings.jso
 setter, which does it safely (checks for an existing status line, backs up the file):
 
 ```bash
-!SCRIPT="${CLAUDE_PLUGIN_ROOT}/dist/scripts/set-statusline.js"; [ -f "$SCRIPT" ] || SCRIPT="$(ls -d $HOME/.claude/plugins/cache/iterate-ai/agentone-token-compression/*/dist/scripts/set-statusline.js | sort -V | tail -1)"; node "$SCRIPT" on
+!node "${CLAUDE_PLUGIN_ROOT:-$HOME/.claude/plugins/agentone-token-compression}/dist/scripts/set-statusline.js" on
 ```
 
 - `statusline=on` → enable (won't overwrite a different existing status line)

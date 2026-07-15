@@ -16,7 +16,7 @@ Valid targets:
 Ask the user to confirm before proceeding (single yes/no question), then run:
 
 ```bash
-!node $HOME/.claude/plugins/agentone-token-compression/scripts/reset.js {TARGET}
+!node "${CLAUDE_PLUGIN_ROOT:-$HOME/.claude/plugins/agentone-token-compression}/dist/scripts/reset.js" {TARGET}
 ```
 
 After reset, show a brief confirmation with what was cleared and the new state.

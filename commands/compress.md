@@ -22,7 +22,7 @@ Pick the mode by content type (same rules as the skill):
 Then call the compressor (self-contained `dist/` bundle; add the chosen flag):
 
 ```bash
-!echo "{CONTENT}" | node $HOME/.claude/plugins/agentone-token-compression/dist/scripts/compress-stdin.js --aggressive
+!echo "{CONTENT}" | node "${CLAUDE_PLUGIN_ROOT:-$HOME/.claude/plugins/agentone-token-compression}/dist/scripts/compress-stdin.js" --aggressive
 ```
 
 (Replace {CONTENT} with the actual content via stdin; the script reads from stdin.

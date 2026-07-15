@@ -13,7 +13,7 @@ var require_package = __commonJS({
       name: "@iterate.ai/agentone-token-compression",
       private: true,
       _publish: "NEVER publish from this source root \u2014 it ships raw source with un-inlined requires. Publish ONLY the built bundle: `cd dist && npm publish`. `private:true` here makes an accidental source publish fail; the generated dist/package.json has no `private` and publishes fine.",
-      version: "1.1.14",
+      version: "1.1.15",
       description: "AgentOne Token Compression by Iterate.ai. One npm install gives you 40\u201390% token savings in Claude Code, Claude CLI, and Claude Desktop. Compresses tool outputs, prompts, file reads, and conversation context. Mask-union architecture protects API keys, UUIDs, and high-entropy content by construction.",
       keywords: [
         "agentone",
@@ -70,7 +70,7 @@ var require_package = __commonJS({
         "build:minify": "node build/build.js --minify",
         "build:protect": "node build/build.js --protect",
         mcp: "node dist/mcp-server/index.js",
-        prepublishOnly: "npm test"
+        prepublishOnly: `node -e 'console.error("\\n\\u2716 Refusing to publish the source root (ships raw, un-inlined source). Publish the built bundle instead:\\n    cd dist && npm publish\\n"); process.exit(1)'`
       },
       dependencies: {
         "@iterate/token-optimizer": "file:../nodejs_optimizer"

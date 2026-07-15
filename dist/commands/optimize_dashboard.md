@@ -8,7 +8,7 @@ Show the comprehensive AgentOne Token Compression dashboard.
 Run the stats reporter:
 
 ```bash
-!node $HOME/.claude/plugins/agentone-token-compression/scripts/print-stats.js
+!node "${CLAUDE_PLUGIN_ROOT:-$HOME/.claude/plugins/agentone-token-compression}/dist/scripts/print-stats.js"
 ```
 
 Then read the current configuration:

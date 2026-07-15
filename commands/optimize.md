@@ -11,7 +11,7 @@ Argument: $ARGUMENTS
 Step 1 — Gather current state:
 
 ```bash
-!node $HOME/.claude/plugins/agentone-token-compression/scripts/print-stats.js
+!node "${CLAUDE_PLUGIN_ROOT:-$HOME/.claude/plugins/agentone-token-compression}/dist/scripts/print-stats.js"
 ```
 
 ```bash

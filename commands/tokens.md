@@ -8,7 +8,7 @@ Display current token savings statistics from the token-optimizer plugin.
 Run the stats reporter:
 
 ```bash
-!node $HOME/.claude/plugins/agentone-token-compression/scripts/print-stats.js
+!node "${CLAUDE_PLUGIN_ROOT:-$HOME/.claude/plugins/agentone-token-compression}/dist/scripts/print-stats.js"
 ```
 
 Read the output and present a friendly summary to the user including:
