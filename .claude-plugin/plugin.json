@@ -1,7 +1,7 @@
 {
   "name": "agentone-token-compression",
   "displayName": "AgentOne Token Compression",
-  "version": "1.1.13",
+  "version": "1.1.14",
   "description": "AgentOne Token Compression by Iterate.ai. Automatic token compression for Claude Code (terminal CLI + IDE) via hooks, plus on-demand compression for Claude Desktop via a bundled MCP server. Reduces token usage 40–90% on verbose/repetitive tool output (less on prose) by compressing prompts, tool outputs, and file reads with mask-union protection for API keys, UUIDs, and high-entropy content. Part of the AgentOne platform family alongside AgentWatch.",
   "author": {
     "name": "Iterate.ai",
