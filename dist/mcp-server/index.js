@@ -4562,9 +4562,14 @@ var require_optimizer_instance = __commonJS({
         stats.byHook[hook].saved += Math.max(0, (beforeTokens || 0) - (afterTokens || 0));
       }
       if (sessionId) {
-        stats.bySession[sessionId] = stats.bySession[sessionId] || { requests: 0, saved: 0, started: Date.now() };
-        stats.bySession[sessionId].requests++;
-        stats.bySession[sessionId].saved += Math.max(0, (beforeTokens || 0) - (afterTokens || 0));
+        const s = stats.bySession[sessionId] || { requests: 0, saved: 0, seen: 0, hits: 0, started: Date.now() };
+        if (typeof s.seen !== "number") s.seen = 0;
+        if (typeof s.hits !== "number") s.hits = 0;
+        s.requests++;
+        if (cacheHit) s.hits++;
+        s.seen += Math.max(0, beforeTokens || 0);
+        s.saved += Math.max(0, (beforeTokens || 0) - (afterTokens || 0));
+        stats.bySession[sessionId] = s;
       }
       saveStats(stats);
       return stats;
@@ -4762,7 +4767,7 @@ var PROTOCOL_VERSION = "2024-11-05";
 var SERVER_INFO = {
   name: "agentone-token-compression",
   vendor: "Iterate.ai",
-  version: "1.1.15",
+  version: "1.1.16",
   title: "AgentOne Token Compression"
 };
 var TOOLS = [

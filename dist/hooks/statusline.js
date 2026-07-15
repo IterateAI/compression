@@ -4296,10 +4296,10 @@ var require_optimizer_instance = __commonJS({
       const lib = require(fallback);
       ({ TokenOptimizer, optimizers, strategies, CCRStore, countTokens, detectContentType } = lib);
     }
-    var DATA_DIR = process.env.TOKEN_OPTIMIZER_DATA_DIR || path.join(os.homedir(), ".claude", "plugins", "agentone-token-compression", "data");
+    var DATA_DIR2 = process.env.TOKEN_OPTIMIZER_DATA_DIR || path.join(os.homedir(), ".claude", "plugins", "agentone-token-compression", "data");
     function ensureDir() {
       try {
-        fs.mkdirSync(DATA_DIR, { recursive: true });
+        fs.mkdirSync(DATA_DIR2, { recursive: true });
       } catch {
       }
     }
@@ -4378,7 +4378,7 @@ var require_optimizer_instance = __commonJS({
     function getOptimizer(overrides = {}) {
       if (_instance) return _instance;
       ensureDir();
-      const userConfigPath = path.join(DATA_DIR, "config.json");
+      const userConfigPath = path.join(DATA_DIR2, "config.json");
       const userConfig = safeReadJson(userConfigPath, {});
       const config = {
         exactCache: {
@@ -4506,9 +4506,9 @@ var require_optimizer_instance = __commonJS({
         cacheEconomics: { enabled: false, ...userConfig.cacheEconomics },
         ...overrides
       };
-      const exactBackend = new JsonFileBackend(path.join(DATA_DIR, "cache-exact.json"), config.exactCache.maxEntries);
-      const governorBackend = new JsonFileBackend(path.join(DATA_DIR, "governor-arms.json"), 500);
-      const dictionaryBackend = new JsonFileBackend(path.join(DATA_DIR, "dictionary-codebook.json"), 500);
+      const exactBackend = new JsonFileBackend(path.join(DATA_DIR2, "cache-exact.json"), config.exactCache.maxEntries);
+      const governorBackend = new JsonFileBackend(path.join(DATA_DIR2, "governor-arms.json"), 500);
+      const dictionaryBackend = new JsonFileBackend(path.join(DATA_DIR2, "dictionary-codebook.json"), 500);
       _instance = {
         optimizer: new TokenOptimizer(config, {
           cacheBackend: exactBackend,
@@ -4528,12 +4528,12 @@ var require_optimizer_instance = __commonJS({
         countTokens,
         detectContentType,
         config,
-        dataDir: DATA_DIR
+        dataDir: DATA_DIR2
       };
       return _instance;
     }
     function loadStats2() {
-      return safeReadJson(path.join(DATA_DIR, "stats.json"), {
+      return safeReadJson(path.join(DATA_DIR2, "stats.json"), {
         createdAt: Date.now(),
         totalRequests: 0,
         totalCacheHits: 0,
@@ -4546,7 +4546,7 @@ var require_optimizer_instance = __commonJS({
     }
     function saveStats(stats) {
       stats.lastUpdated = Date.now();
-      atomicWriteJson(path.join(DATA_DIR, "stats.json"), stats);
+      atomicWriteJson(path.join(DATA_DIR2, "stats.json"), stats);
     }
     function recordSavings({ hook, sessionId, beforeTokens, afterTokens, cacheHit }) {
       ensureDir();
@@ -4562,9 +4562,14 @@ var require_optimizer_instance = __commonJS({
         stats.byHook[hook].saved += Math.max(0, (beforeTokens || 0) - (afterTokens || 0));
       }
       if (sessionId) {
-        stats.bySession[sessionId] = stats.bySession[sessionId] || { requests: 0, saved: 0, started: Date.now() };
-        stats.bySession[sessionId].requests++;
-        stats.bySession[sessionId].saved += Math.max(0, (beforeTokens || 0) - (afterTokens || 0));
+        const s = stats.bySession[sessionId] || { requests: 0, saved: 0, seen: 0, hits: 0, started: Date.now() };
+        if (typeof s.seen !== "number") s.seen = 0;
+        if (typeof s.hits !== "number") s.hits = 0;
+        s.requests++;
+        if (cacheHit) s.hits++;
+        s.seen += Math.max(0, beforeTokens || 0);
+        s.saved += Math.max(0, (beforeTokens || 0) - (afterTokens || 0));
+        stats.bySession[sessionId] = s;
       }
       saveStats(stats);
       return stats;
@@ -4572,7 +4577,7 @@ var require_optimizer_instance = __commonJS({
     function maybeBuildOptimizeSuggestion() {
       try {
         const stats = loadStats2();
-        const config = safeReadJson(path.join(DATA_DIR, "config.json"), {});
+        const config = safeReadJson(path.join(DATA_DIR2, "config.json"), {});
         if (config.dismissSuggestions === true) return null;
         const requests = stats.totalRequests || 0;
         const tokensSeen = stats.totalTokensSeen || 0;
@@ -4641,13 +4646,13 @@ var require_optimizer_instance = __commonJS({
       saveStats,
       readStdin: readStdin2,
       isDisabled: isDisabled2,
-      DATA_DIR
+      DATA_DIR: DATA_DIR2
     };
   }
 });
 
 // hooks/statusline.js
-var { loadStats, readStdin, isDisabled } = require_optimizer_instance();
+var { loadStats, readStdin, isDisabled, DATA_DIR } = require_optimizer_instance();
 function fmt(n) {
   if (n < 1e3) return String(n);
   if (n < 1e6) return (n / 1e3).toFixed(1) + "k";
@@ -4668,23 +4673,40 @@ async function main() {
     return;
   }
   const stats = loadStats();
-  let saved = 0;
-  let requests = 0;
-  let hits = 0;
-  if (sessionId && stats.bySession && stats.bySession[sessionId]) {
-    saved = stats.bySession[sessionId].saved;
-    requests = stats.bySession[sessionId].requests;
+  const sess = sessionId && stats.bySession && stats.bySession[sessionId] || null;
+  let saved, requests, seen, hits;
+  if (sess) {
+    saved = sess.saved || 0;
+    requests = sess.requests || 0;
+    seen = typeof sess.seen === "number" ? sess.seen : null;
+    hits = typeof sess.hits === "number" ? sess.hits : null;
   } else {
-    saved = stats.totalTokensSaved;
-    requests = stats.totalRequests;
+    saved = stats.totalTokensSaved || 0;
+    requests = stats.totalRequests || 0;
+    seen = stats.totalTokensSeen || 0;
+    hits = stats.totalCacheHits || 0;
   }
-  hits = stats.totalCacheHits;
+  if (process.env.TOKEN_OPTIMIZER_DEBUG === "1" || process.env.TOKEN_OPTIMIZER_DEBUG === "true") {
+    try {
+      const fs = require("node:fs");
+      const path = require("node:path");
+      fs.writeFileSync(
+        path.join(DATA_DIR, ".statusline-debug.json"),
+        JSON.stringify({ at: Date.now(), sessionId: sessionId || null, matched: !!sess, scope: sess ? "session" : "lifetime" })
+      );
+    } catch {
+    }
+  }
   if (requests === 0) {
     process.stdout.write("\u26A1 AgentOne TokenOptimizer by Iterate.ai Ready");
     return;
   }
-  const pct = stats.totalTokensSeen ? Math.round(stats.totalTokensSaved / stats.totalTokensSeen * 100) : 0;
-  const line = `\u26A1 AgentOne TokenOptimizer by Iterate.ai saved ${fmt(saved)} tokens \xB7 ${pct}% \xB7 ${fmt(hits)} cache hits \xB7 ${requests} ops`;
+  const hasSessionSeen = seen != null && seen > 0;
+  const seenForPct = hasSessionSeen ? seen : stats.totalTokensSeen || 0;
+  const savedForPct = hasSessionSeen ? saved : stats.totalTokensSaved || 0;
+  const pct = seenForPct ? Math.round(savedForPct / seenForPct * 100) : 0;
+  const hitsDisplay = hits != null ? hits : stats.totalCacheHits || 0;
+  const line = `\u26A1 AgentOne TokenOptimizer by Iterate.ai saved ${fmt(saved)} tokens \xB7 ${pct}% \xB7 ${fmt(hitsDisplay)} cache hits \xB7 ${requests} ops`;
   process.stdout.write(line);
 }
 main().catch(() => process.stdout.write("\u26A1 AgentOne TokenOptimizer by Iterate.ai"));
